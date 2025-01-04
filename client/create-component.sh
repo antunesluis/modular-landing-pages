@@ -81,6 +81,6 @@ echo "$TEST_CONTENT" >"$COMPONENT_DIR/${COMPONENT_NAME}.test.jsx"
 # Formata os arquivos com Prettier e ESLint
 npx eslint $COMPONENT_DIR/*.jsx --fix
 npx eslint $COMPONENT_DIR/*.js --fix
-echo "Arquivos formatados com ESLint."
+echo "Arquivos formatados com ESLint"
 
 echo "Componente $COMPONENT_NAME criado com sucesso em $COMPONENT_DIR."
