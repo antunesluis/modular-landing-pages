@@ -13,13 +13,14 @@ COMPONENT_DIR="./src/components/$COMPONENT_NAME"
 
 # Cria a estrutura de diretórios
 mkdir -p "$COMPONENT_DIR"
-mkdir -p "$COMPONENT_DIR/__snapshots__"
 
 # Conteúdo inicial dos arquivos
 STYLES_CONTENT="import styled, { css } from 'styled-components';
 
 export const Container = styled.div\`
-  \${({ theme }) => css\`\`}
+  \${({ theme }) => css\`
+    font-size: \${theme.fonts.sizes.medium};
+  \`}
 \`;
 "
 
@@ -52,13 +53,11 @@ export default {
   },
 };
 
-export const Template = (args) => {
-  return (
-    <div>
-      <$COMPONENT_NAME {...args} />
-    </div>
-  );
-};
+export const Template = (args) => (
+  <div>
+    <$COMPONENT_NAME {...args} />
+  </div>
+);
 "
 
 TEST_CONTENT="import { screen } from '@testing-library/react';
@@ -73,13 +72,15 @@ describe('<$COMPONENT_NAME />', () => {
 });
 "
 
-SNAPSHOT_CONTENT="// Snapshot file for $COMPONENT_NAME"
-
 # Cria os arquivos e escreve o conteúdo inicial
 echo "$STYLES_CONTENT" >"$COMPONENT_DIR/styles.js"
 echo "$COMPONENT_CONTENT" >"$COMPONENT_DIR/index.jsx"
 echo "$STORYBOOK_CONTENT" >"$COMPONENT_DIR/stories.jsx"
 echo "$TEST_CONTENT" >"$COMPONENT_DIR/${COMPONENT_NAME}.test.jsx"
-echo "$SNAPSHOT_CONTENT" >"$COMPONENT_DIR/__snapshots__/${COMPONENT_NAME}.test.jsx.snap"
+
+# Formata os arquivos com Prettier e ESLint
+npx eslint $COMPONENT_DIR/*.jsx --fix
+npx eslint $COMPONENT_DIR/*.js --fix
+echo "Arquivos formatados com ESLint."
 
 echo "Componente $COMPONENT_NAME criado com sucesso em $COMPONENT_DIR."
