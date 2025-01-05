@@ -1,7 +1,14 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
-  ${({ theme }) => css`
-    font-size: ${theme.fonts.sizes.medium};
+export const Container = styled.a`
+  ${() => css`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+
+    > img {
+      max-height: 4rem;
+    }
   `}
 `;
