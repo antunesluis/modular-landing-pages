@@ -11,15 +11,3 @@ exports[`<TextComponent /> should match snapshot 1`] = `
   Children
 </p>
 `;
-
-exports[`<TextComponent /> should render 1`] = `
-.c0 {
-  font-size: 2.4rem;
-}
-
-<p
-  class="c0"
->
-  Children
-</p>
-`;
