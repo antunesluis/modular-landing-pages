@@ -1,14 +1,14 @@
 export const theme = {
   colors: {
     primaryColor: '#0A1128',
-    secondaryColor: '#DC143C',
+    secondaryColor: '#dc143c',
     white: '#FFFFFF',
     mediumGray: '#DDDDDD',
   },
   fonts: {
     family: {
-      default: "'Open Sans', sans-serif;",
-      secondary: "'Montserrat', sans-serif;",
+      default: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif",
     },
     sizes: {
       xsmall: '8rem',
@@ -22,7 +22,6 @@ export const theme = {
     },
   },
   media: {
-    // Menor que 768px
     lteMedium: '(max-width: 768px)',
   },
   spacings: {

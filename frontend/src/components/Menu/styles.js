@@ -2,9 +2,15 @@ import styled, { css } from 'styled-components';
 import { Container as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
 
-const menuVisible = () => css`
+const menuVisible = css`
   visibility: visible;
   opacity: 1;
+`;
+
+const flexCenter = css`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -17,7 +23,9 @@ export const Container = styled.div`
     width: 100%;
     border-bottom: ${theme.colors.mediumGray};
     background: ${theme.colors.white};
-    transition: all 300ms ease-in-out;
+    transition:
+      opacity 300ms ease-in-out,
+      visibility 300ms ease-in-out;
 
     > ${SectionContainer} {
       padding-top: 0;
@@ -33,7 +41,7 @@ export const Container = styled.div`
       height: 100vh;
       visibility: hidden;
       opacity: 0;
-      ${visible && menuVisible()}
+      ${visible && menuVisible}
 
       > ${SectionContainer} {
         display: grid;
@@ -46,8 +54,7 @@ export const Container = styled.div`
 
       & ${Heading} {
         padding-bottom: ${theme.spacings.large};
-        display: flex;
-        justify-content: center;
+        ${flexCenter}
       }
     }
   `}
@@ -84,9 +91,7 @@ export const Button = styled.button`
     pointer-events: ${visible ? 'none' : 'all'};
 
     @media ${theme.media.lteMedium} {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      ${flexCenter}
     }
 
     > svg {
