@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { Title } from '../Heading/styles';
 
 export const Container = styled.div`
-  ${({ theme, background }) => css`
+  ${({ theme }) => css`
     display: grid;
     grid-template-columns: minmax(280px, 1.2fr) 1.3fr;
     align-items: center;
@@ -18,7 +18,6 @@ export const Container = styled.div`
 
     ${Title} {
       margin-bottom: ${theme.spacings.large};
-      color: ${background ? theme.colors.white : theme.colors.primaryColor};
     }
   `}
 `;

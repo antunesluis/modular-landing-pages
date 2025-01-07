@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwoColumn /> should render 1`] = `
+.c5 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.2fr) 1.3fr;
+  align-items: center;
+  gap: 4.0rem;
+  margin: 0 auto;
+}
+
+.c2 .c4 {
+  margin-bottom: 3.2rem;
+}
+
+.c3 {
+  order: 1;
+  max-width: 60ch;
+}
+
+.c7 {
+  order: 2;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+
+.c8 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all 300ms ease-in-out;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    margin-bottom: 2.4rem;
+    order: 2;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .c7 {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .c7 {
+    order: 1;
+    margin-bottom: 2.4rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .c8 {
+    max-height: 40rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <h1
+            class="c4 c5"
+          >
+            Grid two columns
+          </h1>
+          <p
+            class="c6"
+          >
+            To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox. 
+          </p>
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Grid two columns"
+            class="c8"
+            src="assets/images/illustration/programador.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

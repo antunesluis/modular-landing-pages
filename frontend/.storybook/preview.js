@@ -5,6 +5,8 @@ import { theme } from '../src/styles/theme';
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
+    layout: 'fullscreen',
+
     controls: {
       matchers: {
         color: /(background|color)$/i,
