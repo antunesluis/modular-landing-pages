@@ -19,10 +19,13 @@ export const theme = {
       xxlarge: '4.8rem',
       huge: '5.6rem',
       xhuge: '6.4rem',
+      ultimate: '80rem',
     },
   },
+  backgroundImage: '/assets/images/backgrounds/blue-bg.svg',
   media: {
     lteMedium: '(max-width: 768px)',
+    lteLarge: '(max-width: 1170px)',
   },
   spacings: {
     xsmall: '8rem',

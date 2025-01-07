@@ -10,7 +10,7 @@ export default {
     logoData: {
       text: 'Logo',
       link: '#target',
-      srcImg: 'assets/images/logo-empresa.svg',
+      srcImg: 'assets/images/logo/logo-empresa.svg',
     },
   },
 };
