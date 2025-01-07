@@ -1,0 +1,1651 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridContent /> should match snapshot with background 1`] = `
+.c3 {
+  color: #FFFFFF;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background-image: url(/assets/images/backgrounds/blue-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  text-align: center;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  margin: 6.4rem 0;
+}
+
+.c4 p {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin: 2.4rem 0;
+}
+
+.c4 h1,
+.c4 h2,
+.c4 h3,
+.c4 h4,
+.c4 h5,
+.c4 h6 {
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.c4 h1 {
+  font-size: 4.0rem;
+  margin: 4.0rem 0;
+}
+
+.c4 h2 {
+  font-size: 3.2rem;
+  margin: 3.2rem 0 2.4rem;
+}
+
+.c4 h3 {
+  font-size: 2.4rem;
+  margin: 4.0rem 0 1.6rem;
+}
+
+.c4 a {
+  color: #dc143c;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 a:hover {
+  filter: brightness(50%);
+}
+
+.c4 ul,
+.c4 ol {
+  margin: 1.6rem 0;
+  padding: 2.4rem 3.2rem;
+}
+
+.c4 ul {
+  list-style: disc;
+}
+
+.c4 ol {
+  list-style: decimal;
+}
+
+.c4 li {
+  margin: 1.6rem 0;
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+.c4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c4 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #0A1128;
+  margin: 2.4rem 0;
+  padding: 2.4rem 3.2rem;
+  font-style: italic;
+}
+
+.c4 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c4 table td,
+.c4 table th {
+  padding: 1.6rem;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+}
+
+.c4 table th {
+  background: #0A1128;
+  color: #FFFFFF;
+}
+
+.c4 strong,
+.c4 b {
+  font-weight: bold;
+}
+
+.c4 em,
+.c4 i {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Nossas Soluções Digitais
+        </h1>
+        <div
+          class="c4"
+        >
+          <p
+            class="c5"
+          >
+            
+    
+            <h2>
+              Transforme seu Negócio com Nossas Soluções
+            </h2>
+            
+    
+            <p>
+              
+      Somos especialistas em desenvolver soluções 
+              <strong>
+                inovadoras
+              </strong>
+               e 
+              <strong>
+                personalizadas
+              </strong>
+               
+      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
+      com visão estratégica para entregar resultados excepcionais.
+    
+            </p>
+            
+
+    
+            <h3>
+              Por que escolher nossa empresa?
+            </h3>
+            
+
+    
+            <ul>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Experiência Comprovada
+                </strong>
+                 - Mais de 10 anos transformando ideias em 
+        soluções digitais de sucesso
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Tecnologia de Ponta
+                </strong>
+                 - Utilizamos as mais recentes tecnologias 
+        do mercado para garantir performance e segurança
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Suporte Dedicado
+                </strong>
+                 - Equipe sempre disponível para auxiliar 
+        em todas as etapas do projeto
+      
+              </li>
+              
+    
+            </ul>
+            
+
+    
+            <blockquote>
+              
+      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
+      A equipe é extremamente profissional e dedicada."
+      
+              <cite>
+                - Maria Silva, CEO da TechCorp
+              </cite>
+              
+    
+            </blockquote>
+            
+
+    
+            <h3>
+              Nossos Serviços
+            </h3>
+            
+
+    
+            <p>
+              
+      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+    
+            </p>
+            
+
+    
+            <table>
+              
+      
+              <thead>
+                
+        
+                <tr>
+                  
+          
+                  <th>
+                    Serviço
+                  </th>
+                  
+          
+                  <th>
+                    Benefícios
+                  </th>
+                  
+        
+                </tr>
+                
+      
+              </thead>
+              
+      
+              <tbody>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Desenvolvimento Web
+                  </td>
+                  
+          
+                  <td>
+                    Sites responsivos, rápidos e otimizados para SEO
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Marketing Digital
+                  </td>
+                  
+          
+                  <td>
+                    Estratégias personalizadas para aumentar sua presença online
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    E-commerce
+                  </td>
+                  
+          
+                  <td>
+                    Plataformas robustas e seguras para vendas online
+                  </td>
+                  
+        
+                </tr>
+                
+      
+              </tbody>
+              
+    
+            </table>
+            
+
+    
+            <h3>
+              Tecnologias que utilizamos
+            </h3>
+            
+    
+            <p>
+              
+      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      
+              <code>
+                React
+              </code>
+              , 
+              <code>
+                Node.js
+              </code>
+               e 
+              <code>
+                Python
+              </code>
+              . 
+      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+    
+            </p>
+            
+
+    
+            <h3>
+              Entre em contato
+            </h3>
+            
+    
+            <p>
+              
+      Quer saber mais sobre como podemos ajudar seu negócio? 
+      
+              <a
+                href="#contato"
+              >
+                Clique aqui
+              </a>
+               para falar com um de nossos consultores ou 
+      envie um email para 
+              <a
+                href="mailto:contato@empresa.com"
+              >
+                contato@empresa.com
+              </a>
+              
+    
+            </p>
+            
+  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridContent /> should match snapshot without background 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  text-align: center;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  margin: 6.4rem 0;
+}
+
+.c4 p {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin: 2.4rem 0;
+}
+
+.c4 h1,
+.c4 h2,
+.c4 h3,
+.c4 h4,
+.c4 h5,
+.c4 h6 {
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.c4 h1 {
+  font-size: 4.0rem;
+  margin: 4.0rem 0;
+}
+
+.c4 h2 {
+  font-size: 3.2rem;
+  margin: 3.2rem 0 2.4rem;
+}
+
+.c4 h3 {
+  font-size: 2.4rem;
+  margin: 4.0rem 0 1.6rem;
+}
+
+.c4 a {
+  color: #dc143c;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 a:hover {
+  filter: brightness(50%);
+}
+
+.c4 ul,
+.c4 ol {
+  margin: 1.6rem 0;
+  padding: 2.4rem 3.2rem;
+}
+
+.c4 ul {
+  list-style: disc;
+}
+
+.c4 ol {
+  list-style: decimal;
+}
+
+.c4 li {
+  margin: 1.6rem 0;
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+.c4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c4 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #0A1128;
+  margin: 2.4rem 0;
+  padding: 2.4rem 3.2rem;
+  font-style: italic;
+}
+
+.c4 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c4 table td,
+.c4 table th {
+  padding: 1.6rem;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+}
+
+.c4 table th {
+  background: #0A1128;
+  color: #FFFFFF;
+}
+
+.c4 strong,
+.c4 b {
+  font-weight: bold;
+}
+
+.c4 em,
+.c4 i {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Nossas Soluções Digitais
+        </h1>
+        <div
+          class="c4"
+        >
+          <p
+            class="c5"
+          >
+            
+    
+            <h2>
+              Transforme seu Negócio com Nossas Soluções
+            </h2>
+            
+    
+            <p>
+              
+      Somos especialistas em desenvolver soluções 
+              <strong>
+                inovadoras
+              </strong>
+               e 
+              <strong>
+                personalizadas
+              </strong>
+               
+      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
+      com visão estratégica para entregar resultados excepcionais.
+    
+            </p>
+            
+
+    
+            <h3>
+              Por que escolher nossa empresa?
+            </h3>
+            
+
+    
+            <ul>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Experiência Comprovada
+                </strong>
+                 - Mais de 10 anos transformando ideias em 
+        soluções digitais de sucesso
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Tecnologia de Ponta
+                </strong>
+                 - Utilizamos as mais recentes tecnologias 
+        do mercado para garantir performance e segurança
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Suporte Dedicado
+                </strong>
+                 - Equipe sempre disponível para auxiliar 
+        em todas as etapas do projeto
+      
+              </li>
+              
+    
+            </ul>
+            
+
+    
+            <blockquote>
+              
+      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
+      A equipe é extremamente profissional e dedicada."
+      
+              <cite>
+                - Maria Silva, CEO da TechCorp
+              </cite>
+              
+    
+            </blockquote>
+            
+
+    
+            <h3>
+              Nossos Serviços
+            </h3>
+            
+
+    
+            <p>
+              
+      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+    
+            </p>
+            
+
+    
+            <table>
+              
+      
+              <thead>
+                
+        
+                <tr>
+                  
+          
+                  <th>
+                    Serviço
+                  </th>
+                  
+          
+                  <th>
+                    Benefícios
+                  </th>
+                  
+        
+                </tr>
+                
+      
+              </thead>
+              
+      
+              <tbody>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Desenvolvimento Web
+                  </td>
+                  
+          
+                  <td>
+                    Sites responsivos, rápidos e otimizados para SEO
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Marketing Digital
+                  </td>
+                  
+          
+                  <td>
+                    Estratégias personalizadas para aumentar sua presença online
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    E-commerce
+                  </td>
+                  
+          
+                  <td>
+                    Plataformas robustas e seguras para vendas online
+                  </td>
+                  
+        
+                </tr>
+                
+      
+              </tbody>
+              
+    
+            </table>
+            
+
+    
+            <h3>
+              Tecnologias que utilizamos
+            </h3>
+            
+    
+            <p>
+              
+      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      
+              <code>
+                React
+              </code>
+              , 
+              <code>
+                Node.js
+              </code>
+               e 
+              <code>
+                Python
+              </code>
+              . 
+      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+    
+            </p>
+            
+
+    
+            <h3>
+              Entre em contato
+            </h3>
+            
+    
+            <p>
+              
+      Quer saber mais sobre como podemos ajudar seu negócio? 
+      
+              <a
+                href="#contato"
+              >
+                Clique aqui
+              </a>
+               para falar com um de nossos consultores ou 
+      envie um email para 
+              <a
+                href="mailto:contato@empresa.com"
+              >
+                contato@empresa.com
+              </a>
+              
+    
+            </p>
+            
+  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridContent /> should render grid content 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  text-align: center;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  margin: 6.4rem 0;
+}
+
+.c4 p {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin: 2.4rem 0;
+}
+
+.c4 h1,
+.c4 h2,
+.c4 h3,
+.c4 h4,
+.c4 h5,
+.c4 h6 {
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.c4 h1 {
+  font-size: 4.0rem;
+  margin: 4.0rem 0;
+}
+
+.c4 h2 {
+  font-size: 3.2rem;
+  margin: 3.2rem 0 2.4rem;
+}
+
+.c4 h3 {
+  font-size: 2.4rem;
+  margin: 4.0rem 0 1.6rem;
+}
+
+.c4 a {
+  color: #dc143c;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 a:hover {
+  filter: brightness(50%);
+}
+
+.c4 ul,
+.c4 ol {
+  margin: 1.6rem 0;
+  padding: 2.4rem 3.2rem;
+}
+
+.c4 ul {
+  list-style: disc;
+}
+
+.c4 ol {
+  list-style: decimal;
+}
+
+.c4 li {
+  margin: 1.6rem 0;
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+.c4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c4 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #0A1128;
+  margin: 2.4rem 0;
+  padding: 2.4rem 3.2rem;
+  font-style: italic;
+}
+
+.c4 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c4 table td,
+.c4 table th {
+  padding: 1.6rem;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+}
+
+.c4 table th {
+  background: #0A1128;
+  color: #FFFFFF;
+}
+
+.c4 strong,
+.c4 b {
+  font-weight: bold;
+}
+
+.c4 em,
+.c4 i {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Nossas Soluções Digitais
+        </h1>
+        <div
+          class="c4"
+        >
+          <p
+            class="c5"
+          >
+            
+    
+            <h2>
+              Transforme seu Negócio com Nossas Soluções
+            </h2>
+            
+    
+            <p>
+              
+      Somos especialistas em desenvolver soluções 
+              <strong>
+                inovadoras
+              </strong>
+               e 
+              <strong>
+                personalizadas
+              </strong>
+               
+      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
+      com visão estratégica para entregar resultados excepcionais.
+    
+            </p>
+            
+
+    
+            <h3>
+              Por que escolher nossa empresa?
+            </h3>
+            
+
+    
+            <ul>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Experiência Comprovada
+                </strong>
+                 - Mais de 10 anos transformando ideias em 
+        soluções digitais de sucesso
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Tecnologia de Ponta
+                </strong>
+                 - Utilizamos as mais recentes tecnologias 
+        do mercado para garantir performance e segurança
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Suporte Dedicado
+                </strong>
+                 - Equipe sempre disponível para auxiliar 
+        em todas as etapas do projeto
+      
+              </li>
+              
+    
+            </ul>
+            
+
+    
+            <blockquote>
+              
+      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
+      A equipe é extremamente profissional e dedicada."
+      
+              <cite>
+                - Maria Silva, CEO da TechCorp
+              </cite>
+              
+    
+            </blockquote>
+            
+
+    
+            <h3>
+              Nossos Serviços
+            </h3>
+            
+
+    
+            <p>
+              
+      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+    
+            </p>
+            
+
+    
+            <table>
+              
+      
+              <thead>
+                
+        
+                <tr>
+                  
+          
+                  <th>
+                    Serviço
+                  </th>
+                  
+          
+                  <th>
+                    Benefícios
+                  </th>
+                  
+        
+                </tr>
+                
+      
+              </thead>
+              
+      
+              <tbody>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Desenvolvimento Web
+                  </td>
+                  
+          
+                  <td>
+                    Sites responsivos, rápidos e otimizados para SEO
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Marketing Digital
+                  </td>
+                  
+          
+                  <td>
+                    Estratégias personalizadas para aumentar sua presença online
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    E-commerce
+                  </td>
+                  
+          
+                  <td>
+                    Plataformas robustas e seguras para vendas online
+                  </td>
+                  
+        
+                </tr>
+                
+      
+              </tbody>
+              
+    
+            </table>
+            
+
+    
+            <h3>
+              Tecnologias que utilizamos
+            </h3>
+            
+    
+            <p>
+              
+      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      
+              <code>
+                React
+              </code>
+              , 
+              <code>
+                Node.js
+              </code>
+               e 
+              <code>
+                Python
+              </code>
+              . 
+      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+    
+            </p>
+            
+
+    
+            <h3>
+              Entre em contato
+            </h3>
+            
+    
+            <p>
+              
+      Quer saber mais sobre como podemos ajudar seu negócio? 
+      
+              <a
+                href="#contato"
+              >
+                Clique aqui
+              </a>
+               para falar com um de nossos consultores ou 
+      envie um email para 
+              <a
+                href="mailto:contato@empresa.com"
+              >
+                contato@empresa.com
+              </a>
+              
+    
+            </p>
+            
+  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridContent /> should render grid content with background 1`] = `
+.c3 {
+  color: #FFFFFF;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background-image: url(/assets/images/backgrounds/blue-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  text-align: center;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  margin: 6.4rem 0;
+}
+
+.c4 p {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin: 2.4rem 0;
+}
+
+.c4 h1,
+.c4 h2,
+.c4 h3,
+.c4 h4,
+.c4 h5,
+.c4 h6 {
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.c4 h1 {
+  font-size: 4.0rem;
+  margin: 4.0rem 0;
+}
+
+.c4 h2 {
+  font-size: 3.2rem;
+  margin: 3.2rem 0 2.4rem;
+}
+
+.c4 h3 {
+  font-size: 2.4rem;
+  margin: 4.0rem 0 1.6rem;
+}
+
+.c4 a {
+  color: #dc143c;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 a:hover {
+  filter: brightness(50%);
+}
+
+.c4 ul,
+.c4 ol {
+  margin: 1.6rem 0;
+  padding: 2.4rem 3.2rem;
+}
+
+.c4 ul {
+  list-style: disc;
+}
+
+.c4 ol {
+  list-style: decimal;
+}
+
+.c4 li {
+  margin: 1.6rem 0;
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+.c4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c4 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #0A1128;
+  margin: 2.4rem 0;
+  padding: 2.4rem 3.2rem;
+  font-style: italic;
+}
+
+.c4 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c4 table td,
+.c4 table th {
+  padding: 1.6rem;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+}
+
+.c4 table th {
+  background: #0A1128;
+  color: #FFFFFF;
+}
+
+.c4 strong,
+.c4 b {
+  font-weight: bold;
+}
+
+.c4 em,
+.c4 i {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Nossas Soluções Digitais
+        </h1>
+        <div
+          class="c4"
+        >
+          <p
+            class="c5"
+          >
+            
+    
+            <h2>
+              Transforme seu Negócio com Nossas Soluções
+            </h2>
+            
+    
+            <p>
+              
+      Somos especialistas em desenvolver soluções 
+              <strong>
+                inovadoras
+              </strong>
+               e 
+              <strong>
+                personalizadas
+              </strong>
+               
+      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
+      com visão estratégica para entregar resultados excepcionais.
+    
+            </p>
+            
+
+    
+            <h3>
+              Por que escolher nossa empresa?
+            </h3>
+            
+
+    
+            <ul>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Experiência Comprovada
+                </strong>
+                 - Mais de 10 anos transformando ideias em 
+        soluções digitais de sucesso
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Tecnologia de Ponta
+                </strong>
+                 - Utilizamos as mais recentes tecnologias 
+        do mercado para garantir performance e segurança
+      
+              </li>
+              
+      
+              <li>
+                
+        
+                <strong>
+                  Suporte Dedicado
+                </strong>
+                 - Equipe sempre disponível para auxiliar 
+        em todas as etapas do projeto
+      
+              </li>
+              
+    
+            </ul>
+            
+
+    
+            <blockquote>
+              
+      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
+      A equipe é extremamente profissional e dedicada."
+      
+              <cite>
+                - Maria Silva, CEO da TechCorp
+              </cite>
+              
+    
+            </blockquote>
+            
+
+    
+            <h3>
+              Nossos Serviços
+            </h3>
+            
+
+    
+            <p>
+              
+      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+    
+            </p>
+            
+
+    
+            <table>
+              
+      
+              <thead>
+                
+        
+                <tr>
+                  
+          
+                  <th>
+                    Serviço
+                  </th>
+                  
+          
+                  <th>
+                    Benefícios
+                  </th>
+                  
+        
+                </tr>
+                
+      
+              </thead>
+              
+      
+              <tbody>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Desenvolvimento Web
+                  </td>
+                  
+          
+                  <td>
+                    Sites responsivos, rápidos e otimizados para SEO
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    Marketing Digital
+                  </td>
+                  
+          
+                  <td>
+                    Estratégias personalizadas para aumentar sua presença online
+                  </td>
+                  
+        
+                </tr>
+                
+        
+                <tr>
+                  
+          
+                  <td>
+                    E-commerce
+                  </td>
+                  
+          
+                  <td>
+                    Plataformas robustas e seguras para vendas online
+                  </td>
+                  
+        
+                </tr>
+                
+      
+              </tbody>
+              
+    
+            </table>
+            
+
+    
+            <h3>
+              Tecnologias que utilizamos
+            </h3>
+            
+    
+            <p>
+              
+      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      
+              <code>
+                React
+              </code>
+              , 
+              <code>
+                Node.js
+              </code>
+               e 
+              <code>
+                Python
+              </code>
+              . 
+      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+    
+            </p>
+            
+
+    
+            <h3>
+              Entre em contato
+            </h3>
+            
+    
+            <p>
+              
+      Quer saber mais sobre como podemos ajudar seu negócio? 
+      
+              <a
+                href="#contato"
+              >
+                Clique aqui
+              </a>
+               para falar com um de nossos consultores ou 
+      envie um email para 
+              <a
+                href="mailto:contato@empresa.com"
+              >
+                contato@empresa.com
+              </a>
+              
+    
+            </p>
+            
+  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
