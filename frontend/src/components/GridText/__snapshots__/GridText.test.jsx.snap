@@ -136,11 +136,11 @@ exports[`<GridText /> should match snapshot 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3 c4"
         >
-          Nossos Serviços de Desenvolvimento
-        </h1>
+          Nossos Serviços
+        </h2>
         <p
           class="c5 c6"
         >
@@ -154,11 +154,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Software Architecture
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -169,11 +169,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Web Development
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -184,11 +184,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               UX/UI Design
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -199,11 +199,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               DevOps & Cloud
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -214,11 +214,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Mobile Development
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -229,11 +229,11 @@ exports[`<GridText /> should match snapshot 1`] = `
             class="c8"
             role="article"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Consultoria Técnica
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >

@@ -1,6 +1,6 @@
 export default {
   background: true, // Ativa o background com a imagem definida no tema
-  title: 'Nossos Serviços de Desenvolvimento',
+  title: 'Nossos Serviços',
   description:
     'Oferecemos soluções completas em desenvolvimento de software, com foco em qualidade e inovação. Nossa equipe especializada está pronta para transformar suas ideias em realidade.',
   grid: [
