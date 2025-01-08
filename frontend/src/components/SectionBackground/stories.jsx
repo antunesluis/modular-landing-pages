@@ -1,7 +1,7 @@
 import { SectionBackground } from '.';
 
 export default {
-  title: 'SectionBackground',
+  title: 'Components/SectionBackground',
   component: SectionBackground,
   args: {
     children: (

@@ -1,7 +1,7 @@
 import { SectionContainer } from '.';
 
 export default {
-  title: 'SectionContainer',
+  title: 'Components/SectionContainer',
   component: SectionContainer,
   args: {
     children: (

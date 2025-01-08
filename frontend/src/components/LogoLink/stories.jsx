@@ -1,7 +1,7 @@
 import { LogoLink } from '.';
 
 export default {
-  title: 'LogoLink',
+  title: 'Components/LogoLink',
   component: LogoLink,
   args: {
     text: 'LogoLink',

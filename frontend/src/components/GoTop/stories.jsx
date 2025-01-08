@@ -1,7 +1,7 @@
 import { GoTop } from '.';
 
 export default {
-  title: 'GoTop',
+  title: 'Components/GoTop',
   component: GoTop,
   args: {
     children: 'GoTop',

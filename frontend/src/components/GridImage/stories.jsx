@@ -2,7 +2,7 @@ import { GridImage } from '.';
 import mock from './mock';
 
 export default {
-  title: 'GridImage',
+  title: 'Components/GridImage',
   component: GridImage,
   args: mock,
 };
