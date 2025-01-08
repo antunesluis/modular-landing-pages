@@ -83,7 +83,7 @@ export const Button = styled.button`
     width: 4rem;
     height: 4rem;
     background: ${theme.colors.primaryColor};
-    color: ${theme.colors.white};
+    color: ${theme.colors.mediumGray};
     border: none;
     border-radius: 0.4rem;
     display: none;

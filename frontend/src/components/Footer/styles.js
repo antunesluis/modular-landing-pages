@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { Container as SectionContainer } from '../SectionContainer/styles';
 
-export const Container = styled.div`
+export const Container = styled.footer`
   ${({ theme }) => css`
     text-align: center;
 

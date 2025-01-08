@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoTop /> should match snapshot 1`] = `
+.c0 {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 6;
+  background: #0A1128;
+  color: #FFFFFF;
+  border-radius: 0.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.c0:hover,
+.c0:focus {
+  background: #dc143c;
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<div>
+  <a
+    aria-label="Go to top"
+    class="c0"
+    href="#"
+    title="Go to top"
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+      />
+    </svg>
+  </a>
+</div>
+`;
