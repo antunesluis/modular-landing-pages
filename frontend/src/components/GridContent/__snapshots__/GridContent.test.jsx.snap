@@ -166,7 +166,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
         <div
           class="c4"
         >
-          <p
+          <div
             class="c5"
           >
             
@@ -407,7 +407,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
             </p>
             
   
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -576,7 +576,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
         <div
           class="c4"
         >
-          <p
+          <div
             class="c5"
           >
             
@@ -817,7 +817,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
             </p>
             
   
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -986,7 +986,7 @@ exports[`<GridContent /> should render grid content 1`] = `
         <div
           class="c4"
         >
-          <p
+          <div
             class="c5"
           >
             
@@ -1227,7 +1227,7 @@ exports[`<GridContent /> should render grid content 1`] = `
             </p>
             
   
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -1401,7 +1401,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
         <div
           class="c4"
         >
-          <p
+          <div
             class="c5"
           >
             
@@ -1642,7 +1642,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
             </p>
             
   
-          </p>
+          </div>
         </div>
       </div>
     </div>

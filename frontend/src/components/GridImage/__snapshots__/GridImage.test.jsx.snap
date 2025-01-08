@@ -147,11 +147,11 @@ exports[`<GridImage /> should render with background 1`] = `
         >
           Galeria de projetos
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.
-        </p>
+        </div>
         <div
           class="c6"
         >
@@ -394,11 +394,11 @@ exports[`<GridImage /> should render without background 1`] = `
         >
           Galeria de projetos
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.
-        </p>
+        </div>
         <div
           class="c6"
         >
