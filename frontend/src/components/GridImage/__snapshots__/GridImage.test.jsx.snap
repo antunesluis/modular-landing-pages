@@ -2,7 +2,7 @@
 
 exports[`<GridImage /> should render with background 1`] = `
 .c3 {
-  color: #FFFFFF;
+  color: #0A1128;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
@@ -16,11 +16,6 @@ exports[`<GridImage /> should render with background 1`] = `
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
-  background-image: url(/assets/images/backgrounds/blue-bg.svg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   align-items: center;

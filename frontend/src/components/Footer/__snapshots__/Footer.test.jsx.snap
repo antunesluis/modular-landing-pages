@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should match snapshot 1`] = `
+.c4 {
+  font-size: 2.4rem;
+}
+
 .c2 {
   max-width: 120rem;
   margin: 0 auto;
@@ -9,20 +13,21 @@ exports[`<Footer /> should match snapshot 1`] = `
 
 .c0 {
   text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
 }
 
 .c0 a {
   color: inherit;
   text-decoration: none;
+}
+
+.c0 .c3 {
   font-size: 1.6rem;
 }
 
-.c0 >.c1 {
-  padding: 0;
-}
-
-.c3 {
-  font-size: 2.4rem;
+.c0 .c1 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 <div>
@@ -33,7 +38,7 @@ exports[`<Footer /> should match snapshot 1`] = `
       class="c1 c2"
     >
       <div
-        class="c3"
+        class="c3 c4"
       >
         <h1>
           Olá

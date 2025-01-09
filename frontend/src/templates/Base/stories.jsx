@@ -1,22 +1,6 @@
 import { Base } from '.';
 
-import mock from './mock';
-import { GridText } from '../../components/GridText';
-import gridMock from '../../components/GridText/mock';
-
-export const mockBase = {
-  children: (
-    <>
-      <GridText {...gridMock} background={false} />
-      <GridText {...gridMock} background />
-      <GridText {...gridMock} background={false} />
-      <GridText {...gridMock} background />
-      <GridText {...gridMock} background={false} />
-      <GridText {...gridMock} background />
-    </>
-  ),
-  ...mock,
-};
+import { mockBase } from './mock';
 
 export default {
   title: 'Templates/Base',

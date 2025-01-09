@@ -34,6 +34,10 @@ export const Grid = styled.div`
 
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr));
     gap: ${theme.spacings.xlarge};
+
+    @media ${theme.media.lteMedium} {
+      grid-template-columns: 1fr;
+    }
   `}
 `;
 

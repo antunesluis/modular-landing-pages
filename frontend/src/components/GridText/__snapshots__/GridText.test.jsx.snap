@@ -7,7 +7,7 @@ exports[`<GridText /> should match snapshot 1`] = `
   text-transform: uppercase;
 }
 
-.c9 {
+.c12 {
   color: #FFFFFF;
   font-size: 3.2rem;
   text-transform: none;
@@ -25,7 +25,6 @@ exports[`<GridText /> should match snapshot 1`] = `
 
 .c2 .c5 {
   margin-bottom: 6.4rem;
-  max-width: 70ch;
   opacity: 0.9;
 }
 
@@ -42,50 +41,48 @@ exports[`<GridText /> should match snapshot 1`] = `
   gap: 4.0rem;
 }
 
-.c8 {
+.c9 {
   position: relative;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.03);
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
   padding: 2.4rem;
+  background: rgba(255, 255, 255, 0.03);
 }
 
-.c8:hover {
+.c9:hover {
   transform: translateY(-6px);
   background: rgba(255, 255, 255, 0.05);
 }
 
-.c8 .c3 {
-  position: relative;
-  left: 5rem;
-  margin-bottom: 1.6rem;
-  padding-right: 2.4rem;
-  max-width: calc(100% - 5rem);
+.c9 .c5 {
+  opacity: 0.85;
+  line-height: 1.6;
 }
 
-.c8 .c3::before {
-  counter-increment: grid-counter;
-  content: counter(grid-counter);
-  position: absolute;
-  font-size: clamp(5rem, 8vw, 7.5rem);
+.c10 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  position: relative;
+}
+
+.c10 .c3 {
+  margin: 0;
+  padding-left: 2.4rem;
+}
+
+.c11 {
+  font-size: 6.4rem;
   font-weight: 700;
   opacity: 0.15;
-  top: -3rem;
-  left: -6rem;
-  transform: rotate(8deg);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.c8:hover .c3::before {
+.c8:hover .c11 {
   opacity: 0.2;
-  transform: rotate(5deg) scale(1.1);
-}
-
-.c8 .c5 {
-  line-height: 1.6;
-  opacity: 0.85;
-  padding-right: 1.6rem;
-  max-width: 100%;
+  transform: scale(1.1) rotate(5deg);
 }
 
 .c1 {
@@ -120,9 +117,8 @@ exports[`<GridText /> should match snapshot 1`] = `
 }
 
 @media (max-width: 768px) {
-  .c8 .c3 {
-    left: 4rem;
-    max-width: calc(100% - 4rem);
+  .c7 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -151,93 +147,78 @@ exports[`<GridText /> should match snapshot 1`] = `
           role="grid"
         >
           <div
-            class="c8"
+            class="c8 c9"
             role="article"
           >
-            <h3
-              class="c3 c9"
-            >
-              Software Architecture
-            </h3>
             <div
-              class="c5 c6"
+              class="c10"
             >
-              Planejamos e implementamos arquiteturas robustas e escaláveis, seguindo as melhores práticas do mercado. Utilizamos padrões de projeto modernos.
+              <span
+                class="c11"
+              >
+                1
+              </span>
+               
+              <h3
+                class="c3 c12"
+              >
+                Consultoria Técnica
+              </h3>
             </div>
-          </div>
-          <div
-            class="c8"
-            role="article"
-          >
-            <h3
-              class="c3 c9"
-            >
-              Web Development
-            </h3>
-            <div
-              class="c5 c6"
-            >
-              Criamos aplicações web modernas e responsivas utilizando as mais recentes tecnologias do mercado. Nosso foco está em React, Next.js e Node.js.
-            </div>
-          </div>
-          <div
-            class="c8"
-            role="article"
-          >
-            <h3
-              class="c3 c9"
-            >
-              UX/UI Design
-            </h3>
-            <div
-              class="c5 c6"
-            >
-              Nossa equipe de design cria interfaces intuitivas e atraentes, focando na experiência do usuário. Trabalhamos com prototipação, testes de usabilidade e design systems completos.
-            </div>
-          </div>
-          <div
-            class="c8"
-            role="article"
-          >
-            <h3
-              class="c3 c9"
-            >
-              DevOps & Cloud
-            </h3>
-            <div
-              class="c5 c6"
-            >
-              Implementamos práticas de CI/CD e gerenciamos toda infraestrutura em cloud, utilizando AWS, Azure ou Google Cloud. Garantimos a disponibilidade e segurança da sua aplicação.
-            </div>
-          </div>
-          <div
-            class="c8"
-            role="article"
-          >
-            <h3
-              class="c3 c9"
-            >
-              Mobile Development
-            </h3>
-            <div
-              class="c5 c6"
-            >
-              Desenvolvemos aplicativos mobile nativos e híbridos para iOS e Android. Utilizamos React Native e Flutter para criar experiências móveis excepcionais com código compartilhado.
-            </div>
-          </div>
-          <div
-            class="c8"
-            role="article"
-          >
-            <h3
-              class="c3 c9"
-            >
-              Consultoria Técnica
-            </h3>
             <div
               class="c5 c6"
             >
               Oferecemos consultoria especializada em arquitetura de software, escolha de tecnologias e melhores práticas de desenvolvimento. Ajudamos sua equipe a tomar as melhores decisões técnicas.
+            </div>
+          </div>
+          <div
+            class="c8 c9"
+            role="article"
+          >
+            <div
+              class="c10"
+            >
+              <span
+                class="c11"
+              >
+                2
+              </span>
+               
+              <h3
+                class="c3 c12"
+              >
+                Web Development
+              </h3>
+            </div>
+            <div
+              class="c5 c6"
+            >
+              Criamos aplicações web modernas e responsivas utilizando as mais recentes tecnologias do mercado. Nosso foco está em React, Next.js e Node.js, garantindo performance e escalabilidade para seu projeto.
+            </div>
+          </div>
+          <div
+            class="c8 c9"
+            role="article"
+          >
+            <div
+              class="c10"
+            >
+              <span
+                class="c11"
+              >
+                3
+              </span>
+               
+              <h3
+                class="c3 c12"
+              >
+                UX/UI Design
+              </h3>
+            </div>
+            <div
+              class="c5 c6"
+            >
+              Nossa equipe de design cria interfaces intuitivas e atraentes, focando na experiência do usuário. Trabalhamos com prototipação, testes de usabilidade e design systems completos.
             </div>
           </div>
         </div>
