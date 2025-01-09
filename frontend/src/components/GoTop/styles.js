@@ -14,14 +14,35 @@ export const Container = styled.a`
 
     background: ${theme.colors.primaryColor};
     color: ${theme.colors.white};
-    border-radius: 0.4rem;
-    transition: all 0.3s ease-in-out;
 
-    &:hover,
-    &:focus {
+    border-radius: 0.4rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       background: ${theme.colors.secondaryColor};
-      color: ${theme.colors.white};
-      transform: scale(1.05);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      background: ${theme.colors.primaryColor};
+    }
+
+    > svg {
+      width: 2.4rem;
+      height: 2.4rem;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &:hover > svg {
+      transform: translateY(-3px);
+    }
+
+    &:active > svg {
+      transform: translateY(0);
     }
   `}
 `;

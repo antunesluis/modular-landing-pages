@@ -21,8 +21,10 @@ export const Container = styled.div`
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: ${theme.colors.mediumGray};
+
+    border-bottom: 0.1rem solid ${theme.colors.mediumGray};
     background: ${theme.colors.white};
+
     transition:
       opacity 300ms ease-in-out,
       visibility 300ms ease-in-out;
@@ -54,7 +56,8 @@ export const Container = styled.div`
 
       & ${Heading} {
         padding-bottom: ${theme.spacings.large};
-        ${flexCenter}
+        display: flex;
+        justify-content: center;
       }
     }
   `}
@@ -83,7 +86,7 @@ export const Button = styled.button`
     width: 4rem;
     height: 4rem;
     background: ${theme.colors.primaryColor};
-    color: ${theme.colors.mediumGray};
+    color: ${theme.colors.white};
     border: none;
     border-radius: 0.4rem;
     display: none;

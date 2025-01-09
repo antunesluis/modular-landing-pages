@@ -1,5 +1,5 @@
 export default {
-  background: true,
+  background: false,
   title: 'Galeria de projetos',
   description:
     'Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.',
