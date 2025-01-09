@@ -11,15 +11,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.6.0",
-    "@strapi/plugin-users-permissions": "5.6.0",
-    "@strapi/provider-upload-cloudinary": "^5.6.0",
-    "@strapi/strapi": "5.6.0",
+    "@strapi/plugin-cloud": "5.7.0",
+    "@strapi/plugin-users-permissions": "5.7.0",
+    "@strapi/provider-upload-cloudinary": "^5.7.0",
+    "@strapi/strapi": "5.7.0",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "strapi-plugin-populate-deep": "^3.0.1",
     "styled-components": "^6.0.0"
   },
   "engines": {
@@ -27,6 +26,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "ef4f6c9d-5275-4099-930a-b70c23378069"
+    "uuid": "80de2129-489a-49d0-b27d-5ecce1fab22b"
   }
 }
