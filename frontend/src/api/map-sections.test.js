@@ -56,15 +56,14 @@ describe('map-sections.js', () => {
       title: 'generic title',
       Content: 'generic content',
       metadata: {
-        id: 23,
         section_id: 'intro',
         background: false,
       },
     });
 
-    expect(data.background).toBe(true);
+    expect(data.background).toBe(false);
     expect(data.component).toBe('section.section-content');
-    expect(data.sectionId).toBe('home');
+    expect(data.sectionId).toBe('intro');
     expect(data.title).toBe('generic title');
     expect(data.html).toBe('generic content');
   });
