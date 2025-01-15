@@ -13,7 +13,7 @@ describe('map-sections.js', () => {
   });
 
   it('should map section two columns if data is empty', () => {
-    const data = mapSectionTwoColumns();
+    const data = mapSectionTwoColumns(undefined);
     expect(data.background).toBe(false);
     expect(data.component).toBe('');
     expect(data.sectionId).toBe('');
@@ -44,7 +44,7 @@ describe('map-sections.js', () => {
   });
 
   it('should map section content with no data', () => {
-    const data = mapSectionContent();
+    const data = mapSectionContent(undefined);
     expect(data.background).toBe(false);
     expect(data.component).toBe('');
     expect(data.sectionId).toBe('');
@@ -113,7 +113,12 @@ describe('map-sections.js', () => {
   it('should map grid image without data', () => {
     const data = mapImageGrid(undefined);
 
+    expect(data.component).toBe('section.section-grid-image');
+    expect(data.title).toBe('');
+    expect(data.description).toBe('');
+    expect(data.grid).toEqual([]);
     expect(data.background).toBe(false);
+    expect(data.sectionId).toBe('');
   });
 
   it('should map image grid with all formats', () => {
@@ -163,5 +168,33 @@ describe('map-sections.js', () => {
     expect(firstImage.formats.medium).toBe('medium-image1.jpg');
     expect(firstImage.formats.small).toBe('small-image1.jpg');
     expect(firstImage.formats.thumbnail).toBe('thumb-image1.jpg');
+  });
+
+  it('should test section with invalid data', () => {
+    const withNoTextOrImageGrid = mapSections([
+      {
+        __component: 'section.section-grid',
+      },
+    ]);
+
+    const WithNoComponent = mapSections([{}]);
+    expect(withNoTextOrImageGrid).toEqual([
+      { __component: 'section.section-grid' },
+    ]);
+    expect(WithNoComponent).toEqual([{}]);
+  });
+
+  it('should test section.section-grid with no text_grid or image_grid', () => {
+    const withNoTextOrImageGrid = mapSections([
+      {
+        __component: 'section.section-grid',
+        image_grid: [{}],
+      },
+      {
+        __component: 'section.section-grid',
+        text_grid: [{}],
+      },
+    ]);
+    expect(withNoTextOrImageGrid.length).toBe(2);
   });
 });
