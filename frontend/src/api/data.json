@@ -1,0 +1,724 @@
+{
+  "data": [
+    {
+      "id": 7,
+      "documentId": "nngckfe9frjwuovtsa2f1cbj",
+      "title": "Landing Page ",
+      "slug": "landing-page",
+      "footer_text": "<p><a href=\\\"https://beacons.page/antunesluis\\\">Feito com ❤ por Luis Antunes</a></p>",
+      "createdAt": "2025-01-13T23:12:26.053Z",
+      "updatedAt": "2025-01-15T02:57:50.135Z",
+      "publishedAt": "2025-01-15T02:58:28.950Z",
+      "sections": [
+        {
+          "__component": "section.section-two-columns",
+          "id": 7,
+          "title": "Digital Innovation for your Business",
+          "description": "Since 2012, we have been a reference in software development and digital transformation. Our team combines technical expertise with strategic vision to create solutions that drive your business growth.",
+          "image": {
+            "id": 2,
+            "documentId": "wg4v0mrz6vzvhxcwhhuj9i7m",
+            "name": "main-bg2.svg",
+            "alternativeText": "Imagem de fundo com gradiente entre as cores preta e azul",
+            "caption": null,
+            "width": 1600,
+            "height": 800,
+            "formats": null,
+            "hash": "main_bg2_adf9fce404",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 0.5,
+            "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1734961794/main_bg2_adf9fce404.svg",
+            "previewUrl": null,
+            "provider": "@strapi/provider-upload-cloudinary",
+            "provider_metadata": {
+              "public_id": "main_bg2_adf9fce404",
+              "resource_type": "image"
+            },
+            "createdAt": "2024-12-23T13:49:55.359Z",
+            "updatedAt": "2025-01-14T03:06:59.297Z",
+            "publishedAt": "2024-12-23T13:49:55.360Z"
+          },
+          "metadata": {
+            "id": 22,
+            "name": "Home",
+            "section_id": "home",
+            "background": true
+          }
+        },
+        {
+          "__component": "section.section-content",
+          "id": 6,
+          "title": "Our Digital Solutions",
+          "Content": "<h2>Transforme seu Negócio com Nossas Soluções</h2>\n<p>\n  Somos especialistas em desenvolver soluções <strong>inovadoras</strong> e <strong>personalizadas</strong> \n  para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica \n  com visão estratégica para entregar resultados excepcionais.\n</p>\n\n<h3>Por que escolher nossa empresa?</h3>\n\n<ul>\n  <li>\n    <strong>Experiência Comprovada</strong> - Mais de 10 anos transformando ideias em \n    soluções digitais de sucesso\n  </li>\n  <li>\n    <strong>Tecnologia de Ponta</strong> - Utilizamos as mais recentes tecnologias \n    do mercado para garantir performance e segurança\n  </li>\n  <li>\n    <strong>Suporte Dedicado</strong> - Equipe sempre disponível para auxiliar \n    em todas as etapas do projeto\n  </li>\n</ul>\n\n<blockquote>\n  \"A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. \n  A equipe é extremamente profissional e dedicada.\"\n  <cite>- Maria Silva, CEO da TechCorp</cite>\n</blockquote>\n\n<h3>Nossos Serviços</h3>\n\n<p>\n  Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:\n</p>\n\n<table>\n  <thead>\n    <tr>\n      <th>Serviço</th>\n      <th>Benefícios</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Desenvolvimento Web</td>\n      <td>Sites responsivos, rápidos e otimizados para SEO</td>\n    </tr>\n    <tr>\n      <td>Marketing Digital</td>\n      <td>Estratégias personalizadas para aumentar sua presença online</td>\n    </tr>\n    <tr>\n      <td>E-commerce</td>\n      <td>Plataformas robustas e seguras para vendas online</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3>Tecnologias que utilizamos</h3>\n<p>\n  Trabalhamos com as tecnologias mais modernas do mercado, incluindo \n  <code>React</code>, <code>Node.js</code> e <code>Python</code>. \n  Nossa stack é constantemente atualizada para garantir as melhores soluções.\n</p>\n\n<h3>Entre em contato</h3>\n<p>\n  Quer saber mais sobre como podemos ajudar seu negócio? \n  <a href=\"#contato\">Clique aqui</a> para falar com um de nossos consultores ou \n  envie um email para <a href=\"mailto:contato@empresa.com\">contato@empresa.com</a>\n</p>",
+          "metadata": {
+            "id": 23,
+            "name": "Intro",
+            "section_id": "intro",
+            "background": false
+          }
+        },
+        {
+          "__component": "section.section-grid",
+          "id": 11,
+          "title": "Our Services",
+          "description": "We offer complete software development solutions, focusing on quality and innovation. Our specialized team is ready to transform your ideas into reality.",
+          "text_grid": [
+            {
+              "id": 16,
+              "title": "Technical Consulting",
+              "description": "We offer specialized consulting in software architecture, technology choices, and development best practices. We help your team make the best technical decisions."
+            },
+            {
+              "id": 17,
+              "title": "Web Development",
+              "description": "We create modern and responsive web applications using the latest market technologies. Our focus is on React, Next.js, and Node.js, ensuring performance and scalability for your project."
+            },
+            {
+              "id": 18,
+              "title": "UX/UI Design",
+              "description": "Our design team creates intuitive and attractive interfaces, focusing on user experience. We work with prototyping, usability testing, and complete design systems."
+            }
+          ],
+          "image_grid": []
+        },
+        {
+          "__component": "section.section-grid",
+          "id": 12,
+          "title": "Project Gallery",
+          "description": "Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.",
+          "text_grid": [],
+          "image_grid": [
+            {
+              "id": 31,
+              "image": [
+                {
+                  "id": 9,
+                  "documentId": "b3eh58v2qptfi6bcy2gf2l6l",
+                  "name": "ecomerce.jpg",
+                  "alternativeText": "E-commerce Platform",
+                  "caption": null,
+                  "width": 2400,
+                  "height": 1600,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_ecomerce_3f6d7faf2a.jpg",
+                      "hash": "large_ecomerce_3f6d7faf2a",
+                      "mime": "image/jpeg",
+                      "name": "large_ecomerce.jpg",
+                      "path": null,
+                      "size": 67.14,
+                      "width": 1000,
+                      "height": 667,
+                      "sizeInBytes": 67143,
+                      "provider_metadata": {
+                        "public_id": "large_ecomerce_3f6d7faf2a",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/small_ecomerce_3f6d7faf2a.jpg",
+                      "hash": "small_ecomerce_3f6d7faf2a",
+                      "mime": "image/jpeg",
+                      "name": "small_ecomerce.jpg",
+                      "path": null,
+                      "size": 24.37,
+                      "width": 500,
+                      "height": 333,
+                      "sizeInBytes": 24367,
+                      "provider_metadata": {
+                        "public_id": "small_ecomerce_3f6d7faf2a",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/medium_ecomerce_3f6d7faf2a.jpg",
+                      "hash": "medium_ecomerce_3f6d7faf2a",
+                      "mime": "image/jpeg",
+                      "name": "medium_ecomerce.jpg",
+                      "path": null,
+                      "size": 43.84,
+                      "width": 750,
+                      "height": 500,
+                      "sizeInBytes": 43842,
+                      "provider_metadata": {
+                        "public_id": "medium_ecomerce_3f6d7faf2a",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/thumbnail_ecomerce_3f6d7faf2a.jpg",
+                      "hash": "thumbnail_ecomerce_3f6d7faf2a",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_ecomerce.jpg",
+                      "path": null,
+                      "size": 7.83,
+                      "width": 234,
+                      "height": 156,
+                      "sizeInBytes": 7834,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_ecomerce_3f6d7faf2a",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "ecomerce_3f6d7faf2a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 274.6,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/ecomerce_3f6d7faf2a.jpg",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "ecomerce_3f6d7faf2a",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:42.886Z",
+                  "updatedAt": "2025-01-14T03:19:42.785Z",
+                  "publishedAt": "2025-01-14T03:03:42.886Z"
+                }
+              ]
+            },
+            {
+              "id": 32,
+              "image": [
+                {
+                  "id": 7,
+                  "documentId": "k7hw5qs0vfb2wngehy7dw5sh",
+                  "name": "realstate.jpeg",
+                  "alternativeText": "Real Estate Solution",
+                  "caption": null,
+                  "width": 1080,
+                  "height": 1080,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_realstate_5f9bb74dd9.jpg",
+                      "hash": "large_realstate_5f9bb74dd9",
+                      "mime": "image/jpeg",
+                      "name": "large_realstate.jpeg",
+                      "path": null,
+                      "size": 113.94,
+                      "width": 1000,
+                      "height": 1000,
+                      "sizeInBytes": 113944,
+                      "provider_metadata": {
+                        "public_id": "large_realstate_5f9bb74dd9",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/small_realstate_5f9bb74dd9.jpg",
+                      "hash": "small_realstate_5f9bb74dd9",
+                      "mime": "image/jpeg",
+                      "name": "small_realstate.jpeg",
+                      "path": null,
+                      "size": 39.83,
+                      "width": 500,
+                      "height": 500,
+                      "sizeInBytes": 39828,
+                      "provider_metadata": {
+                        "public_id": "small_realstate_5f9bb74dd9",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/medium_realstate_5f9bb74dd9.jpg",
+                      "hash": "medium_realstate_5f9bb74dd9",
+                      "mime": "image/jpeg",
+                      "name": "medium_realstate.jpeg",
+                      "path": null,
+                      "size": 74.54,
+                      "width": 750,
+                      "height": 750,
+                      "sizeInBytes": 74535,
+                      "provider_metadata": {
+                        "public_id": "medium_realstate_5f9bb74dd9",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpeg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/thumbnail_realstate_5f9bb74dd9.jpg",
+                      "hash": "thumbnail_realstate_5f9bb74dd9",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_realstate.jpeg",
+                      "path": null,
+                      "size": 6.31,
+                      "width": 156,
+                      "height": 156,
+                      "sizeInBytes": 6310,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_realstate_5f9bb74dd9",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "realstate_5f9bb74dd9",
+                  "ext": ".jpeg",
+                  "mime": "image/jpeg",
+                  "size": 102.61,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/realstate_5f9bb74dd9.jpg",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "realstate_5f9bb74dd9",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:42.578Z",
+                  "updatedAt": "2025-01-14T03:19:33.774Z",
+                  "publishedAt": "2025-01-14T03:03:42.578Z"
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "image": [
+                {
+                  "id": 10,
+                  "documentId": "kkwagj9h7jlrikdnepvdlac7",
+                  "name": "banking.jpg",
+                  "alternativeText": "Banking App Interface",
+                  "caption": null,
+                  "width": 1920,
+                  "height": 2874,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_banking_700175d1cc.jpg",
+                      "hash": "large_banking_700175d1cc",
+                      "mime": "image/jpeg",
+                      "name": "large_banking.jpg",
+                      "path": null,
+                      "size": 55.09,
+                      "width": 668,
+                      "height": 1000,
+                      "sizeInBytes": 55085,
+                      "provider_metadata": {
+                        "public_id": "large_banking_700175d1cc",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/small_banking_700175d1cc.jpg",
+                      "hash": "small_banking_700175d1cc",
+                      "mime": "image/jpeg",
+                      "name": "small_banking.jpg",
+                      "path": null,
+                      "size": 18.96,
+                      "width": 334,
+                      "height": 500,
+                      "sizeInBytes": 18960,
+                      "provider_metadata": {
+                        "public_id": "small_banking_700175d1cc",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/medium_banking_700175d1cc.jpg",
+                      "hash": "medium_banking_700175d1cc",
+                      "mime": "image/jpeg",
+                      "name": "medium_banking.jpg",
+                      "path": null,
+                      "size": 34.67,
+                      "width": 501,
+                      "height": 750,
+                      "sizeInBytes": 34674,
+                      "provider_metadata": {
+                        "public_id": "medium_banking_700175d1cc",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/thumbnail_banking_700175d1cc.jpg",
+                      "hash": "thumbnail_banking_700175d1cc",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banking.jpg",
+                      "path": null,
+                      "size": 3.74,
+                      "width": 104,
+                      "height": 156,
+                      "sizeInBytes": 3742,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banking_700175d1cc",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banking_700175d1cc",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 692.36,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/banking_700175d1cc.jpg",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banking_700175d1cc",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:43.242Z",
+                  "updatedAt": "2025-01-14T03:19:24.368Z",
+                  "publishedAt": "2025-01-14T03:03:43.243Z"
+                }
+              ]
+            },
+            {
+              "id": 34,
+              "image": [
+                {
+                  "id": 11,
+                  "documentId": "oto22o8lf7c92m0r3nb5maqv",
+                  "name": "logistics.png",
+                  "alternativeText": "Logistics System",
+                  "caption": null,
+                  "width": 1248,
+                  "height": 939,
+                  "formats": {
+                    "large": {
+                      "ext": ".png",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_logistics_684c298587.png",
+                      "hash": "large_logistics_684c298587",
+                      "mime": "image/png",
+                      "name": "large_logistics.png",
+                      "path": null,
+                      "size": 469.6,
+                      "width": 1000,
+                      "height": 752,
+                      "sizeInBytes": 469598,
+                      "provider_metadata": {
+                        "public_id": "large_logistics_684c298587",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".png",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/small_logistics_684c298587.png",
+                      "hash": "small_logistics_684c298587",
+                      "mime": "image/png",
+                      "name": "small_logistics.png",
+                      "path": null,
+                      "size": 136.82,
+                      "width": 500,
+                      "height": 376,
+                      "sizeInBytes": 136819,
+                      "provider_metadata": {
+                        "public_id": "small_logistics_684c298587",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".png",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/medium_logistics_684c298587.png",
+                      "hash": "medium_logistics_684c298587",
+                      "mime": "image/png",
+                      "name": "medium_logistics.png",
+                      "path": null,
+                      "size": 280.62,
+                      "width": 750,
+                      "height": 564,
+                      "sizeInBytes": 280615,
+                      "provider_metadata": {
+                        "public_id": "medium_logistics_684c298587",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/thumbnail_logistics_684c298587.png",
+                      "hash": "thumbnail_logistics_684c298587",
+                      "mime": "image/png",
+                      "name": "thumbnail_logistics.png",
+                      "path": null,
+                      "size": 31.97,
+                      "width": 207,
+                      "height": 156,
+                      "sizeInBytes": 31971,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_logistics_684c298587",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "logistics_684c298587",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 174.02,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/logistics_684c298587.png",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "logistics_684c298587",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:43.498Z",
+                  "updatedAt": "2025-01-14T03:19:11.143Z",
+                  "publishedAt": "2025-01-14T03:03:43.499Z"
+                }
+              ]
+            },
+            {
+              "id": 35,
+              "image": [
+                {
+                  "id": 16,
+                  "documentId": "tzjxlvrov1kewqmmz8semeji",
+                  "name": "education.jpg",
+                  "alternativeText": "Education Platform",
+                  "caption": null,
+                  "width": 2400,
+                  "height": 3600,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_education_2ac10b8b9c.jpg",
+                      "hash": "large_education_2ac10b8b9c",
+                      "mime": "image/jpeg",
+                      "name": "large_education.jpg",
+                      "path": null,
+                      "size": 64.48,
+                      "width": 667,
+                      "height": 1000,
+                      "sizeInBytes": 64478,
+                      "provider_metadata": {
+                        "public_id": "large_education_2ac10b8b9c",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/small_education_2ac10b8b9c.jpg",
+                      "hash": "small_education_2ac10b8b9c",
+                      "mime": "image/jpeg",
+                      "name": "small_education.jpg",
+                      "path": null,
+                      "size": 21.71,
+                      "width": 333,
+                      "height": 500,
+                      "sizeInBytes": 21707,
+                      "provider_metadata": {
+                        "public_id": "small_education_2ac10b8b9c",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/medium_education_2ac10b8b9c.jpg",
+                      "hash": "medium_education_2ac10b8b9c",
+                      "mime": "image/jpeg",
+                      "name": "medium_education.jpg",
+                      "path": null,
+                      "size": 40.35,
+                      "width": 500,
+                      "height": 750,
+                      "sizeInBytes": 40347,
+                      "provider_metadata": {
+                        "public_id": "medium_education_2ac10b8b9c",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/thumbnail_education_2ac10b8b9c.jpg",
+                      "hash": "thumbnail_education_2ac10b8b9c",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_education.jpg",
+                      "path": null,
+                      "size": 3.85,
+                      "width": 104,
+                      "height": 156,
+                      "sizeInBytes": 3845,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_education_2ac10b8b9c",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "education_2ac10b8b9c",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 988.25,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823823/education_2ac10b8b9c.jpg",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "education_2ac10b8b9c",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:47.956Z",
+                  "updatedAt": "2025-01-14T03:18:44.049Z",
+                  "publishedAt": "2025-01-14T03:03:47.957Z"
+                }
+              ]
+            },
+            {
+              "id": 36,
+              "image": [
+                {
+                  "id": 8,
+                  "documentId": "f9l8jlidscj08iga4jf9jb5h",
+                  "name": "health.jpg",
+                  "alternativeText": "Healthcare Integration ",
+                  "caption": null,
+                  "width": 2400,
+                  "height": 1350,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/large_health_cfb94c9cb4.jpg",
+                      "hash": "large_health_cfb94c9cb4",
+                      "mime": "image/jpeg",
+                      "name": "large_health.jpg",
+                      "path": null,
+                      "size": 58.09,
+                      "width": 1000,
+                      "height": 563,
+                      "sizeInBytes": 58091,
+                      "provider_metadata": {
+                        "public_id": "large_health_cfb94c9cb4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/small_health_cfb94c9cb4.jpg",
+                      "hash": "small_health_cfb94c9cb4",
+                      "mime": "image/jpeg",
+                      "name": "small_health.jpg",
+                      "path": null,
+                      "size": 17.56,
+                      "width": 500,
+                      "height": 281,
+                      "sizeInBytes": 17561,
+                      "provider_metadata": {
+                        "public_id": "small_health_cfb94c9cb4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/medium_health_cfb94c9cb4.jpg",
+                      "hash": "medium_health_cfb94c9cb4",
+                      "mime": "image/jpeg",
+                      "name": "medium_health.jpg",
+                      "path": null,
+                      "size": 34.68,
+                      "width": 750,
+                      "height": 422,
+                      "sizeInBytes": 34680,
+                      "provider_metadata": {
+                        "public_id": "medium_health_cfb94c9cb4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/thumbnail_health_cfb94c9cb4.jpg",
+                      "hash": "thumbnail_health_cfb94c9cb4",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_health.jpg",
+                      "path": null,
+                      "size": 5.7,
+                      "width": 245,
+                      "height": 137,
+                      "sizeInBytes": 5698,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_health_cfb94c9cb4",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "health_cfb94c9cb4",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 289.6,
+                  "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823822/health_cfb94c9cb4.jpg",
+                  "previewUrl": null,
+                  "provider": "@strapi/provider-upload-cloudinary",
+                  "provider_metadata": {
+                    "public_id": "health_cfb94c9cb4",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2025-01-14T03:03:42.806Z",
+                  "updatedAt": "2025-01-14T03:18:30.396Z",
+                  "publishedAt": "2025-01-14T03:03:42.807Z"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "menu": {
+        "id": 7,
+        "logo_link": "#home",
+        "logo_text": "Company",
+        "logo": {
+          "id": 12,
+          "documentId": "tvltvub4m2a32mahggpodbwt",
+          "name": "logo-empresa.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 160,
+          "height": 39,
+          "formats": null,
+          "hash": "logo_empresa_8784e85072",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 9.77,
+          "url": "https://res.cloudinary.com/dwteglerk/image/upload/v1736823821/logo_empresa_8784e85072.svg",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-cloudinary",
+          "provider_metadata": {
+            "public_id": "logo_empresa_8784e85072",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-01-14T03:03:44.425Z",
+          "updatedAt": "2025-01-14T03:03:44.425Z",
+          "publishedAt": "2025-01-14T03:03:44.426Z"
+        },
+        "menu_links": [
+          {
+            "id": 18,
+            "link_text": "Intro",
+            "url": "#intro",
+            "open_in_new_tab": false
+          },
+          {
+            "id": 19,
+            "link_text": "Services",
+            "url": "#services",
+            "open_in_new_tab": false
+          },
+          {
+            "id": 20,
+            "link_text": "Gallery",
+            "url": "#gallerry",
+            "open_in_new_tab": false
+          },
+          {
+            "id": 21,
+            "link_text": "Contact",
+            "url": "mailto:contact@company.com?subject=Inquiry%20about%20Digital%20Solutions&body=Hello,%20team!%20I%20would%20like%20to%20learn%20more%20about%20the%20solutions%20you%20offer%20for%20[my%20needs].",
+            "open_in_new_tab": false
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

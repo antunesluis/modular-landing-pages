@@ -1,5 +1,5 @@
 export default {
-  title: 'Grid two columns',
-  text: 'To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox. ',
+  title: 'Inovação Digital para seu Negócio',
+  text: 'Desde 2012, somos referência em desenvolvimento de software e transformação digital. Nossa equipe combina expertise técnica com visão estratégica para criar soluções que impulsionam o crescimento do seu negócio.',
   srcImg: 'assets/images/illustration/programador.svg',
 };

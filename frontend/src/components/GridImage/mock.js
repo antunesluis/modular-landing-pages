@@ -6,7 +6,8 @@ export default {
   grid: [
     {
       altText: 'E-commerce Platform',
-      srcImg: 'https://picsum.photos/360/360?r=1',
+      srcImg:
+        'https://images.unsplash.com/photo-1599202875854-23b7cd490ff4?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?r=1',
       description:
         'Plataforma completa de e-commerce com mais de 1 milhão de usuários ativos',
     },

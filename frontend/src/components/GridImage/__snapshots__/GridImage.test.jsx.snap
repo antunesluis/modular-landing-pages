@@ -157,7 +157,7 @@ exports[`<GridImage /> should render with background 1`] = `
               alt="E-commerce Platform"
               class="c9"
               loading="lazy"
-              src="https://picsum.photos/360/360?r=1"
+              src="https://images.unsplash.com/photo-1599202875854-23b7cd490ff4?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?r=1"
             />
             <figcaption
               class="c10"
@@ -404,7 +404,7 @@ exports[`<GridImage /> should render without background 1`] = `
               alt="E-commerce Platform"
               class="c9"
               loading="lazy"
-              src="https://picsum.photos/360/360?r=1"
+              src="https://images.unsplash.com/photo-1599202875854-23b7cd490ff4?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?r=1"
             />
             <figcaption
               class="c10"
