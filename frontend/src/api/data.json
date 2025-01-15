@@ -63,6 +63,13 @@
           "id": 11,
           "title": "Our Services",
           "description": "We offer complete software development solutions, focusing on quality and innovation. Our specialized team is ready to transform your ideas into reality.",
+          "image_grid": [],
+          "metadata": {
+            "id": 24,
+            "name": "Services",
+            "section_id": "services",
+            "background": true
+          },
           "text_grid": [
             {
               "id": 16,
@@ -79,15 +86,13 @@
               "title": "UX/UI Design",
               "description": "Our design team creates intuitive and attractive interfaces, focusing on user experience. We work with prototyping, usability testing, and complete design systems."
             }
-          ],
-          "image_grid": []
+          ]
         },
         {
           "__component": "section.section-grid",
           "id": 12,
           "title": "Project Gallery",
           "description": "Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.",
-          "text_grid": [],
           "image_grid": [
             {
               "id": 31,
@@ -653,7 +658,14 @@
                 }
               ]
             }
-          ]
+          ],
+          "metadata": {
+            "id": 25,
+            "name": "Gallery",
+            "section_id": "gallery",
+            "background": false
+          },
+          "text_grid": []
         }
       ],
       "menu": {

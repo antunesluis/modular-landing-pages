@@ -2,6 +2,7 @@ import {
   mapSectionContent,
   mapSections,
   mapSectionTwoColumns,
+  mapTextGrid,
 } from './map-sections';
 
 describe('map-sections.js', () => {
@@ -66,5 +67,45 @@ describe('map-sections.js', () => {
     expect(data.sectionId).toBe('intro');
     expect(data.title).toBe('generic title');
     expect(data.html).toBe('generic content');
+  });
+
+  it('should map grid text without data', () => {
+    const data = mapTextGrid(undefined);
+
+    expect(data.background).toBe(false);
+    expect(data.component).toBe('section.section-grid-text');
+    expect(data.sectionId).toBe('');
+    expect(data.title).toBe('');
+    expect(data.description).toBe('');
+  });
+
+  it('should map grid text with data', () => {
+    const data = mapTextGrid({
+      __component: 'section.section-grid',
+      title: 'generic title',
+      description: 'generic content',
+      text_grid: [
+        {
+          title: 'generic title 1',
+          description: 'generic description 1',
+        },
+        {
+          title: 'generic title 2',
+          description: 'generic description 2',
+        },
+      ],
+      metadata: {
+        section_id: 'services',
+        background: true,
+      },
+    });
+
+    expect(data.background).toBe(true);
+    expect(data.component).toBe('section.section-grid-text');
+    expect(data.sectionId).toBe('services');
+    expect(data.title).toBe('generic title');
+    expect(data.description).toBe('generic content');
+    expect(data.grid[0].title).toBe('generic title 1');
+    expect(data.grid[0].description).toBe('generic description 1');
   });
 });
