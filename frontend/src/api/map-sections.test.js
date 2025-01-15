@@ -1,4 +1,5 @@
 import {
+  mapImageGrid,
   mapSectionContent,
   mapSections,
   mapSectionTwoColumns,
@@ -107,5 +108,60 @@ describe('map-sections.js', () => {
     expect(data.description).toBe('generic content');
     expect(data.grid[0].title).toBe('generic title 1');
     expect(data.grid[0].description).toBe('generic description 1');
+  });
+
+  it('should map grid image without data', () => {
+    const data = mapImageGrid(undefined);
+
+    expect(data.background).toBe(false);
+  });
+
+  it('should map image grid with all formats', () => {
+    const data = mapImageGrid({
+      title: 'Project Gallery',
+      description: 'Project images',
+      image_grid: [
+        {
+          image: [
+            {
+              alternativeText: 'Image 1',
+              formats: {
+                url: 'original-image1.jpg',
+                large: {
+                  url: 'large-image1.jpg',
+                },
+                medium: {
+                  url: 'medium-image1.jpg',
+                },
+                small: {
+                  url: 'small-image1.jpg',
+                },
+                thumbnail: {
+                  url: 'thumb-image1.jpg',
+                },
+              },
+            },
+          ],
+        },
+      ],
+      metadata: {
+        section_id: 'gallery',
+        background: true,
+      },
+    });
+
+    expect(data.component).toBe('section.section-grid-image');
+    expect(data.title).toBe('Project Gallery');
+    expect(data.description).toBe('Project images');
+    expect(data.background).toBe(true);
+    expect(data.sectionId).toBe('gallery');
+
+    const firstImage = data.grid[0];
+
+    expect(firstImage.altText).toBe('Image 1');
+    expect(firstImage.formats.large).toBe('large-image1.jpg');
+    expect(firstImage.formats.medium).toBe('medium-image1.jpg');
+    expect(firstImage.formats.small).toBe('small-image1.jpg');
+    expect(firstImage.formats.thumbnail).toBe('thumb-image1.jpg');
   });
 });
