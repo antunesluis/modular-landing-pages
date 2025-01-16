@@ -131,7 +131,6 @@ describe('map-sections.js', () => {
             {
               alternativeText: 'Image 1',
               formats: {
-                url: 'original-image1.jpg',
                 large: {
                   url: 'large-image1.jpg',
                 },
@@ -164,10 +163,10 @@ describe('map-sections.js', () => {
     const firstImage = data.grid[0];
 
     expect(firstImage.altText).toBe('Image 1');
-    expect(firstImage.formats.large).toBe('large-image1.jpg');
-    expect(firstImage.formats.medium).toBe('medium-image1.jpg');
-    expect(firstImage.formats.small).toBe('small-image1.jpg');
-    expect(firstImage.formats.thumbnail).toBe('thumb-image1.jpg');
+    expect(firstImage.large).toBe('large-image1.jpg');
+    expect(firstImage.medium).toBe('medium-image1.jpg');
+    expect(firstImage.small).toBe('small-image1.jpg');
+    expect(firstImage.thumbnail).toBe('thumb-image1.jpg');
   });
 
   it('should test section with invalid data', () => {

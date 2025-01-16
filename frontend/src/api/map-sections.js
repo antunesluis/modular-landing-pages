@@ -108,12 +108,10 @@ export const mapImageGrid = (section = {}) => {
 
           return {
             altText: altText || '',
-            formats: {
-              large: formats?.large?.url || '',
-              medium: formats?.medium?.url || '',
-              small: formats?.small?.url || '',
-              thumbnail: formats?.thumbnail?.url || '',
-            },
+            large: formats?.large?.url || '',
+            medium: formats?.medium?.url || '',
+            small: formats?.small?.url || '',
+            thumbnail: formats?.thumbnail?.url || '',
           };
         });
       })

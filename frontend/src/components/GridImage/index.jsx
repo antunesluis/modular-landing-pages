@@ -20,12 +20,14 @@ export const GridImage = ({ title, description, grid, background = false }) => {
         <TextComponent>{description}</TextComponent>
         <Styled.Grid>
           {grid.map((el) => (
-            <Styled.GridElement key={`${el.srcImg}${el.altText}`}>
+            <Styled.GridElement
+              key={`${el.large || el.medium || el.small}${el.altText}`}
+            >
               <Styled.Image
-                src={el.srcImg}
+                src={el.large || el.medium || el.small || el.thumbnail}
                 alt={el.altText}
                 onError={handleImageError}
-                loading="lazy" // Melhora performance carregando imagens sob demanda
+                loading="lazy"
               />
               <Styled.ImageCaption>{el.altText}</Styled.ImageCaption>
             </Styled.GridElement>
@@ -42,8 +44,11 @@ GridImage.propTypes = {
   description: P.string.isRequired,
   grid: P.arrayOf(
     P.shape({
+      large: P.string,
+      medium: P.string,
+      small: P.string,
+      thumbnail: P.string,
       altText: P.string.isRequired,
-      srcImg: P.string.isRequired,
     }),
   ).isRequired,
 };

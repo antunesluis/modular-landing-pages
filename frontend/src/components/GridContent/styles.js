@@ -1,48 +1,35 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  ${() => css`
+  ${({ theme }) => css`
+    padding: ${theme.spacings.xlarge} 0 ${theme.spacings.xlarge};
     text-align: center;
     max-width: 58rem;
     margin: 0 auto;
+    width: 100%;
   `}
 `;
 
 export const HtmlContent = styled.div`
   ${({ theme }) => css`
-    margin: ${theme.spacings.xhuge} 0;
+    width: 100%;
+    overflow-x: hidden; // Prevent horizontal scroll at component level
 
-    // Estilização para textos e parágrafos
     p {
       font-size: ${theme.fonts.sizes.medium};
       line-height: 1.5;
       margin: ${theme.spacings.medium} 0;
     }
 
-    // Estilização para cabeçalhos dentro do conteúdo
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
+      margin: ${theme.spacings.xlarge} 0 ${theme.spacings.xlarge};
       font-weight: 700;
       font-family: ${theme.fonts.family.secondary};
-    }
-
-    h1 {
-      font-size: ${theme.fonts.sizes.xlarge};
-      margin: ${theme.spacings.xlarge} 0;
-    }
-
-    h2 {
-      font-size: ${theme.fonts.sizes.large};
-      margin: ${theme.spacings.large} 0 ${theme.spacings.medium};
-    }
-
-    h3 {
-      font-size: ${theme.fonts.sizes.medium};
-      margin: ${theme.spacings.xlarge} 0 ${theme.spacings.small};
     }
 
     // Estilização para links
@@ -72,8 +59,6 @@ export const HtmlContent = styled.div`
     }
 
     li {
-      margin: ${theme.spacings.small} 0;
-      font-size: ${theme.fonts.sizes.medium};
       text-align: left;
     }
 
@@ -97,6 +82,14 @@ export const HtmlContent = styled.div`
       width: 100%;
       border-collapse: collapse;
       margin: ${theme.spacings.medium} 0;
+      display: block;
+      overflow-x: auto; // Adiciona scroll horizontal apenas na tabela
+      -webkit-overflow-scrolling: touch; // Melhora a rolagem em dispositivos touch
+
+      // Remove display: block em telas maiores
+      @media (min-width: 768px) {
+        display: table;
+      }
     }
 
     table td,
@@ -104,36 +97,12 @@ export const HtmlContent = styled.div`
       padding: ${theme.spacings.small};
       border: 1px solid ${theme.colors.mediumGray};
       text-align: left;
+      min-width: 15rem; // Garante uma largura mínima para células
     }
 
     table th {
       background: ${theme.colors.primaryColor};
       color: ${theme.colors.white};
     }
-
-    // Estilização para elementos de ênfase
-    strong,
-    b {
-      font-weight: bold;
-    }
-
-    em,
-    i {
-      font-style: italic;
-    }
-
-    /*
-    @media ${theme.media.lteMedium} {
-      h1 {
-        font-size: ${theme.fonts.sizes.large};
-      }
-      h2 {
-        font-size: ${theme.fonts.sizes.medium};
-      }
-      h3 {
-        font-size: ${theme.fonts.sizes.small};
-      }
-      padding: ${theme.spacings.medium};
-    } */
   `}
 `;
