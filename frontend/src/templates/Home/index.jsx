@@ -9,17 +9,21 @@ import { GridTwoColumn } from '../../components/GridTwoColumn';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
+import { pageService } from '../../api/services';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
   const [data, setData] = useState([]);
+  const location = useLocation();
   const isMounted = useRef(true);
+
   useEffect(() => {
     const load = async () => {
+      const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+      const slug = pathName ? pathName : 'landing-page';
+
       try {
-        const data = await fetch(
-          'http://localhost:1337/api/pages?filters[slug][$eq]=landing-page&populate[sections][on][section.section-grid][populate][image_grid][populate]=image&populate[sections][on][section.section-grid][populate][metadata]=*&populate[sections][on][section.section-two-columns][populate]=*&populate[sections][on][section.section-content][populate]=*&populate[sections][on][section.section-grid][populate][text_grid]=*&populate[menu][populate]=*',
-        );
-        const json = await data.json();
+        const json = await pageService.getPageBySlug(slug);
         const pageData = mapData(json.data);
 
         setData(() => pageData[0]);
@@ -35,7 +39,7 @@ function Home() {
     return () => {
       isMounted.current = false;
     };
-  }, []);
+  }, [location]);
 
   if (data === undefined) {
     return <PageNotFound />;

@@ -11,6 +11,7 @@
     "qs": "^6.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.1.2",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.13",
     "testing-library": "^0.0.2"
