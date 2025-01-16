@@ -10,6 +10,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
+  width: 100%;
   padding: 3.2rem;
 }
 
@@ -31,13 +32,16 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 }
 
 .c2 {
+  padding: 4.0rem 0 4.0rem;
   text-align: center;
   max-width: 58rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 .c4 {
-  margin: 6.4rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .c4 p {
@@ -52,23 +56,9 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 .c4 h4,
 .c4 h5,
 .c4 h6 {
+  margin: 4.0rem 0 4.0rem;
   font-weight: 700;
   font-family: 'Montserrat',sans-serif;
-}
-
-.c4 h1 {
-  font-size: 4.0rem;
-  margin: 4.0rem 0;
-}
-
-.c4 h2 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.4rem;
-}
-
-.c4 h3 {
-  font-size: 2.4rem;
-  margin: 4.0rem 0 1.6rem;
 }
 
 .c4 a {
@@ -96,8 +86,6 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 }
 
 .c4 li {
-  margin: 1.6rem 0;
-  font-size: 2.4rem;
   text-align: left;
 }
 
@@ -118,6 +106,9 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .c4 table td,
@@ -125,21 +116,12 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
   padding: 1.6rem;
   border: 1px solid #DDDDDD;
   text-align: left;
+  min-width: 15rem;
 }
 
 .c4 table th {
   background: #0A1128;
   color: #FFFFFF;
-}
-
-.c4 strong,
-.c4 b {
-  font-weight: bold;
-}
-
-.c4 em,
-.c4 i {
-  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -148,9 +130,16 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
   }
 }
 
+@media (min-width: 768px) {
+  .c4 table {
+    display: table;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -425,6 +414,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
+  width: 100%;
   padding: 3.2rem;
 }
 
@@ -441,13 +431,16 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 }
 
 .c2 {
+  padding: 4.0rem 0 4.0rem;
   text-align: center;
   max-width: 58rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 .c4 {
-  margin: 6.4rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .c4 p {
@@ -462,23 +455,9 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 .c4 h4,
 .c4 h5,
 .c4 h6 {
+  margin: 4.0rem 0 4.0rem;
   font-weight: 700;
   font-family: 'Montserrat',sans-serif;
-}
-
-.c4 h1 {
-  font-size: 4.0rem;
-  margin: 4.0rem 0;
-}
-
-.c4 h2 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.4rem;
-}
-
-.c4 h3 {
-  font-size: 2.4rem;
-  margin: 4.0rem 0 1.6rem;
 }
 
 .c4 a {
@@ -506,8 +485,6 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 }
 
 .c4 li {
-  margin: 1.6rem 0;
-  font-size: 2.4rem;
   text-align: left;
 }
 
@@ -528,6 +505,9 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .c4 table td,
@@ -535,21 +515,12 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
   padding: 1.6rem;
   border: 1px solid #DDDDDD;
   text-align: left;
+  min-width: 15rem;
 }
 
 .c4 table th {
   background: #0A1128;
   color: #FFFFFF;
-}
-
-.c4 strong,
-.c4 b {
-  font-weight: bold;
-}
-
-.c4 em,
-.c4 i {
-  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -558,9 +529,16 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
   }
 }
 
+@media (min-width: 768px) {
+  .c4 table {
+    display: table;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -835,6 +813,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
+  width: 100%;
   padding: 3.2rem;
 }
 
@@ -851,13 +830,16 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 .c2 {
+  padding: 4.0rem 0 4.0rem;
   text-align: center;
   max-width: 58rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 .c4 {
-  margin: 6.4rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .c4 p {
@@ -872,23 +854,9 @@ exports[`<GridContent /> should render grid content 1`] = `
 .c4 h4,
 .c4 h5,
 .c4 h6 {
+  margin: 4.0rem 0 4.0rem;
   font-weight: 700;
   font-family: 'Montserrat',sans-serif;
-}
-
-.c4 h1 {
-  font-size: 4.0rem;
-  margin: 4.0rem 0;
-}
-
-.c4 h2 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.4rem;
-}
-
-.c4 h3 {
-  font-size: 2.4rem;
-  margin: 4.0rem 0 1.6rem;
 }
 
 .c4 a {
@@ -916,8 +884,6 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 .c4 li {
-  margin: 1.6rem 0;
-  font-size: 2.4rem;
   text-align: left;
 }
 
@@ -938,6 +904,9 @@ exports[`<GridContent /> should render grid content 1`] = `
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .c4 table td,
@@ -945,21 +914,12 @@ exports[`<GridContent /> should render grid content 1`] = `
   padding: 1.6rem;
   border: 1px solid #DDDDDD;
   text-align: left;
+  min-width: 15rem;
 }
 
 .c4 table th {
   background: #0A1128;
   color: #FFFFFF;
-}
-
-.c4 strong,
-.c4 b {
-  font-weight: bold;
-}
-
-.c4 em,
-.c4 i {
-  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -968,9 +928,16 @@ exports[`<GridContent /> should render grid content 1`] = `
   }
 }
 
+@media (min-width: 768px) {
+  .c4 table {
+    display: table;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -1245,6 +1212,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
+  width: 100%;
   padding: 3.2rem;
 }
 
@@ -1266,13 +1234,16 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 }
 
 .c2 {
+  padding: 4.0rem 0 4.0rem;
   text-align: center;
   max-width: 58rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 .c4 {
-  margin: 6.4rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .c4 p {
@@ -1287,23 +1258,9 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 .c4 h4,
 .c4 h5,
 .c4 h6 {
+  margin: 4.0rem 0 4.0rem;
   font-weight: 700;
   font-family: 'Montserrat',sans-serif;
-}
-
-.c4 h1 {
-  font-size: 4.0rem;
-  margin: 4.0rem 0;
-}
-
-.c4 h2 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.4rem;
-}
-
-.c4 h3 {
-  font-size: 2.4rem;
-  margin: 4.0rem 0 1.6rem;
 }
 
 .c4 a {
@@ -1331,8 +1288,6 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 }
 
 .c4 li {
-  margin: 1.6rem 0;
-  font-size: 2.4rem;
   text-align: left;
 }
 
@@ -1353,6 +1308,9 @@ exports[`<GridContent /> should render grid content with background 1`] = `
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .c4 table td,
@@ -1360,21 +1318,12 @@ exports[`<GridContent /> should render grid content with background 1`] = `
   padding: 1.6rem;
   border: 1px solid #DDDDDD;
   text-align: left;
+  min-width: 15rem;
 }
 
 .c4 table th {
   background: #0A1128;
   color: #FFFFFF;
-}
-
-.c4 strong,
-.c4 b {
-  font-weight: bold;
-}
-
-.c4 em,
-.c4 i {
-  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -1383,9 +1332,16 @@ exports[`<GridContent /> should render grid content with background 1`] = `
   }
 }
 
+@media (min-width: 768px) {
+  .c4 table {
+    display: table;
+  }
+}
+
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
