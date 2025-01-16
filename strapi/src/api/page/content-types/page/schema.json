@@ -33,15 +33,16 @@
       ],
       "required": false
     },
-    "footer_text": {
-      "type": "blocks",
-      "required": true
-    },
     "menu": {
       "type": "component",
       "repeatable": false,
       "component": "menu.menu",
       "required": false
+    },
+    "footer_text": {
+      "type": "richtext",
+      "default": "<p> footer padrão strapi </p>",
+      "required": true
     }
   }
 }

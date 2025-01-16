@@ -42,7 +42,8 @@ export interface MenuMenuLink extends Struct.ComponentSchema {
 export interface SectionImageGrid extends Struct.ComponentSchema {
   collectionName: 'components_section_image_grids';
   info: {
-    displayName: 'image-grid';
+    description: '';
+    displayName: 'image_grid';
     icon: 'cog';
   };
   attributes: {
@@ -53,11 +54,17 @@ export interface SectionImageGrid extends Struct.ComponentSchema {
 export interface SectionSectionContent extends Struct.ComponentSchema {
   collectionName: 'components_section_section_contents';
   info: {
+    description: '';
     displayName: 'section_content';
     icon: 'bulletList';
   };
   attributes: {
-    content: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        minLength: 5;
+      }> &
+      Schema.Attribute.DefaultTo<'<p> Texto padr\u00E3o do strapi </p>'>;
     metadata: Schema.Attribute.Component<'section.section-metadata', false> &
       Schema.Attribute.Required;
     title: Schema.Attribute.String &

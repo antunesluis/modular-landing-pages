@@ -1,18 +1,19 @@
 {
   "collectionName": "components_section_image_grids",
   "info": {
-    "displayName": "image-grid",
-    "icon": "cog"
+    "displayName": "image_grid",
+    "icon": "cog",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
