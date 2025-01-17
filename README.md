@@ -12,10 +12,9 @@ A modular system for creating dynamic landing pages, built with Next.js, React, 
 
 ### Frontend
 
-- Next.js
 - React
 - Styled Components
-- TypeScript
+- Javascript
 
 ### Backend
 

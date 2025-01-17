@@ -12,6 +12,8 @@ import { GridImage } from '../../components/GridImage';
 import { pageService } from '../../api/services';
 import { useLocation } from 'react-router-dom';
 
+import config from '../../config';
+
 function Home() {
   const [data, setData] = useState([]);
   const location = useLocation();
@@ -40,6 +42,20 @@ function Home() {
       isMounted.current = false;
     };
   }, [location]);
+
+  useEffect(() => {
+    if (data === undefined) {
+      document.title = `Página não encontrada | ${config.siteName}`;
+    }
+
+    if (data && !data.slug) {
+      document.title = `Carregando... | ${config.siteName}`;
+    }
+
+    if (data && data.title) {
+      document.title = `${data.title} | ${config.siteName}`;
+    }
+  }, [data]);
 
   if (data === undefined) {
     return <PageNotFound />;
