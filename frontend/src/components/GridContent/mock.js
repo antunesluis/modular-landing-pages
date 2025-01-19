@@ -1,77 +1,77 @@
 export default {
-  title: 'Nossas Soluções Digitais',
+  title: 'Our Digital Solutions',
   html: `
-    <h2>Transforme seu Negócio com Nossas Soluções</h2>
+    <h2>Transform Your Business with Our Solutions</h2>
     <p>
-      Somos especialistas em desenvolver soluções <strong>inovadoras</strong> e <strong>personalizadas</strong> 
-      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
-      com visão estratégica para entregar resultados excepcionais.
+      We are experts in developing <strong>innovative</strong> and <strong>customized</strong> 
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
     </p>
 
-    <h3>Por que escolher nossa empresa?</h3>
+    <h3>Why choose our company?</h3>
 
     <ul>
       <li>
-        <strong>Experiência Comprovada</strong> - Mais de 10 anos transformando ideias em 
-        soluções digitais de sucesso
+        <strong>Proven Experience</strong> - Over 10 years transforming ideas into 
+        successful digital solutions
       </li>
       <li>
-        <strong>Tecnologia de Ponta</strong> - Utilizamos as mais recentes tecnologias 
-        do mercado para garantir performance e segurança
+        <strong>Cutting-edge Technology</strong> - We use the latest market technologies 
+        to ensure performance and security
       </li>
       <li>
-        <strong>Suporte Dedicado</strong> - Equipe sempre disponível para auxiliar 
-        em todas as etapas do projeto
+        <strong>Dedicated Support</strong> - Team always available to assist 
+        in all stages of the project
       </li>
     </ul>
 
     <blockquote>
-      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
-      A equipe é extremamente profissional e dedicada."
-      <cite>- Maria Silva, CEO da TechCorp</cite>
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
+      <cite>- Maria Silva, CEO of TechCorp</cite>
     </blockquote>
 
-    <h3>Nossos Serviços</h3>
+    <h3>Our Services</h3>
 
     <p>
-      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+      We offer a complete range of digital services to boost your business:
     </p>
 
     <table>
       <thead>
         <tr>
-          <th>Serviço</th>
-          <th>Benefícios</th>
+          <th>Service</th>
+          <th>Benefits</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Desenvolvimento Web</td>
-          <td>Sites responsivos, rápidos e otimizados para SEO</td>
+          <td>Web Development</td>
+          <td>Responsive, fast, and SEO-optimized websites</td>
         </tr>
         <tr>
-          <td>Marketing Digital</td>
-          <td>Estratégias personalizadas para aumentar sua presença online</td>
+          <td>Digital Marketing</td>
+          <td>Customized strategies to increase your online presence</td>
         </tr>
         <tr>
           <td>E-commerce</td>
-          <td>Plataformas robustas e seguras para vendas online</td>
+          <td>Robust and secure platforms for online sales</td>
         </tr>
       </tbody>
     </table>
 
-    <h3>Tecnologias que utilizamos</h3>
+    <h3>Technologies we use</h3>
     <p>
-      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
-      <code>React</code>, <code>Node.js</code> e <code>Python</code>. 
-      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+      We work with the most modern technologies in the market, including 
+      <code>React</code>, <code>Node.js</code>, and <code>Python</code>. 
+      Our stack is constantly updated to ensure the best solutions.
     </p>
 
-    <h3>Entre em contato</h3>
+    <h3>Contact us</h3>
     <p>
-      Quer saber mais sobre como podemos ajudar seu negócio? 
-      <a href="#contato">Clique aqui</a> para falar com um de nossos consultores ou 
-      envie um email para <a href="mailto:contato@empresa.com">contato@empresa.com</a>
+      Want to know more about how we can help your business? 
+      <a href="#contact">Click here</a> to speak with one of our consultants or 
+      send an email to <a href="mailto:contact@company.com">contact@company.com</a>
     </p>
   `,
 };

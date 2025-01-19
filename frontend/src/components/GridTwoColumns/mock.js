@@ -1,5 +1,5 @@
 export default {
-  title: 'Inovação Digital para seu Negócio',
-  text: 'Desde 2012, somos referência em desenvolvimento de software e transformação digital. Nossa equipe combina expertise técnica com visão estratégica para criar soluções que impulsionam o crescimento do seu negócio.',
+  title: 'Digital Innovation for Your Business',
+  text: 'Since 2012, we have been a reference in software development and digital transformation. Our team combines technical expertise with strategic vision to create solutions that drive your business growth.',
   srcImg: 'assets/images/illustration/programador.svg',
 };

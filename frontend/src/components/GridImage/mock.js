@@ -1,8 +1,8 @@
 export default {
   background: false,
-  title: 'Galeria de projetos',
+  title: 'Project Gallery',
   description:
-    'Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.',
+    'Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.',
   grid: [
     {
       altText: 'E-commerce Platform',

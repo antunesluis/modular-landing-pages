@@ -1,23 +1,23 @@
 export default {
-  background: true, // Ativa o background com a imagem definida no tema
-  title: 'Nossos Serviços',
+  background: true, // Enables background with theme-defined image
+  title: 'Our Services',
   description:
-    'Oferecemos soluções completas em desenvolvimento de software, com foco em qualidade e inovação. Nossa equipe especializada está pronta para transformar suas ideias em realidade.',
+    'We offer complete software development solutions, focusing on quality and innovation. Our specialized team is ready to turn your ideas into reality.',
   grid: [
     {
-      title: 'Consultoria Técnica',
+      title: 'Technical Consulting',
       description:
-        'Oferecemos consultoria especializada em arquitetura de software, escolha de tecnologias e melhores práticas de desenvolvimento. Ajudamos sua equipe a tomar as melhores decisões técnicas.',
+        'We provide specialized consulting in software architecture, technology choices, and development best practices. We help your team make the best technical decisions.',
     },
     {
       title: 'Web Development',
       description:
-        'Criamos aplicações web modernas e responsivas utilizando as mais recentes tecnologias do mercado. Nosso foco está em React, Next.js e Node.js, garantindo performance e escalabilidade para seu projeto.',
+        'We create modern and responsive web applications using the latest market technologies. Our focus is on React, Next.js, and Node.js, ensuring performance and scalability for your project.',
     },
     {
       title: 'UX/UI Design',
       description:
-        'Nossa equipe de design cria interfaces intuitivas e atraentes, focando na experiência do usuário. Trabalhamos com prototipação, testes de usabilidade e design systems completos.',
+        'Our design team creates intuitive and attractive interfaces, focusing on user experience. We work with prototyping, usability testing, and complete design systems.',
     },
   ],
 };
