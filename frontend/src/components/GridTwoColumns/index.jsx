@@ -1,3 +1,5 @@
+'use client';
+
 import P from 'prop-types';
 import * as Styled from './styles';
 import { SectionBackground } from '../SectionBackground';
@@ -13,7 +15,7 @@ export const GridTwoColumns = ({
 }) => {
   return (
     <SectionBackground background={background} sectionId={sectionId}>
-      <Styled.Container background={background}>
+      <Styled.Container>
         <Styled.TextContainer>
           <Heading uppercase colorDark={!background} as="h2">
             {title}

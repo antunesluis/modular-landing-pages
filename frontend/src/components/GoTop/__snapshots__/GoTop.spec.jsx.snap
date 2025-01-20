@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<GoTop /> should match snapshot 1`] = `
+exports[`<GoTop /> > should match snapshot 1`] = `
 .c0 {
   position: fixed;
   display: flex;

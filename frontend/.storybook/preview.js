@@ -1,3 +1,4 @@
+// .storybook/preview.js
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../src/styles/global-styles';
 import { theme } from '../src/styles/theme';
@@ -6,7 +7,6 @@ import { theme } from '../src/styles/theme';
 const preview = {
   parameters: {
     layout: 'fullscreen',
-
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -30,8 +30,10 @@ const preview = {
   decorators: [
     (Story) => (
       <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        <Story />
+        <div className="story-wrapper">
+          <GlobalStyles />
+          <Story />
+        </div>
       </ThemeProvider>
     ),
   ],

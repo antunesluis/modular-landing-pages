@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<GridContent /> should match snapshot with background 1`] = `
+exports[`<GridContent /> > should match snapshot with background 1`] = `
 .c3 {
   color: #FFFFFF;
   font-size: 6.4rem;
@@ -58,7 +58,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 .c4 h6 {
   margin: 4.0rem 0 4.0rem;
   font-weight: 700;
-  font-family: 'Montserrat',sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 .c4 a {
@@ -150,7 +150,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
         <h2
           class="c3"
         >
-          Nossas Soluções Digitais
+          Our Digital Solutions
         </h2>
         <div
           class="c4"
@@ -161,30 +161,30 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
             
     
             <h2>
-              Transforme seu Negócio com Nossas Soluções
+              Transform Your Business with Our Solutions
             </h2>
             
     
             <p>
               
-      Somos especialistas em desenvolver soluções 
+      We are experts in developing 
               <strong>
-                inovadoras
+                innovative
               </strong>
-               e 
+               and 
               <strong>
-                personalizadas
+                customized
               </strong>
                
-      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
-      com visão estratégica para entregar resultados excepcionais.
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
     
             </p>
             
 
     
             <h3>
-              Por que escolher nossa empresa?
+              Why choose our company?
             </h3>
             
 
@@ -196,10 +196,10 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                 
         
                 <strong>
-                  Experiência Comprovada
+                  Proven Experience
                 </strong>
-                 - Mais de 10 anos transformando ideias em 
-        soluções digitais de sucesso
+                 - Over 10 years transforming ideas into 
+        successful digital solutions
       
               </li>
               
@@ -208,10 +208,10 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                 
         
                 <strong>
-                  Tecnologia de Ponta
+                  Cutting-edge Technology
                 </strong>
-                 - Utilizamos as mais recentes tecnologias 
-        do mercado para garantir performance e segurança
+                 - We use the latest market technologies 
+        to ensure performance and security
       
               </li>
               
@@ -220,10 +220,10 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                 
         
                 <strong>
-                  Suporte Dedicado
+                  Dedicated Support
                 </strong>
-                 - Equipe sempre disponível para auxiliar 
-        em todas as etapas do projeto
+                 - Team always available to assist 
+        in all stages of the project
       
               </li>
               
@@ -234,11 +234,11 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
     
             <blockquote>
               
-      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
-      A equipe é extremamente profissional e dedicada."
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
       
               <cite>
-                - Maria Silva, CEO da TechCorp
+                - Maria Silva, CEO of TechCorp
               </cite>
               
     
@@ -247,14 +247,14 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 
     
             <h3>
-              Nossos Serviços
+              Our Services
             </h3>
             
 
     
             <p>
               
-      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+      We offer a complete range of digital services to boost your business:
     
             </p>
             
@@ -270,12 +270,12 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                   
           
                   <th>
-                    Serviço
+                    Service
                   </th>
                   
           
                   <th>
-                    Benefícios
+                    Benefits
                   </th>
                   
         
@@ -292,12 +292,12 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                   
           
                   <td>
-                    Desenvolvimento Web
+                    Web Development
                   </td>
                   
           
                   <td>
-                    Sites responsivos, rápidos e otimizados para SEO
+                    Responsive, fast, and SEO-optimized websites
                   </td>
                   
         
@@ -308,12 +308,12 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                   
           
                   <td>
-                    Marketing Digital
+                    Digital Marketing
                   </td>
                   
           
                   <td>
-                    Estratégias personalizadas para aumentar sua presença online
+                    Customized strategies to increase your online presence
                   </td>
                   
         
@@ -329,7 +329,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
                   
           
                   <td>
-                    Plataformas robustas e seguras para vendas online
+                    Robust and secure platforms for online sales
                   </td>
                   
         
@@ -344,13 +344,13 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 
     
             <h3>
-              Tecnologias que utilizamos
+              Technologies we use
             </h3>
             
     
             <p>
               
-      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      We work with the most modern technologies in the market, including 
       
               <code>
                 React
@@ -359,37 +359,37 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
               <code>
                 Node.js
               </code>
-               e 
+              , and 
               <code>
                 Python
               </code>
               . 
-      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+      Our stack is constantly updated to ensure the best solutions.
     
             </p>
             
 
     
             <h3>
-              Entre em contato
+              Contact us
             </h3>
             
     
             <p>
               
-      Quer saber mais sobre como podemos ajudar seu negócio? 
+      Want to know more about how we can help your business? 
       
               <a
-                href="#contato"
+                href="#contact"
               >
-                Clique aqui
+                Click here
               </a>
-               para falar com um de nossos consultores ou 
-      envie um email para 
+               to speak with one of our consultants or 
+      send an email to 
               <a
-                href="mailto:contato@empresa.com"
+                href="mailto:contact@company.com"
               >
-                contato@empresa.com
+                contact@company.com
               </a>
               
     
@@ -404,7 +404,7 @@ exports[`<GridContent /> should match snapshot with background 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should match snapshot without background 1`] = `
+exports[`<GridContent /> > should match snapshot without background 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -457,7 +457,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 .c4 h6 {
   margin: 4.0rem 0 4.0rem;
   font-weight: 700;
-  font-family: 'Montserrat',sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 .c4 a {
@@ -549,7 +549,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
         <h2
           class="c3"
         >
-          Nossas Soluções Digitais
+          Our Digital Solutions
         </h2>
         <div
           class="c4"
@@ -560,30 +560,30 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
             
     
             <h2>
-              Transforme seu Negócio com Nossas Soluções
+              Transform Your Business with Our Solutions
             </h2>
             
     
             <p>
               
-      Somos especialistas em desenvolver soluções 
+      We are experts in developing 
               <strong>
-                inovadoras
+                innovative
               </strong>
-               e 
+               and 
               <strong>
-                personalizadas
+                customized
               </strong>
                
-      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
-      com visão estratégica para entregar resultados excepcionais.
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
     
             </p>
             
 
     
             <h3>
-              Por que escolher nossa empresa?
+              Why choose our company?
             </h3>
             
 
@@ -595,10 +595,10 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                 
         
                 <strong>
-                  Experiência Comprovada
+                  Proven Experience
                 </strong>
-                 - Mais de 10 anos transformando ideias em 
-        soluções digitais de sucesso
+                 - Over 10 years transforming ideas into 
+        successful digital solutions
       
               </li>
               
@@ -607,10 +607,10 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                 
         
                 <strong>
-                  Tecnologia de Ponta
+                  Cutting-edge Technology
                 </strong>
-                 - Utilizamos as mais recentes tecnologias 
-        do mercado para garantir performance e segurança
+                 - We use the latest market technologies 
+        to ensure performance and security
       
               </li>
               
@@ -619,10 +619,10 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                 
         
                 <strong>
-                  Suporte Dedicado
+                  Dedicated Support
                 </strong>
-                 - Equipe sempre disponível para auxiliar 
-        em todas as etapas do projeto
+                 - Team always available to assist 
+        in all stages of the project
       
               </li>
               
@@ -633,11 +633,11 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
     
             <blockquote>
               
-      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
-      A equipe é extremamente profissional e dedicada."
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
       
               <cite>
-                - Maria Silva, CEO da TechCorp
+                - Maria Silva, CEO of TechCorp
               </cite>
               
     
@@ -646,14 +646,14 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 
     
             <h3>
-              Nossos Serviços
+              Our Services
             </h3>
             
 
     
             <p>
               
-      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+      We offer a complete range of digital services to boost your business:
     
             </p>
             
@@ -669,12 +669,12 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                   
           
                   <th>
-                    Serviço
+                    Service
                   </th>
                   
           
                   <th>
-                    Benefícios
+                    Benefits
                   </th>
                   
         
@@ -691,12 +691,12 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                   
           
                   <td>
-                    Desenvolvimento Web
+                    Web Development
                   </td>
                   
           
                   <td>
-                    Sites responsivos, rápidos e otimizados para SEO
+                    Responsive, fast, and SEO-optimized websites
                   </td>
                   
         
@@ -707,12 +707,12 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                   
           
                   <td>
-                    Marketing Digital
+                    Digital Marketing
                   </td>
                   
           
                   <td>
-                    Estratégias personalizadas para aumentar sua presença online
+                    Customized strategies to increase your online presence
                   </td>
                   
         
@@ -728,7 +728,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
                   
           
                   <td>
-                    Plataformas robustas e seguras para vendas online
+                    Robust and secure platforms for online sales
                   </td>
                   
         
@@ -743,13 +743,13 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 
     
             <h3>
-              Tecnologias que utilizamos
+              Technologies we use
             </h3>
             
     
             <p>
               
-      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      We work with the most modern technologies in the market, including 
       
               <code>
                 React
@@ -758,37 +758,37 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
               <code>
                 Node.js
               </code>
-               e 
+              , and 
               <code>
                 Python
               </code>
               . 
-      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+      Our stack is constantly updated to ensure the best solutions.
     
             </p>
             
 
     
             <h3>
-              Entre em contato
+              Contact us
             </h3>
             
     
             <p>
               
-      Quer saber mais sobre como podemos ajudar seu negócio? 
+      Want to know more about how we can help your business? 
       
               <a
-                href="#contato"
+                href="#contact"
               >
-                Clique aqui
+                Click here
               </a>
-               para falar com um de nossos consultores ou 
-      envie um email para 
+               to speak with one of our consultants or 
+      send an email to 
               <a
-                href="mailto:contato@empresa.com"
+                href="mailto:contact@company.com"
               >
-                contato@empresa.com
+                contact@company.com
               </a>
               
     
@@ -803,7 +803,7 @@ exports[`<GridContent /> should match snapshot without background 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should render grid content 1`] = `
+exports[`<GridContent /> > should render grid content 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -856,7 +856,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 .c4 h6 {
   margin: 4.0rem 0 4.0rem;
   font-weight: 700;
-  font-family: 'Montserrat',sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 .c4 a {
@@ -948,7 +948,7 @@ exports[`<GridContent /> should render grid content 1`] = `
         <h2
           class="c3"
         >
-          Nossas Soluções Digitais
+          Our Digital Solutions
         </h2>
         <div
           class="c4"
@@ -959,30 +959,30 @@ exports[`<GridContent /> should render grid content 1`] = `
             
     
             <h2>
-              Transforme seu Negócio com Nossas Soluções
+              Transform Your Business with Our Solutions
             </h2>
             
     
             <p>
               
-      Somos especialistas em desenvolver soluções 
+      We are experts in developing 
               <strong>
-                inovadoras
+                innovative
               </strong>
-               e 
+               and 
               <strong>
-                personalizadas
+                customized
               </strong>
                
-      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
-      com visão estratégica para entregar resultados excepcionais.
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
     
             </p>
             
 
     
             <h3>
-              Por que escolher nossa empresa?
+              Why choose our company?
             </h3>
             
 
@@ -994,10 +994,10 @@ exports[`<GridContent /> should render grid content 1`] = `
                 
         
                 <strong>
-                  Experiência Comprovada
+                  Proven Experience
                 </strong>
-                 - Mais de 10 anos transformando ideias em 
-        soluções digitais de sucesso
+                 - Over 10 years transforming ideas into 
+        successful digital solutions
       
               </li>
               
@@ -1006,10 +1006,10 @@ exports[`<GridContent /> should render grid content 1`] = `
                 
         
                 <strong>
-                  Tecnologia de Ponta
+                  Cutting-edge Technology
                 </strong>
-                 - Utilizamos as mais recentes tecnologias 
-        do mercado para garantir performance e segurança
+                 - We use the latest market technologies 
+        to ensure performance and security
       
               </li>
               
@@ -1018,10 +1018,10 @@ exports[`<GridContent /> should render grid content 1`] = `
                 
         
                 <strong>
-                  Suporte Dedicado
+                  Dedicated Support
                 </strong>
-                 - Equipe sempre disponível para auxiliar 
-        em todas as etapas do projeto
+                 - Team always available to assist 
+        in all stages of the project
       
               </li>
               
@@ -1032,11 +1032,11 @@ exports[`<GridContent /> should render grid content 1`] = `
     
             <blockquote>
               
-      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
-      A equipe é extremamente profissional e dedicada."
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
       
               <cite>
-                - Maria Silva, CEO da TechCorp
+                - Maria Silva, CEO of TechCorp
               </cite>
               
     
@@ -1045,14 +1045,14 @@ exports[`<GridContent /> should render grid content 1`] = `
 
     
             <h3>
-              Nossos Serviços
+              Our Services
             </h3>
             
 
     
             <p>
               
-      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+      We offer a complete range of digital services to boost your business:
     
             </p>
             
@@ -1068,12 +1068,12 @@ exports[`<GridContent /> should render grid content 1`] = `
                   
           
                   <th>
-                    Serviço
+                    Service
                   </th>
                   
           
                   <th>
-                    Benefícios
+                    Benefits
                   </th>
                   
         
@@ -1090,12 +1090,12 @@ exports[`<GridContent /> should render grid content 1`] = `
                   
           
                   <td>
-                    Desenvolvimento Web
+                    Web Development
                   </td>
                   
           
                   <td>
-                    Sites responsivos, rápidos e otimizados para SEO
+                    Responsive, fast, and SEO-optimized websites
                   </td>
                   
         
@@ -1106,12 +1106,12 @@ exports[`<GridContent /> should render grid content 1`] = `
                   
           
                   <td>
-                    Marketing Digital
+                    Digital Marketing
                   </td>
                   
           
                   <td>
-                    Estratégias personalizadas para aumentar sua presença online
+                    Customized strategies to increase your online presence
                   </td>
                   
         
@@ -1127,7 +1127,7 @@ exports[`<GridContent /> should render grid content 1`] = `
                   
           
                   <td>
-                    Plataformas robustas e seguras para vendas online
+                    Robust and secure platforms for online sales
                   </td>
                   
         
@@ -1142,13 +1142,13 @@ exports[`<GridContent /> should render grid content 1`] = `
 
     
             <h3>
-              Tecnologias que utilizamos
+              Technologies we use
             </h3>
             
     
             <p>
               
-      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      We work with the most modern technologies in the market, including 
       
               <code>
                 React
@@ -1157,37 +1157,37 @@ exports[`<GridContent /> should render grid content 1`] = `
               <code>
                 Node.js
               </code>
-               e 
+              , and 
               <code>
                 Python
               </code>
               . 
-      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+      Our stack is constantly updated to ensure the best solutions.
     
             </p>
             
 
     
             <h3>
-              Entre em contato
+              Contact us
             </h3>
             
     
             <p>
               
-      Quer saber mais sobre como podemos ajudar seu negócio? 
+      Want to know more about how we can help your business? 
       
               <a
-                href="#contato"
+                href="#contact"
               >
-                Clique aqui
+                Click here
               </a>
-               para falar com um de nossos consultores ou 
-      envie um email para 
+               to speak with one of our consultants or 
+      send an email to 
               <a
-                href="mailto:contato@empresa.com"
+                href="mailto:contact@company.com"
               >
-                contato@empresa.com
+                contact@company.com
               </a>
               
     
@@ -1202,7 +1202,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should render grid content with background 1`] = `
+exports[`<GridContent /> > should render grid content with background 1`] = `
 .c3 {
   color: #FFFFFF;
   font-size: 6.4rem;
@@ -1260,7 +1260,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 .c4 h6 {
   margin: 4.0rem 0 4.0rem;
   font-weight: 700;
-  font-family: 'Montserrat',sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 .c4 a {
@@ -1352,7 +1352,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
         <h2
           class="c3"
         >
-          Nossas Soluções Digitais
+          Our Digital Solutions
         </h2>
         <div
           class="c4"
@@ -1363,30 +1363,30 @@ exports[`<GridContent /> should render grid content with background 1`] = `
             
     
             <h2>
-              Transforme seu Negócio com Nossas Soluções
+              Transform Your Business with Our Solutions
             </h2>
             
     
             <p>
               
-      Somos especialistas em desenvolver soluções 
+      We are experts in developing 
               <strong>
-                inovadoras
+                innovative
               </strong>
-               e 
+               and 
               <strong>
-                personalizadas
+                customized
               </strong>
                
-      para empresas que buscam se destacar no mercado digital. Nossa equipe combina expertise técnica 
-      com visão estratégica para entregar resultados excepcionais.
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
     
             </p>
             
 
     
             <h3>
-              Por que escolher nossa empresa?
+              Why choose our company?
             </h3>
             
 
@@ -1398,10 +1398,10 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                 
         
                 <strong>
-                  Experiência Comprovada
+                  Proven Experience
                 </strong>
-                 - Mais de 10 anos transformando ideias em 
-        soluções digitais de sucesso
+                 - Over 10 years transforming ideas into 
+        successful digital solutions
       
               </li>
               
@@ -1410,10 +1410,10 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                 
         
                 <strong>
-                  Tecnologia de Ponta
+                  Cutting-edge Technology
                 </strong>
-                 - Utilizamos as mais recentes tecnologias 
-        do mercado para garantir performance e segurança
+                 - We use the latest market technologies 
+        to ensure performance and security
       
               </li>
               
@@ -1422,10 +1422,10 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                 
         
                 <strong>
-                  Suporte Dedicado
+                  Dedicated Support
                 </strong>
-                 - Equipe sempre disponível para auxiliar 
-        em todas as etapas do projeto
+                 - Team always available to assist 
+        in all stages of the project
       
               </li>
               
@@ -1436,11 +1436,11 @@ exports[`<GridContent /> should render grid content with background 1`] = `
     
             <blockquote>
               
-      "A parceria com a empresa foi fundamental para o crescimento digital do nosso negócio. 
-      A equipe é extremamente profissional e dedicada."
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
       
               <cite>
-                - Maria Silva, CEO da TechCorp
+                - Maria Silva, CEO of TechCorp
               </cite>
               
     
@@ -1449,14 +1449,14 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 
     
             <h3>
-              Nossos Serviços
+              Our Services
             </h3>
             
 
     
             <p>
               
-      Oferecemos uma gama completa de serviços digitais para impulsionar seu negócio:
+      We offer a complete range of digital services to boost your business:
     
             </p>
             
@@ -1472,12 +1472,12 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                   
           
                   <th>
-                    Serviço
+                    Service
                   </th>
                   
           
                   <th>
-                    Benefícios
+                    Benefits
                   </th>
                   
         
@@ -1494,12 +1494,12 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                   
           
                   <td>
-                    Desenvolvimento Web
+                    Web Development
                   </td>
                   
           
                   <td>
-                    Sites responsivos, rápidos e otimizados para SEO
+                    Responsive, fast, and SEO-optimized websites
                   </td>
                   
         
@@ -1510,12 +1510,12 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                   
           
                   <td>
-                    Marketing Digital
+                    Digital Marketing
                   </td>
                   
           
                   <td>
-                    Estratégias personalizadas para aumentar sua presença online
+                    Customized strategies to increase your online presence
                   </td>
                   
         
@@ -1531,7 +1531,7 @@ exports[`<GridContent /> should render grid content with background 1`] = `
                   
           
                   <td>
-                    Plataformas robustas e seguras para vendas online
+                    Robust and secure platforms for online sales
                   </td>
                   
         
@@ -1546,13 +1546,13 @@ exports[`<GridContent /> should render grid content with background 1`] = `
 
     
             <h3>
-              Tecnologias que utilizamos
+              Technologies we use
             </h3>
             
     
             <p>
               
-      Trabalhamos com as tecnologias mais modernas do mercado, incluindo 
+      We work with the most modern technologies in the market, including 
       
               <code>
                 React
@@ -1561,37 +1561,37 @@ exports[`<GridContent /> should render grid content with background 1`] = `
               <code>
                 Node.js
               </code>
-               e 
+              , and 
               <code>
                 Python
               </code>
               . 
-      Nossa stack é constantemente atualizada para garantir as melhores soluções.
+      Our stack is constantly updated to ensure the best solutions.
     
             </p>
             
 
     
             <h3>
-              Entre em contato
+              Contact us
             </h3>
             
     
             <p>
               
-      Quer saber mais sobre como podemos ajudar seu negócio? 
+      Want to know more about how we can help your business? 
       
               <a
-                href="#contato"
+                href="#contact"
               >
-                Clique aqui
+                Click here
               </a>
-               para falar com um de nossos consultores ou 
-      envie um email para 
+               to speak with one of our consultants or 
+      send an email to 
               <a
-                href="mailto:contato@empresa.com"
+                href="mailto:contact@company.com"
               >
-                contato@empresa.com
+                contact@company.com
               </a>
               
     

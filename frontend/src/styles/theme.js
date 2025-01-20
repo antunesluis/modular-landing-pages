@@ -7,8 +7,8 @@ export const theme = {
   },
   fonts: {
     family: {
-      default: "'Open Sans', sans-serif",
-      secondary: "'Montserrat', sans-serif",
+      default: 'var(--font-open-sans)',
+      secondary: 'var(--font-montserrat)',
     },
     sizes: {
       xsmall: '8rem',

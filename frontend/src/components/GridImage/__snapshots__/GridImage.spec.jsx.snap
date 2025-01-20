@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<GridImage /> should render with background 1`] = `
+exports[`<GridImage /> > should render with background 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -142,12 +142,12 @@ exports[`<GridImage /> should render with background 1`] = `
         <h2
           class="c3"
         >
-          Galeria de projetos
+          Project Gallery
         </h2>
         <div
           class="c4 c5"
         >
-          Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.
+          Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.
         </div>
         <div
           class="c6"
@@ -249,7 +249,7 @@ exports[`<GridImage /> should render with background 1`] = `
 </div>
 `;
 
-exports[`<GridImage /> should render without background 1`] = `
+exports[`<GridImage /> > should render without background 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -391,12 +391,12 @@ exports[`<GridImage /> should render without background 1`] = `
         <h2
           class="c3"
         >
-          Galeria de projetos
+          Project Gallery
         </h2>
         <div
           class="c4 c5"
         >
-          Conheça alguns dos projetos transformadores que desenvolvemos para nossos clientes. Cada solução é única e pensada para maximizar resultados.
+          Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.
         </div>
         <div
           class="c6"

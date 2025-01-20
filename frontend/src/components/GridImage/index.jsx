@@ -1,3 +1,5 @@
+'use client';
+
 import P from 'prop-types';
 import { Heading } from '../Heading';
 import { SectionBackground } from '../SectionBackground';
@@ -11,12 +13,6 @@ export const GridImage = ({
   background = false,
   sectionId = '',
 }) => {
-  // Função para lidar com erros de carregamento de imagem
-  const handleImageError = (e) => {
-    e.target.src =
-      'https://via.placeholder.com/500x500?text=Imagem+não+encontrada';
-  };
-
   return (
     <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
@@ -32,7 +28,6 @@ export const GridImage = ({
               <Styled.Image
                 src={el.large || el.medium || el.small || el.thumbnail}
                 alt={el.altText}
-                onError={handleImageError}
                 loading="lazy"
               />
               <Styled.ImageCaption>{el.altText}</Styled.ImageCaption>

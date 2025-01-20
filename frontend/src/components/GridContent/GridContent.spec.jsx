@@ -25,7 +25,7 @@ describe('<GridContent />', () => {
 
   it('should render content', () => {
     renderTheme(<GridContent {...mock} />);
-    expect(screen.getByText(/transforme seu negócio/i)).toBeInTheDocument();
+    expect(screen.getByText(/transform your business/i)).toBeInTheDocument();
   });
 
   it('should match snapshot without background', () => {

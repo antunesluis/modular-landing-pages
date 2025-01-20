@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<GridText /> should match snapshot 1`] = `
+exports[`<GridText /> > should match snapshot 1`] = `
 .c4 {
   color: #FFFFFF;
   font-size: 6.4rem;
@@ -137,12 +137,12 @@ exports[`<GridText /> should match snapshot 1`] = `
         <h2
           class="c3 c4"
         >
-          Nossos Serviços
+          Our Services
         </h2>
         <div
           class="c5 c6"
         >
-          Oferecemos soluções completas em desenvolvimento de software, com foco em qualidade e inovação. Nossa equipe especializada está pronta para transformar suas ideias em realidade.
+          We offer complete software development solutions, focusing on quality and innovation. Our specialized team is ready to turn your ideas into reality.
         </div>
         <div
           class="c7"
@@ -164,13 +164,13 @@ exports[`<GridText /> should match snapshot 1`] = `
               <h3
                 class="c3 c12"
               >
-                Consultoria Técnica
+                Technical Consulting
               </h3>
             </div>
             <div
               class="c5 c6"
             >
-              Oferecemos consultoria especializada em arquitetura de software, escolha de tecnologias e melhores práticas de desenvolvimento. Ajudamos sua equipe a tomar as melhores decisões técnicas.
+              We provide specialized consulting in software architecture, technology choices, and development best practices. We help your team make the best technical decisions.
             </div>
           </div>
           <div
@@ -195,7 +195,7 @@ exports[`<GridText /> should match snapshot 1`] = `
             <div
               class="c5 c6"
             >
-              Criamos aplicações web modernas e responsivas utilizando as mais recentes tecnologias do mercado. Nosso foco está em React, Next.js e Node.js, garantindo performance e escalabilidade para seu projeto.
+              We create modern and responsive web applications using the latest market technologies. Our focus is on React, Next.js, and Node.js, ensuring performance and scalability for your project.
             </div>
           </div>
           <div
@@ -220,7 +220,7 @@ exports[`<GridText /> should match snapshot 1`] = `
             <div
               class="c5 c6"
             >
-              Nossa equipe de design cria interfaces intuitivas e atraentes, focando na experiência do usuário. Trabalhamos com prototipação, testes de usabilidade e design systems completos.
+              Our design team creates intuitive and attractive interfaces, focusing on user experience. We work with prototyping, usability testing, and complete design systems.
             </div>
           </div>
         </div>

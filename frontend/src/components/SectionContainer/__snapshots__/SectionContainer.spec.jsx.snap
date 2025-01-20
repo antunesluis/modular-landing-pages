@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<SectionContainer /> should render content 1`] = `
+exports[`<SectionContainer /> > should render content 1`] = `
 .c0 {
   max-width: 120rem;
   margin: 0 auto;

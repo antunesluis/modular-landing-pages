@@ -1,71 +1,20 @@
-import { useEffect, useRef, useState } from 'react';
-import { mapData } from '../../api/map-data';
+// src/templates/Home/index.jsx
+'use client';
 
-import { Base } from '../Base';
-import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
+import P from 'prop-types';
+import { GridTwoColumns } from '@/components/GridTwoColumns';
+import { GridText } from '@/components/GridText';
+import { GridImage } from '@/components/GridImage';
+import { GridContent } from '@/components/GridContent';
+import { Base } from '@/templates/Base';
+import { PageNotFound } from '@/templates/PageNotFound';
 
-import { GridTwoColumns } from '../../components/GridTwoColumns';
-import { GridContent } from '../../components/GridContent';
-import { GridText } from '../../components/GridText';
-import { GridImage } from '../../components/GridImage';
-import { pageService } from '../../api/services';
-import { useLocation } from 'react-router-dom';
-
-import config from '../../config';
-
-function Home() {
-  const [data, setData] = useState([]);
-  const location = useLocation();
-  const isMounted = useRef(true);
-
-  useEffect(() => {
-    const load = async () => {
-      const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
-      const slug = pathName ? pathName : 'landing-page';
-
-      try {
-        const json = await pageService.getPageBySlug(slug);
-        const pageData = mapData(json.data);
-
-        setData(() => pageData[0]);
-      } catch {
-        setData(undefined);
-      }
-    };
-
-    if (isMounted.current === true) {
-      load();
-    }
-
-    return () => {
-      isMounted.current = false;
-    };
-  }, [location]);
-
-  useEffect(() => {
-    if (data === undefined) {
-      document.title = `Página não encontrada | ${config.siteName}`;
-    }
-
-    if (data && !data.slug) {
-      document.title = `Carregando... | ${config.siteName}`;
-    }
-
-    if (data && data.title) {
-      document.title = `${data.title} | ${config.siteName}`;
-    }
-  }, [data]);
-
-  if (data === undefined) {
+function Home({ data }) {
+  if (!data || !data.length) {
     return <PageNotFound />;
   }
 
-  if (data && !data.slug) {
-    return <Loading />;
-  }
-
-  const { menu, sections, footerHtml, slug } = data;
+  const { menu, sections, footerHtml, slug } = data[0];
   const { links, text, link, srcImg } = menu;
 
   return (
@@ -74,6 +23,7 @@ function Home() {
       footerHtml={footerHtml}
       logoData={{ text, link, srcImg }}
     >
+      {/* Removido o Head pois no App Router usamos metadata() */}
       {sections.map((section, index) => {
         const { component } = section;
         const key = `${slug}-${index}`;
@@ -81,15 +31,12 @@ function Home() {
         if (component === 'section.section-two-columns') {
           return <GridTwoColumns key={key} {...section} />;
         }
-
         if (component === 'section.section-content') {
           return <GridContent key={key} {...section} />;
         }
-
         if (component === 'section.section-grid-text') {
           return <GridText key={key} {...section} />;
         }
-
         if (component === 'section.section-grid-image') {
           return <GridImage key={key} {...section} />;
         }
@@ -97,5 +44,9 @@ function Home() {
     </Base>
   );
 }
+
+Home.propTypes = {
+  data: P.array,
+};
 
 export default Home;

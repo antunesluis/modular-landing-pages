@@ -1,3 +1,5 @@
+'use client';
+
 import P from 'prop-types';
 import { Heading } from '../Heading';
 import { SectionBackground } from '../SectionBackground';

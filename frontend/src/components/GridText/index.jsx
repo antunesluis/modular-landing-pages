@@ -1,3 +1,5 @@
+'use client';
+
 import P from 'prop-types';
 import * as Styled from './styles';
 import { SectionBackground } from '../SectionBackground';
@@ -21,11 +23,7 @@ export const GridText = ({
 
         <Styled.Grid role="grid">
           {grid.map((element, index) => (
-            <Styled.GridElement
-              key={element.title}
-              role="article"
-              background={background}
-            >
+            <Styled.GridElement key={element.title} role="article">
               <Styled.HeaderContainer>
                 <Styled.CardNumber>{index + 1}</Styled.CardNumber>{' '}
                 <Heading size="medium" colorDark={!background} as="h3">

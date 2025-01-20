@@ -1,3 +1,4 @@
+'use client';
 import * as Styled from './styles';
 import { KeyboardArrowUp } from '@styled-icons/material-outlined/KeyboardArrowUp';
 import PropTypes from 'prop-types';

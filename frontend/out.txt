@@ -1,6 +1,896 @@
 
-> client@0.1.0 test
-> react-scripts test
+> landing-pages-react@0.1.0 test
+> vitest
 
+[?25l
+ DEV  v3.0.2 /home/antunesluis/Projects/GitHub/next-landing-pages-react/src
 
+ ✓ api/map-menu.test.js (4 tests) 15ms
+ ✓ api/map-sections.test.js (11 tests) 16ms
+ ✓ components/Heading/Heading.test.jsx (5 tests) 178ms
+ ✓ components/GridText/GridText.test.jsx (4 tests) 351ms
+ ✓ components/Menu/Menu.test.jsx (3 tests) 292ms
+ ❯ components/GridContent/GridContent.test.jsx (6 tests | 1 failed) 327ms
+   ✓ <GridContent /> > should render grid content
+   ✓ <GridContent /> > should render grid content with background
+   ✓ <GridContent /> > should render the title
+   × <GridContent /> > should render content 36ms
+     → Unable to find an element with the text: /transforme seu negócio/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"sc-eaUbBy dOsQGm"[39m
+      [33mid[39m=[32m""[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"sc-gyycJP eUYVBY"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"sc-dDvxFM eWOggR"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"sc-KXCwU iGsGeg"[39m
+          [36m>[39m
+            [0mOur Digital Solutions[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"sc-jqVXSH gpWUJu"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-gaZyOd cvdGov"[39m
+            [36m>[39m
+              [0m
+    [0m
+              [36m<h2>[39m
+                [0mTransform Your Business with Our Solutions[0m
+              [36m</h2>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We are experts in developing [0m
+                [36m<strong>[39m
+                  [0minnovative[0m
+                [36m</strong>[39m
+                [0m and [0m
+                [36m<strong>[39m
+                  [0mcustomized[0m
+                [36m</strong>[39m
+                [0m 
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mWhy choose our company?[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<ul>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mProven Experience[0m
+                  [36m</strong>[39m
+                  [0m - Over 10 years transforming ideas into 
+        successful digital solutions
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mCutting-edge Technology[0m
+                  [36m</strong>[39m
+                  [0m - We use the latest market technologies 
+        to ensure performance and security
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mDedicated Support[0m
+                  [36m</strong>[39m
+                  [0m - Team always available to assist 
+        in all stages of the project
+      [0m
+                [36m</li>[39m
+                [0m
+    [0m
+              [36m</ul>[39m
+              [0m
+
+    [0m
+              [36m<blockquote>[39m
+                [0m
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
+      [0m
+                [36m<cite>[39m
+                  [0m- Maria Silva, CEO of TechCorp[0m
+                [36m</cite>[39m
+                [0m
+    [0m
+              [36m</blockquote>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mOur Services[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<p>[39m
+                [0m
+      We offer a complete range of digital services to boost your business:
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<table>[39m
+                [0m
+      [0m
+                [36m<thead>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mService[0m
+                    [36m</th>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mBenefits[0m
+                    [36m</th>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</thead>[39m
+                [0m
+      [0m
+                [36m<tbody>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mWeb Development[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mResponsive, fast, and SEO-optimized websites[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mDigital Marketing[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mCustomized strategies to increase your online presence[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mE-commerce[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mRobust and secure platforms for online sales[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</tbody>[39m
+                [0m
+    [0m
+              [36m</table>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mTechnologies we use[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We work with the most modern technologies in the market, including 
+      [0m
+                [36m<code>[39m
+                  [0mReact[0m
+                [36m</code>[39m
+                [0m, [0m
+                [36m<code>[39m
+                  [0mNode.js[0m
+                [36m</code>[39m
+                [0m, and [0m
+                [36m<code>[39m
+                  [0mPython[0m
+                [36m</code>[39m
+                [0m. 
+      Our stack is constantly updated to ensure the best solutions.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mContact us[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      Want to know more about how we can help your business? 
+      [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"#contact"[39m
+                [36m>[39m
+                  [0mClick here[0m
+                [36m</a>[39m
+                [0m to speak with one of our consultants or 
+      send an email to [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"mailto:contact@company.com"[39m
+                [36m>[39m
+                  [0mcontact@company.com[0m
+                [36m</a>[39m
+                [0m
+    [0m
+              [36m</p>[39m
+              [0m
+  [0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ✓ <GridContent /> > should match snapshot without background
+   ✓ <GridContent /> > should match snapshot with background
+ ✓ components/NavLinks/NavLinks.test.jsx (3 tests) 171ms
+ ✓ components/LogoLink/LogoLink.test.jsx (3 tests) 183ms
+ ✓ api/map-data.test.js (2 tests) 9ms
+ ✓ components/MenuLink/MenuLink.test.jsx (3 tests) 170ms
+ ✓ components/GoTop/GoTop.test.jsx (3 tests) 157ms
+ ✓ components/SectionBackground/SectionBackground.test.jsx (2 tests) 232ms
+ ✓ components/TextComponent/TextComponent.test.jsx (2 tests) 66ms
+ ✓ components/Footer/Footer.test.jsx (2 tests) 234ms
+ ✓ components/GridImage/GridImage.test.jsx (2 tests) 144ms
+ ✓ components/SectionContainer/SectionContainer.test.jsx (1 test) 142ms
+ ✓ components/GridTwoColumns/GridTwoColumns.test.jsx (1 test) 129ms
+
+ Test Files  1 failed | 16 passed (17)
+      Tests  1 failed | 56 passed (57)
+   Start at  13:07:18
+   Duration  4.24s (transform 264ms, setup 2.16s, collect 3.13s, tests 2.82s, environment 9.82s, prepare 2.09s)
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+c[3J RERUN  ../components/GridContent/GridContent.test.jsx x1 
+
+ ❯ components/GridContent/GridContent.test.jsx (6 tests | 1 failed) 247ms
+   ✓ <GridContent /> > should render grid content
+   ✓ <GridContent /> > should render grid content with background
+   ✓ <GridContent /> > should render the title
+   × <GridContent /> > should render content 24ms
+     → Unable to find an element with the text: /transforme seu negócio/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"sc-eaUbBy dOsQGm"[39m
+      [33mid[39m=[32m""[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"sc-gyycJP eUYVBY"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"sc-dDvxFM eWOggR"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"sc-KXCwU iGsGeg"[39m
+          [36m>[39m
+            [0mOur Digital Solutions[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"sc-jqVXSH gpWUJu"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-gaZyOd cvdGov"[39m
+            [36m>[39m
+              [0m
+    [0m
+              [36m<h2>[39m
+                [0mTransform Your Business with Our Solutions[0m
+              [36m</h2>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We are experts in developing [0m
+                [36m<strong>[39m
+                  [0minnovative[0m
+                [36m</strong>[39m
+                [0m and [0m
+                [36m<strong>[39m
+                  [0mcustomized[0m
+                [36m</strong>[39m
+                [0m 
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mWhy choose our company?[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<ul>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mProven Experience[0m
+                  [36m</strong>[39m
+                  [0m - Over 10 years transforming ideas into 
+        successful digital solutions
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mCutting-edge Technology[0m
+                  [36m</strong>[39m
+                  [0m - We use the latest market technologies 
+        to ensure performance and security
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mDedicated Support[0m
+                  [36m</strong>[39m
+                  [0m - Team always available to assist 
+        in all stages of the project
+      [0m
+                [36m</li>[39m
+                [0m
+    [0m
+              [36m</ul>[39m
+              [0m
+
+    [0m
+              [36m<blockquote>[39m
+                [0m
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
+      [0m
+                [36m<cite>[39m
+                  [0m- Maria Silva, CEO of TechCorp[0m
+                [36m</cite>[39m
+                [0m
+    [0m
+              [36m</blockquote>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mOur Services[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<p>[39m
+                [0m
+      We offer a complete range of digital services to boost your business:
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<table>[39m
+                [0m
+      [0m
+                [36m<thead>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mService[0m
+                    [36m</th>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mBenefits[0m
+                    [36m</th>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</thead>[39m
+                [0m
+      [0m
+                [36m<tbody>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mWeb Development[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mResponsive, fast, and SEO-optimized websites[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mDigital Marketing[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mCustomized strategies to increase your online presence[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mE-commerce[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mRobust and secure platforms for online sales[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</tbody>[39m
+                [0m
+    [0m
+              [36m</table>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mTechnologies we use[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We work with the most modern technologies in the market, including 
+      [0m
+                [36m<code>[39m
+                  [0mReact[0m
+                [36m</code>[39m
+                [0m, [0m
+                [36m<code>[39m
+                  [0mNode.js[0m
+                [36m</code>[39m
+                [0m, and [0m
+                [36m<code>[39m
+                  [0mPython[0m
+                [36m</code>[39m
+                [0m. 
+      Our stack is constantly updated to ensure the best solutions.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mContact us[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      Want to know more about how we can help your business? 
+      [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"#contact"[39m
+                [36m>[39m
+                  [0mClick here[0m
+                [36m</a>[39m
+                [0m to speak with one of our consultants or 
+      send an email to [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"mailto:contact@company.com"[39m
+                [36m>[39m
+                  [0mcontact@company.com[0m
+                [36m</a>[39m
+                [0m
+    [0m
+              [36m</p>[39m
+              [0m
+  [0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ✓ <GridContent /> > should render content
+   ✓ <GridContent /> > should match snapshot with background
+
+  Snapshots  1 obsolete
+             ↳ components/GridContent/GridContent.test.jsx
+               · <GridContent /> > should match snapshot without background 1
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 5 passed (6)
+   Start at  13:09:46
+   Duration  486ms
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+c[3J RERUN  ../components/GridContent/GridContent.test.jsx x2 
+
+ ❯ components/GridContent/GridContent.test.jsx (6 tests | 1 failed) 265ms
+   ✓ <GridContent /> > should render grid content
+   ✓ <GridContent /> > should render grid content with background
+   ✓ <GridContent /> > should render the title
+   × <GridContent /> > should render content 36ms
+     → Unable to find an element with the text: /transforme seu negócio/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"sc-eaUbBy dOsQGm"[39m
+      [33mid[39m=[32m""[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"sc-gyycJP eUYVBY"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"sc-dDvxFM eWOggR"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"sc-KXCwU iGsGeg"[39m
+          [36m>[39m
+            [0mOur Digital Solutions[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"sc-jqVXSH gpWUJu"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-gaZyOd cvdGov"[39m
+            [36m>[39m
+              [0m
+    [0m
+              [36m<h2>[39m
+                [0mTransform Your Business with Our Solutions[0m
+              [36m</h2>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We are experts in developing [0m
+                [36m<strong>[39m
+                  [0minnovative[0m
+                [36m</strong>[39m
+                [0m and [0m
+                [36m<strong>[39m
+                  [0mcustomized[0m
+                [36m</strong>[39m
+                [0m 
+      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      expertise with strategic vision to deliver exceptional results.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mWhy choose our company?[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<ul>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mProven Experience[0m
+                  [36m</strong>[39m
+                  [0m - Over 10 years transforming ideas into 
+        successful digital solutions
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mCutting-edge Technology[0m
+                  [36m</strong>[39m
+                  [0m - We use the latest market technologies 
+        to ensure performance and security
+      [0m
+                [36m</li>[39m
+                [0m
+      [0m
+                [36m<li>[39m
+                  [0m
+        [0m
+                  [36m<strong>[39m
+                    [0mDedicated Support[0m
+                  [36m</strong>[39m
+                  [0m - Team always available to assist 
+        in all stages of the project
+      [0m
+                [36m</li>[39m
+                [0m
+    [0m
+              [36m</ul>[39m
+              [0m
+
+    [0m
+              [36m<blockquote>[39m
+                [0m
+      "The partnership with the company was fundamental to our business's digital growth. 
+      The team is extremely professional and dedicated."
+      [0m
+                [36m<cite>[39m
+                  [0m- Maria Silva, CEO of TechCorp[0m
+                [36m</cite>[39m
+                [0m
+    [0m
+              [36m</blockquote>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mOur Services[0m
+              [36m</h3>[39m
+              [0m
+
+    [0m
+              [36m<p>[39m
+                [0m
+      We offer a complete range of digital services to boost your business:
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<table>[39m
+                [0m
+      [0m
+                [36m<thead>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mService[0m
+                    [36m</th>[39m
+                    [0m
+          [0m
+                    [36m<th>[39m
+                      [0mBenefits[0m
+                    [36m</th>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</thead>[39m
+                [0m
+      [0m
+                [36m<tbody>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mWeb Development[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mResponsive, fast, and SEO-optimized websites[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mDigital Marketing[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mCustomized strategies to increase your online presence[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+        [0m
+                  [36m<tr>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mE-commerce[0m
+                    [36m</td>[39m
+                    [0m
+          [0m
+                    [36m<td>[39m
+                      [0mRobust and secure platforms for online sales[0m
+                    [36m</td>[39m
+                    [0m
+        [0m
+                  [36m</tr>[39m
+                  [0m
+      [0m
+                [36m</tbody>[39m
+                [0m
+    [0m
+              [36m</table>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mTechnologies we use[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      We work with the most modern technologies in the market, including 
+      [0m
+                [36m<code>[39m
+                  [0mReact[0m
+                [36m</code>[39m
+                [0m, [0m
+                [36m<code>[39m
+                  [0mNode.js[0m
+                [36m</code>[39m
+                [0m, and [0m
+                [36m<code>[39m
+                  [0mPython[0m
+                [36m</code>[39m
+                [0m. 
+      Our stack is constantly updated to ensure the best solutions.
+    [0m
+              [36m</p>[39m
+              [0m
+
+    [0m
+              [36m<h3>[39m
+                [0mContact us[0m
+              [36m</h3>[39m
+              [0m
+    [0m
+              [36m<p>[39m
+                [0m
+      Want to know more about how we can help your business? 
+      [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"#contact"[39m
+                [36m>[39m
+                  [0mClick here[0m
+                [36m</a>[39m
+                [0m to speak with one of our consultants or 
+      send an email to [0m
+                [36m<a[39m
+                  [33mhref[39m=[32m"mailto:contact@company.com"[39m
+                [36m>[39m
+                  [0mcontact@company.com[0m
+                [36m</a>[39m
+                [0m
+    [0m
+              [36m</p>[39m
+              [0m
+  [0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ✓ <GridContent /> > should render content
+   ✓ <GridContent /> > should match snapshot with background
+
+  Snapshots  1 obsolete
+             ↳ components/GridContent/GridContent.test.jsx
+               · <GridContent /> > should match snapshot without background 1
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 5 passed (6)
+   Start at  13:09:47
+   Duration  500ms
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+Cancelling test run. Press CTRL+c again to exit forcefully.
+
+[?25h

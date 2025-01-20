@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<MenuLink /> should match snapshot 1`] = `
+exports[`<MenuLink /> > should match snapshot 1`] = `
 .c0 {
   display: block;
   text-decoration: none;

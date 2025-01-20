@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<GridTwoColumns /> should render 1`] = `
+exports[`<GridTwoColumns /> > should render 1`] = `
 .c5 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -116,19 +116,19 @@ exports[`<GridTwoColumns /> should render 1`] = `
           <h2
             class="c4 c5"
           >
-            Inovação Digital para seu Negócio
+            Digital Innovation for Your Business
           </h2>
           <div
             class="c6"
           >
-            Desde 2012, somos referência em desenvolvimento de software e transformação digital. Nossa equipe combina expertise técnica com visão estratégica para criar soluções que impulsionam o crescimento do seu negócio.
+            Since 2012, we have been a reference in software development and digital transformation. Our team combines technical expertise with strategic vision to create solutions that drive your business growth.
           </div>
         </div>
         <div
           class="c7"
         >
           <img
-            alt="Inovação Digital para seu Negócio"
+            alt="Digital Innovation for Your Business"
             class="c8"
             src="assets/images/illustration/programador.svg"
           />

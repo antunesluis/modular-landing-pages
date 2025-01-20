@@ -1,3 +1,4 @@
+'use client';
 import P from 'prop-types';
 import * as Styled from './styles';
 import { SectionContainer } from '../SectionContainer';
@@ -13,7 +14,7 @@ export const Menu = ({ links = [], logoData }) => {
   return (
     <>
       <Styled.Button
-        visible={visible}
+        $visible={visible}
         onClick={() => setVisible(true)}
         aria-label="Open/Close menu"
       >
@@ -23,7 +24,7 @@ export const Menu = ({ links = [], logoData }) => {
           <MenuIcon aria-label="Open menu" />
         )}
       </Styled.Button>
-      <Styled.Container visible={visible} onClick={() => setVisible(false)}>
+      <Styled.Container $visible={visible} onClick={() => setVisible(false)}>
         <SectionContainer>
           <Styled.MenuContainer>
             <LogoLink {...logoData} />
