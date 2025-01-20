@@ -6,7 +6,7 @@ A modular system for creating dynamic landing pages, built with Next.js, React, 
 
 1. Configure the data models and components in the Strapi admin panel.
 2. Add content to the landing pages using the CMS interface.
-3. Access the frontend to view the dynamically generated landing pages.
+3. Access the frontend to view the dynamically generated landing pages
 
 ## Tech Stack
 
