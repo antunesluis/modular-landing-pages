@@ -3,6 +3,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  trailingSlash: true,
 };
 
 export default nextConfig;

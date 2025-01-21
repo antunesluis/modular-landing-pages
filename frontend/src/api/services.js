@@ -17,14 +17,7 @@ export const pageService = {
 
     console.log('Fetching URL:', url);
 
-    const response = await fetch(url, {
-      next: {
-        revalidate: 3600,
-      },
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    const response = await fetch(url);
 
     if (!response.ok) {
       throw new Error(`Failed to fetch data: ${response.status}`);
