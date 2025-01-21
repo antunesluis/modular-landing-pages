@@ -10,18 +10,16 @@ export const pageService = {
       'populate[menu][populate]=*',
     ].join('&');
 
-    // let url;
-    // if (slug = '') {
-    //   url = `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`;
-    // }
-    // url = `${baseUrl}/api/pages?${query}`;
+    // Corrigindo a construção da URL
+    const url = slug
+      ? `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`
+      : `${baseUrl}/api/pages?${query}`;
 
-    console.log('slug do service:', slug);
-    const url = `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`;
+    console.log('Fetching URL:', url);
 
     const response = await fetch(url, {
       next: {
-        revalidate: 3600, // revalidar a cada hora
+        revalidate: 3600,
       },
       headers: {
         'Content-Type': 'application/json',

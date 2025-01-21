@@ -5,9 +5,9 @@ import config from '@/config';
 
 export async function generateMetadata({ params }) {
   try {
-    const data = await loadPages(config.defaultSlug);
+    const data = await loadPages(params?.slug);
     return {
-      title: `${data[0].title} | ${config.siteName}`,
+      title: `${data[0]?.title || 'Page Not Found'} | ${config.siteName}`,
     };
   } catch (error) {
     return {
@@ -19,9 +19,9 @@ export async function generateMetadata({ params }) {
 export async function generateStaticParams() {
   try {
     const pages = await loadPages();
-    // Filter out the home page and empty slugs
+    // Filtrando páginas válidas e removendo a página inicial
     return pages
-      .filter((page) => page.slug)
+      .filter((page) => page.slug && page.slug !== config.defaultSlug)
       .map((page) => ({
         slug: page.slug,
       }));
@@ -32,11 +32,15 @@ export async function generateStaticParams() {
 }
 
 export default async function Page({ params }) {
+  if (!params?.slug) {
+    notFound();
+  }
+
   try {
-    console.log('slug dinamico:', params.slug);
+    console.log('Loading page for slug:', params.slug);
     const data = await loadPages(params.slug);
 
-    if (!data || !data.length) {
+    if (!data?.length) {
       notFound();
     }
 

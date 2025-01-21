@@ -2,17 +2,23 @@ import { mapData } from './map-data';
 import { pageService } from './services';
 
 export const loadPages = async (slug = '') => {
-  const cleanSlug = slug ? slug.replace(/[^a-z0-9-_]/gi, '') : '';
-  console.log('cleanSlug:', cleanSlug);
-
   try {
+    // Limpando o slug e removendo espaços em branco
+    const cleanSlug = slug ? slug.trim().replace(/[^a-z0-9-_]/gi, '') : '';
+    console.log('Processing slug:', cleanSlug);
+
     const data = await pageService.getPageBySlug(cleanSlug);
 
-    if (!data || !data.data) {
-      throw new Error('No data returned from API');
+    console.log('Data:', data);
+
+    if (!data || !data.data || !data.data.length) {
+      console.log('No data found for slug:', cleanSlug);
+      return [];
     }
 
-    return mapData(data.data);
+    const mappedData = mapData(data.data);
+    console.log('Mapped data:', mappedData.length, 'items');
+    return mappedData;
   } catch (error) {
     console.error('Error in loadPages:', error);
     return [];
