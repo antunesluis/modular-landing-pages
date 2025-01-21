@@ -1,33 +1,33 @@
-// app/page.jsx
-import { pageService } from '@/api/services';
-import { mapData } from '@/api/map-data';
-import Home from '@/templates/Home'; // Mudando para import default
+import { loadPages } from '@/api/load-pages';
+import Home from '@/templates/Home';
+import { notFound } from 'next/navigation';
 import config from '@/config';
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata() {
   try {
-    const data = await pageService.getPageBySlug(config.defaultSlug);
-    const pageData = mapData(data.data);
+    const data = await loadPages();
     return {
-      title: `${pageData[0].title} | ${config.siteName}`,
+      title: `${data[0].title} | ${config.siteName}`,
     };
   } catch (error) {
     return {
-      title: `Error | ${config.siteName}`,
+      title: `Home | ${config.siteName}`,
     };
   }
 }
 
-async function Page() {
+export default async function Page() {
   try {
-    const data = await pageService.getPageBySlug(config.defaultSlug);
-    const pageData = mapData(data.data);
+    console.log('defaultSlug:', config.defaultSlug);
+    const data = await loadPages(config.defaultSlug);
 
-    return <Home data={pageData} />;
+    if (!data || !data.length) {
+      notFound();
+    }
+
+    return <Home data={data} />;
   } catch (error) {
-    console.error('Error fetching data:', error);
-    return <div>Erro ao carregar a página</div>;
+    console.error('Error loading home page:', error);
+    notFound();
   }
 }
-
-export default Page;

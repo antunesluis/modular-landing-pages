@@ -1,4 +1,3 @@
-// src/api/services.js
 export const pageService = {
   getPageBySlug: async (slug) => {
     const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:1337';
@@ -11,6 +10,13 @@ export const pageService = {
       'populate[menu][populate]=*',
     ].join('&');
 
+    // let url;
+    // if (slug = '') {
+    //   url = `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`;
+    // }
+    // url = `${baseUrl}/api/pages?${query}`;
+
+    console.log('slug do service:', slug);
     const url = `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`;
 
     const response = await fetch(url, {
