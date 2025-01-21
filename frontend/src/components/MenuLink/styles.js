@@ -1,11 +1,10 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.a`
+export const Container = styled.div`
   ${({ theme }) => css`
     display: block;
     text-decoration: none;
     position: relative;
-
     font-size: ${theme.fonts.sizes.small};
     padding: ${theme.spacings.small};
     color: ${theme.colors.primaryColor};
