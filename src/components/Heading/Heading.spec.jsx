@@ -57,4 +57,13 @@ describe('<Heading/>', () => {
 
     expect(h6.tagName.toLowerCase()).toBe('h6');
   });
+
+  it('should render with correct font size for "big"', () => {
+    renderTheme(<Heading size="big">texto</Heading>);
+    const heading = screen.getByRole('heading', { name: 'texto' });
+
+    expect(heading).toHaveStyle({
+      'font-size': theme.fonts.sizes.xlarge,
+    });
+  });
 });

@@ -31,7 +31,7 @@ export const mapSectionTwoColumns = (section = {}) => {
     __component: component = '',
     title = '',
     description: text = '',
-    image: { url: srcImg = '' } = '',
+    image = {},
     metadata: { background = false, section_id: sectionId = '' } = '',
   } = section;
 
@@ -39,7 +39,7 @@ export const mapSectionTwoColumns = (section = {}) => {
     component,
     title,
     text,
-    srcImg,
+    srcImg: image?.url || '',
     background,
     sectionId,
   };
@@ -79,8 +79,8 @@ export const mapTextGrid = (section = {}) => {
     grid: grid.map((text) => {
       const { title = '', description = '' } = text;
       return {
-        title,
-        description,
+        title: title || '',
+        description: description || '',
       };
     }),
   };

@@ -3,7 +3,6 @@ import { pageService } from './services';
 
 export const loadPages = async (slug = '') => {
   try {
-    // Limpando o slug e removendo espaços em branco
     const cleanSlug = slug ? slug.trim().replace(/[^a-z0-9-_]/gi, '') : '';
     const data = await pageService.getPageBySlug(cleanSlug);
 
