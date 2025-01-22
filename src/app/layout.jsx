@@ -16,6 +16,11 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
+export const metadata = {
+  title: 'Your App Title',
+  description: 'Your app description goes here.',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html
@@ -23,6 +28,9 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
       className={`${openSans.variable} ${montserrat.variable}`}
     >
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </head>
       <body>
         <StyledComponentsRegistry>
           <ClientLayout>{children}</ClientLayout>
