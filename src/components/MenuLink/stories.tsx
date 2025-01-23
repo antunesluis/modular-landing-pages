@@ -1,6 +1,7 @@
+import type { Meta, StoryObj } from '@storybook/react';
 import { MenuLink } from '.';
 
-export default {
+const meta: Meta<typeof MenuLink> = {
   title: 'Components/MenuLink',
   component: MenuLink,
   args: {
@@ -12,10 +13,8 @@ export default {
   },
 };
 
-export const Template = (args) => {
-  return (
-    <div style={{ display: 'flex' }}>
-      <MenuLink {...args} />
-    </div>
-  );
-};
+export default meta;
+
+type Story = StoryObj<typeof MenuLink>;
+
+export const Template: Story = {};

@@ -1,11 +1,21 @@
 'use client';
-import P from 'prop-types';
+import React, { ReactNode } from 'react';
 import * as Styled from './styles';
 import Link from 'next/link';
 
-export const MenuLink = ({ children, link, newTab = false }) => {
+export type MenuLinkProps = {
+  children: ReactNode;
+  link: string;
+  newTab?: boolean;
+};
+
+export const MenuLink: React.FC<MenuLinkProps> = ({
+  children,
+  link,
+  newTab = false,
+}) => {
   const target = newTab ? '_blank' : '_self';
-  const isInternal = link.match(/^\//) ? true : false;
+  const isInternal = link.startsWith('/');
 
   if (isInternal) {
     return (
@@ -22,10 +32,4 @@ export const MenuLink = ({ children, link, newTab = false }) => {
       {children}
     </Styled.Container>
   );
-};
-
-MenuLink.propTypes = {
-  children: P.node.isRequired,
-  link: P.string.isRequired,
-  newTab: P.bool,
 };

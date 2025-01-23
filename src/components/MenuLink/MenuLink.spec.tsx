@@ -2,11 +2,15 @@ import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 import { MenuLink } from '.';
 
-vi.mock('next/link', () => {
-  return {
-    default: ({ children, href }) => <a href={href}>{children}</a>,
-  };
-});
+vi.mock('next/link', () => ({
+  default: ({
+    children,
+    href,
+  }: {
+    children: React.ReactNode;
+    href: string;
+  }) => <a href={href}>{children}</a>,
+}));
 
 describe('<MenuLink />', () => {
   it('should render a Next.js Link for internal links', () => {

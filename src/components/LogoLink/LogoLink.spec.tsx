@@ -2,12 +2,12 @@ import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 import { LogoLink } from '.';
 
-vi.mock('next/image', () => {
-  return {
-    __esModule: true,
-    default: ({ src, alt }) => <img src={src} alt={alt} />,
-  };
-});
+vi.mock('next/image', () => ({
+  __esModule: true,
+  default: ({ src, alt }: { src: string; alt: string }) => (
+    <img src={src} alt={alt} />
+  ),
+}));
 
 describe('<LogoLink />', () => {
   it('should render text logo', () => {

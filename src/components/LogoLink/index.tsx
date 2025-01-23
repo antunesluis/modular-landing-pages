@@ -1,11 +1,21 @@
 'use client';
-import P from 'prop-types';
+import React from 'react';
 import * as Styled from './styles';
 import { Heading } from '../Heading';
 import Link from 'next/link';
 
-export const LogoLink = ({ text, srcImg = '', link }) => {
-  const isInternal = link.match(/^\//) ? true : false;
+export type LogoLinkProps = {
+  text: string;
+  srcImg?: string;
+  link: string;
+};
+
+export const LogoLink: React.FC<LogoLinkProps> = ({
+  text,
+  srcImg = '',
+  link,
+}) => {
+  const isInternal = link.startsWith('/');
   const content = (
     <>
       {!!srcImg && <img src={srcImg} alt={text} />}
@@ -24,10 +34,4 @@ export const LogoLink = ({ text, srcImg = '', link }) => {
       )}
     </Heading>
   );
-};
-
-LogoLink.propTypes = {
-  text: P.string.isRequired,
-  srcImg: P.string,
-  link: P.string.isRequired,
 };

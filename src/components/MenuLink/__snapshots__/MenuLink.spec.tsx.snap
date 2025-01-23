@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<MenuLink /> > should match snapshot 1`] = `
+.c0 {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0A1128;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.8rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+<a
+  class="c0"
+  href="http://localhost"
+  target="_self"
+>
+  Children
+</a>
+`;
