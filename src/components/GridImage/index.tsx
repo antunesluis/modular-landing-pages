@@ -1,18 +1,35 @@
 'use client';
 
-import P from 'prop-types';
+import React from 'react';
 import { Heading } from '../Heading';
 import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
-export const GridImage = ({
+interface GridItem {
+  large?: string;
+  medium?: string;
+  small?: string;
+  thumbnail?: string;
+  altText: string;
+  srcImg?: string;
+}
+
+interface GridImageProps {
+  background?: boolean;
+  title: string;
+  description: string;
+  grid: GridItem[];
+  sectionId?: string;
+}
+
+export const GridImage: React.FC<GridImageProps> = ({
   title,
   description,
   grid,
   background = false,
   sectionId = '',
-}) => {
+}: GridImageProps) => {
   return (
     <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
@@ -21,12 +38,14 @@ export const GridImage = ({
         </Heading>
         <TextComponent>{description}</TextComponent>
         <Styled.Grid>
-          {grid.map((el) => (
+          {grid.map((el: GridItem) => (
             <Styled.GridElement
               key={`${el.large || el.medium || el.small}${el.altText}`}
             >
               <Styled.Image
-                src={el.large || el.medium || el.small || el.thumbnail}
+                src={
+                  el.large || el.medium || el.small || el.thumbnail || el.srcImg
+                }
                 alt={el.altText}
                 loading="lazy"
               />
@@ -37,20 +56,4 @@ export const GridImage = ({
       </Styled.Container>
     </SectionBackground>
   );
-};
-
-GridImage.propTypes = {
-  background: P.bool,
-  title: P.string.isRequired,
-  description: P.string.isRequired,
-  grid: P.arrayOf(
-    P.shape({
-      large: P.string,
-      medium: P.string,
-      small: P.string,
-      thumbnail: P.string,
-      altText: P.string.isRequired,
-    }),
-  ).isRequired,
-  sectionId: P.string,
 };

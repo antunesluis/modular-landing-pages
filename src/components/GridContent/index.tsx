@@ -1,12 +1,18 @@
 'use client';
-
-import P from 'prop-types';
+import React from 'react';
 import { Heading } from '../Heading';
 import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
-export const GridContent = ({
+interface GridContentProps {
+  title: string;
+  html: string;
+  background?: boolean;
+  sectionId?: string;
+}
+
+export const GridContent: React.FC<GridContentProps> = ({
   title,
   html,
   background = false,
@@ -24,11 +30,4 @@ export const GridContent = ({
       </Styled.Container>
     </SectionBackground>
   );
-};
-
-GridContent.propTypes = {
-  title: P.string.isRequired,
-  html: P.string.isRequired,
-  background: P.bool,
-  sectionId: P.string,
 };

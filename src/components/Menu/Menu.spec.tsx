@@ -26,23 +26,25 @@ describe('<Menu />', () => {
     renderTheme(<Menu links={linksMock} logoData={logoData} />);
 
     const button = screen.getByLabelText('Open/Close menu');
-    const menuContainer = button.nextSibling;
+    const menuContainer = button.nextElementSibling;
 
-    expect(button).toHaveStyleRule('display', 'none');
+    expect(button).toHaveStyle({ display: 'none' });
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
 
     fireEvent.click(button);
     expect(screen.getByLabelText('Close menu')).toBeInTheDocument();
 
-    fireEvent.click(menuContainer);
+    if (menuContainer) {
+      fireEvent.click(menuContainer);
+    }
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
   });
 
   it('should not render links', () => {
     const { container } = renderTheme(<Menu logoData={logoData} />);
-    expect(
-      screen.queryByRole('navigation', { name: 'Main menu' }).firstChild,
-    ).not.toBeInTheDocument();
+    const navigation = screen.queryByRole('navigation', { name: 'Main menu' });
+
+    expect(navigation?.firstChild).not.toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });
 });

@@ -7,5 +7,7 @@ interface TextComponentProps {
 }
 
 export const TextComponent: React.FC<TextComponentProps> = ({ children }) => {
-  return <Styled.Container dangerouslySetInnerHTML={{ __html: children }} />;
+  return (
+    <Styled.Container dangerouslySetInnerHTML={{ __html: String(children) }} />
+  );
 };

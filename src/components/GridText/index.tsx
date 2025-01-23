@@ -1,18 +1,31 @@
 'use client';
 
-import P from 'prop-types';
+import React from 'react';
 import * as Styled from './styles';
 import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-export const GridText = ({
+interface GridItem {
+  title: string;
+  description: string;
+}
+
+interface GridTextProps {
+  title: string;
+  description: string;
+  grid: GridItem[];
+  background?: boolean;
+  sectionId?: string;
+}
+
+export const GridText: React.FC<GridTextProps> = ({
   title,
   description,
   grid,
   background = false,
   sectionId = '',
-}) => {
+}: GridTextProps) => {
   return (
     <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
@@ -22,7 +35,7 @@ export const GridText = ({
         <TextComponent>{description}</TextComponent>
 
         <Styled.Grid role="grid">
-          {grid.map((element, index) => (
+          {grid.map((element: GridItem, index: number) => (
             <Styled.GridElement key={element.title} role="article">
               <Styled.HeaderContainer>
                 <Styled.CardNumber>{index + 1}</Styled.CardNumber>{' '}
@@ -37,17 +50,4 @@ export const GridText = ({
       </Styled.Container>
     </SectionBackground>
   );
-};
-
-GridText.propTypes = {
-  background: P.bool,
-  title: P.string.isRequired,
-  description: P.string.isRequired,
-  grid: P.arrayOf(
-    P.shape({
-      title: P.string.isRequired,
-      description: P.string.isRequired,
-    }),
-  ).isRequired,
-  sectionId: P.string,
 };

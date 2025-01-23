@@ -1,0 +1,499 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<GridImage /> > should render with background 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.c2 >.c4 {
+  opacity: 0.9;
+  max-width: 100%;
+}
+
+.c6 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  margin: 3.2rem auto;
+}
+
+.c8 {
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1.6rem;
+  background: #DDDDDD;
+}
+
+.c8::before {
+  content: '';
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 300ms ease-in-out;
+}
+
+.c8:hover::before {
+  opacity: 1;
+}
+
+.c8:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.c9 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: transform 500ms ease-in-out;
+  will-change: transform;
+}
+
+.c10 {
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 1.6rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  transform: translateY(100%);
+  transition: all 300ms ease-in-out;
+}
+
+.c7:hover .c10 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .c2 >.c4 {
+    margin: 2.4rem 0 6.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    margin: 2.4rem auto;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          Project Gallery
+        </h2>
+        <div
+          class="c4 c5"
+        >
+          Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="E-commerce Platform"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=1"
+            />
+            <figcaption
+              class="c10"
+            >
+              E-commerce Platform
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Banking App Interface"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=2"
+            />
+            <figcaption
+              class="c10"
+            >
+              Banking App Interface
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Healthcare Dashboard"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=3"
+            />
+            <figcaption
+              class="c10"
+            >
+              Healthcare Dashboard
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Education Platform"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=4"
+            />
+            <figcaption
+              class="c10"
+            >
+              Education Platform
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Real Estate Solution"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=5"
+            />
+            <figcaption
+              class="c10"
+            >
+              Real Estate Solution
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Logistics System"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=6"
+            />
+            <figcaption
+              class="c10"
+            >
+              Logistics System
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> > should render without background 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.c2 >.c4 {
+  opacity: 0.9;
+  max-width: 100%;
+}
+
+.c6 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  margin: 3.2rem auto;
+}
+
+.c8 {
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1.6rem;
+  background: #DDDDDD;
+}
+
+.c8::before {
+  content: '';
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 300ms ease-in-out;
+}
+
+.c8:hover::before {
+  opacity: 1;
+}
+
+.c8:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.c9 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: transform 500ms ease-in-out;
+  will-change: transform;
+}
+
+.c10 {
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 1.6rem;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  transform: translateY(100%);
+  transition: all 300ms ease-in-out;
+}
+
+.c7:hover .c10 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .c2 >.c4 {
+    margin: 2.4rem 0 6.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    margin: 2.4rem auto;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          Project Gallery
+        </h2>
+        <div
+          class="c4 c5"
+        >
+          Discover some of the transformative projects we have developed for our clients. Each solution is unique and designed to maximize results.
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="E-commerce Platform"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=1"
+            />
+            <figcaption
+              class="c10"
+            >
+              E-commerce Platform
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Banking App Interface"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=2"
+            />
+            <figcaption
+              class="c10"
+            >
+              Banking App Interface
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Healthcare Dashboard"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=3"
+            />
+            <figcaption
+              class="c10"
+            >
+              Healthcare Dashboard
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Education Platform"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=4"
+            />
+            <figcaption
+              class="c10"
+            >
+              Education Platform
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Real Estate Solution"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=5"
+            />
+            <figcaption
+              class="c10"
+            >
+              Real Estate Solution
+            </figcaption>
+          </div>
+          <div
+            class="c7 c8"
+          >
+            <img
+              alt="Logistics System"
+              class="c9"
+              loading="lazy"
+              src="https://picsum.photos/360/360?r=6"
+            />
+            <figcaption
+              class="c10"
+            >
+              Logistics System
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

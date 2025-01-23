@@ -51,7 +51,7 @@ export const GridElement = styled.div`
 
     padding: ${theme.spacings.medium};
     background: rgba(255, 255, 255, 0.03);
-    border-radius: ${theme.spacings.tiny};
+    border-radius: ${theme.spacings.xsmall};
 
     &:hover {
       transform: translateY(-6px);
