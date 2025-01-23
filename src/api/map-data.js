@@ -2,7 +2,7 @@ import { mapMenu } from './map-menu';
 import { mapSections } from './map-sections';
 
 export const mapData = (pagesData = []) => {
-  // Se não houver dados, retorna estrutura padrão
+  // If no data, return a default structure matching PageData type
   if (!Array.isArray(pagesData) || pagesData.length === 0) {
     return [
       {
@@ -10,7 +10,13 @@ export const mapData = (pagesData = []) => {
         slug: '',
         title: '',
         sections: [],
-        menu: {},
+        menu: {
+          newTab: false,
+          text: '',
+          link: '',
+          srcImg: '',
+          links: [],
+        },
       },
     ];
   }
