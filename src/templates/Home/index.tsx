@@ -19,7 +19,7 @@ export type PageData = {
   footerHtml: string;
   menu: LogoLinkProps & {
     newTab: boolean;
-    links: (MenuLinkProps & { newTab: boolean })[];
+    links: MenuLinkProps[];
   };
   sections: SectionProps[];
 };
