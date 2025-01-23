@@ -6,6 +6,7 @@ import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
 export type GridContentProps = {
+  component?: string;
   title: string;
   html: string;
   background?: boolean;

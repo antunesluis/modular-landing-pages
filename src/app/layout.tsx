@@ -21,7 +21,11 @@ export const metadata = {
   description: 'Your app description goes here.',
 };
 
-export default function RootLayout({ children }) {
+export type RootLayoutProps = {
+  children: React.ReactNode;
+};
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html
       lang="en"

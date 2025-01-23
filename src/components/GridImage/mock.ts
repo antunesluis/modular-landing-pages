@@ -1,3 +1,5 @@
+import { GridImageProps } from '.';
+
 export default {
   background: false,
   title: 'Project Gallery',
@@ -47,4 +49,4 @@ export default {
       thumbnail: 'https://picsum.photos/360/360?r=6',
     },
   ],
-};
+} as GridImageProps;

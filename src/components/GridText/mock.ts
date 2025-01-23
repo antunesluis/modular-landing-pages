@@ -1,3 +1,5 @@
+import { GridTextProps } from '.';
+
 export default {
   background: true, // Enables background with theme-defined image
   title: 'Our Services',
@@ -20,4 +22,4 @@ export default {
         'Our design team creates intuitive and attractive interfaces, focusing on user experience. We work with prototyping, usability testing, and complete design systems.',
     },
   ],
-};
+} as GridTextProps;

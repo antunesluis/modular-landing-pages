@@ -1,10 +1,12 @@
+import { GridContentProps } from '.';
+
 export default {
   title: 'Our Digital Solutions',
   html: `
     <h2>Transform Your Business with Our Solutions</h2>
     <p>
-      We are experts in developing <strong>innovative</strong> and <strong>customized</strong> 
-      solutions for companies looking to stand out in the digital market. Our team combines technical 
+      We are experts in developing <strong>innovative</strong> and <strong>customized</strong>
+      solutions for companies looking to stand out in the digital market. Our team combines technical
       expertise with strategic vision to deliver exceptional results.
     </p>
 
@@ -12,21 +14,21 @@ export default {
 
     <ul>
       <li>
-        <strong>Proven Experience</strong> - Over 10 years transforming ideas into 
+        <strong>Proven Experience</strong> - Over 10 years transforming ideas into
         successful digital solutions
       </li>
       <li>
-        <strong>Cutting-edge Technology</strong> - We use the latest market technologies 
+        <strong>Cutting-edge Technology</strong> - We use the latest market technologies
         to ensure performance and security
       </li>
       <li>
-        <strong>Dedicated Support</strong> - Team always available to assist 
+        <strong>Dedicated Support</strong> - Team always available to assist
         in all stages of the project
       </li>
     </ul>
 
     <blockquote>
-      "The partnership with the company was fundamental to our business's digital growth. 
+      "The partnership with the company was fundamental to our business's digital growth.
       The team is extremely professional and dedicated."
       <cite>- Maria Silva, CEO of TechCorp</cite>
     </blockquote>
@@ -62,16 +64,16 @@ export default {
 
     <h3>Technologies we use</h3>
     <p>
-      We work with the most modern technologies in the market, including 
-      <code>React</code>, <code>Node.js</code>, and <code>Python</code>. 
+      We work with the most modern technologies in the market, including
+      <code>React</code>, <code>Node.js</code>, and <code>Python</code>.
       Our stack is constantly updated to ensure the best solutions.
     </p>
 
     <h3>Contact us</h3>
     <p>
-      Want to know more about how we can help your business? 
-      <a href="#contact">Click here</a> to speak with one of our consultants or 
+      Want to know more about how we can help your business?
+      <a href="#contact">Click here</a> to speak with one of our consultants or
       send an email to <a href="mailto:contact@company.com">contact@company.com</a>
     </p>
   `,
-};
+} as GridContentProps;

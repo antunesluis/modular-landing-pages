@@ -3,9 +3,15 @@ import Home from '@/templates/Home';
 import { notFound } from 'next/navigation';
 import config from '@/config';
 
-export async function generateMetadata({ params }) {
+type DynamicPageParams = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: DynamicPageParams) {
+  const slug = (await params).slug;
+
   try {
-    const data = await loadPages(params?.slug);
+    const data = await loadPages(slug);
     return {
       title: `${data[0]?.title || 'Page Not Found'} | ${config.siteName}`,
     };
@@ -31,14 +37,16 @@ export async function generateStaticParams() {
   }
 }
 
-export default async function Page({ params }) {
-  if (!params?.slug) {
+export default async function Page({ params }: DynamicPageParams) {
+  const slug = (await params).slug;
+
+  if (!slug) {
     notFound();
   }
 
   try {
-    console.log('Loading page for slug:', params.slug);
-    const data = await loadPages(params.slug);
+    console.log('Loading page for slug:', slug);
+    const data = await loadPages(slug);
 
     if (!data?.length) {
       notFound();

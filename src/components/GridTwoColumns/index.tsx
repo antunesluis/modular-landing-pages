@@ -6,6 +6,7 @@ import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
 export type GridTwoColumnsProps = {
+  component?: string;
   title: string;
   text: string;
   srcImg: string;

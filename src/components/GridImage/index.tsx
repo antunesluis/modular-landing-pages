@@ -16,6 +16,7 @@ export type GridItem = {
 };
 
 export type GridImageProps = {
+  component?: string;
   background?: boolean;
   title: string;
   description: string;

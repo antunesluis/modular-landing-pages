@@ -18,15 +18,16 @@ export type PageData = {
   slug: string;
   footerHtml: string;
   menu: LogoLinkProps & {
-    newTab: boolean;
     links: MenuLinkProps[];
   };
   sections: SectionProps[];
 };
 
-export type SectionProps = {
-  component: string;
-} & (GridImageProps | GridTextProps | GridTwoColumnsProps | GridContentProps);
+export type SectionProps =
+  | GridImageProps
+  | GridTextProps
+  | GridTwoColumnsProps
+  | GridContentProps;
 
 export type HomeProps = {
   data: PageData[];

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Base } from '.';
-import mockBase from './mock';
+import { mockBase } from './mock';
 
 const meta: Meta<typeof Base> = {
   title: 'Templates/Base',

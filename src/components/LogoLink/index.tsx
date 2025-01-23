@@ -8,6 +8,7 @@ export type LogoLinkProps = {
   text: string;
   srcImg?: string;
   link: string;
+  newTab?: boolean;
 };
 
 export const LogoLink: React.FC<LogoLinkProps> = ({

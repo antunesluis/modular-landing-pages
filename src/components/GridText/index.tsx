@@ -12,6 +12,7 @@ export type GridItem = {
 };
 
 export type GridTextProps = {
+  component?: string;
   title: string;
   description: string;
   grid: GridItem[];

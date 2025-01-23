@@ -2,9 +2,8 @@ import { loadPages } from '@/api/load-pages';
 import Home from '@/templates/Home';
 import { notFound } from 'next/navigation';
 import config from '@/config';
-import { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata() {
   try {
     const data = await loadPages();
     return {
