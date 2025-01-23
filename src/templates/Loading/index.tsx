@@ -1,3 +1,5 @@
+'use cliente';
+
 import React from 'react';
 import * as Styled from './styles';
 
