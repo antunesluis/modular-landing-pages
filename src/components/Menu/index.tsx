@@ -6,8 +6,10 @@ import { LogoLink, LogoLinkProps } from '../LogoLink';
 import { NavLinks, NavLinksProps } from '../NavLinks';
 import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
 import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
+import { MenuLinkProps } from '../MenuLink';
 
 export type MenuProps = NavLinksProps & {
+  links?: MenuLinkProps[];
   logoData: LogoLinkProps;
 };
 

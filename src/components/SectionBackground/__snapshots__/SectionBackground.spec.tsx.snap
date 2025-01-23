@@ -1,0 +1,70 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<SectionBackground /> > should render with background dark 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background-image: url(/assets/images/backgrounds/blue-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <h1>
+        Children
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SectionBackground /> > should render with background light 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <h1>
+        Children
+      </h1>
+    </div>
+  </div>
+</div>
+`;

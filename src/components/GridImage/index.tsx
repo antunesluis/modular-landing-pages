@@ -6,22 +6,22 @@ import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
-interface GridItem {
+export type GridItem = {
   large?: string;
   medium?: string;
   small?: string;
   thumbnail?: string;
   altText: string;
   srcImg?: string;
-}
+};
 
-interface GridImageProps {
+export type GridImageProps = {
   background?: boolean;
   title: string;
   description: string;
   grid: GridItem[];
   sectionId?: string;
-}
+};
 
 export const GridImage: React.FC<GridImageProps> = ({
   title,

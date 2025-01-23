@@ -1,6 +1,6 @@
 import styled, { css, keyframes } from 'styled-components';
+import { DefaultTheme } from 'styled-components';
 
-// Animações
 const rotateNormal = keyframes`
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -19,7 +19,6 @@ const rotateReverse = keyframes`
   }
 `;
 
-// Estilos compartilhados
 const sharedCircleStyles = css`
   content: '';
   position: absolute;
@@ -33,7 +32,7 @@ const sharedCircleStyles = css`
 `;
 
 export const Container = styled.div`
-  ${({ theme }) => css`
+  ${({ theme }: { theme: DefaultTheme }) => css`
     position: absolute;
     top: 0;
     left: 0;
@@ -64,7 +63,3 @@ export const Container = styled.div`
     }
   `}
 `;
-
-export const Loading = () => {
-  return <Container aria-label="Loading..." />;
-};

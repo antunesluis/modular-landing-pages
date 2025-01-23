@@ -6,18 +6,18 @@ import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-interface GridItem {
+export type GridItem = {
   title: string;
   description: string;
-}
+};
 
-interface GridTextProps {
+export type GridTextProps = {
   title: string;
   description: string;
   grid: GridItem[];
   background?: boolean;
   sectionId?: string;
-}
+};
 
 export const GridText: React.FC<GridTextProps> = ({
   title,

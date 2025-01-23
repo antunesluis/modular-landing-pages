@@ -1,16 +1,18 @@
-import P from 'prop-types';
 import * as Styled from './styles';
-
 import { Menu } from '../../components/Menu';
 import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
+import { MenuLinkProps } from '../../components/MenuLink';
+import { LogoLinkProps } from '../../components/LogoLink';
 
-export const Base = ({ links, logoData, footerHtml, children }) => {
-  const handleClick = (e) => {
-    e.preventDefault();
-    window && window.scrollTo(0, 0);
-  };
+export type BaseProps = {
+  children: React.ReactNode;
+  links: MenuLinkProps[];
+  footerHtml: string;
+  logoData: LogoLinkProps;
+};
 
+export const Base = ({ links, logoData, footerHtml, children }: BaseProps) => {
   return (
     <>
       <Menu links={links} logoData={logoData} />
@@ -18,13 +20,7 @@ export const Base = ({ links, logoData, footerHtml, children }) => {
         {children}
         <Footer footerHtml={footerHtml} />
       </Styled.Container>
-      <GoTop handleClick={handleClick} />
+      <GoTop />
     </>
   );
-};
-
-Base.propTypes = {
-  children: P.node.isRequired,
-  ...Menu.propTypes,
-  footerHtml: P.string.isRequired,
 };

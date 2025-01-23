@@ -5,12 +5,12 @@ import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
-interface GridContentProps {
+export type GridContentProps = {
   title: string;
   html: string;
   background?: boolean;
   sectionId?: string;
-}
+};
 
 export const GridContent: React.FC<GridContentProps> = ({
   title,
