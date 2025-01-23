@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default async function Page(): Promise<JSX.Element> {
+export default async function Page() {
   try {
     console.log('defaultSlug:', config.defaultSlug);
     const data = await loadPages(config.defaultSlug);
