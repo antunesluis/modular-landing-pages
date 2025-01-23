@@ -1,6 +1,7 @@
+import type { Meta, StoryObj } from '@storybook/react';
 import { SectionBackground } from '.';
 
-export default {
+const meta: Meta<typeof SectionBackground> = {
   title: 'Components/SectionBackground',
   component: SectionBackground,
   args: {
@@ -16,15 +17,16 @@ export default {
       </div>
     ),
   },
-  argTypes: {
-    children: { type: '' },
-  },
 };
 
-export const Template = (args) => {
-  return (
+export default meta;
+
+type Story = StoryObj<typeof SectionBackground>;
+
+export const Template: Story = {
+  render: (args) => (
     <div>
       <SectionBackground {...args} />
     </div>
-  );
+  ),
 };

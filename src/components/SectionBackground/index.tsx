@@ -1,10 +1,16 @@
 'use client';
 
-import P from 'prop-types';
+import React from 'react';
 import { SectionContainer } from '../SectionContainer';
 import * as Styled from './styles';
 
-export const SectionBackground = ({
+export type SectionBackgroundProps = {
+  children: React.ReactNode;
+  background?: boolean;
+  sectionId?: string;
+};
+
+export const SectionBackground: React.FC<SectionBackgroundProps> = ({
   children,
   background = false,
   sectionId = '',
@@ -14,10 +20,4 @@ export const SectionBackground = ({
       <SectionContainer>{children}</SectionContainer>
     </Styled.Container>
   );
-};
-
-SectionBackground.propTypes = {
-  children: P.node.isRequired,
-  background: P.bool,
-  sectionId: P.string,
 };

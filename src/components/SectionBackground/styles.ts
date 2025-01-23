@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
+import { DefaultTheme } from 'styled-components';
 
-const containerBackgroundActivate = (theme) => css`
+const containerBackgroundActivate = (theme: DefaultTheme) => css`
   background-image: url(${theme.backgroundImage});
   background-size: cover;
   background-position: center center;
@@ -8,7 +9,11 @@ const containerBackgroundActivate = (theme) => css`
   color: ${theme.colors.white};
 `;
 
-export const Container = styled.div`
+interface ContainerProps {
+  $background?: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   ${({ theme, $background }) => css`
     background: ${theme.colors.white};
     color: ${theme.colors.primaryColor};

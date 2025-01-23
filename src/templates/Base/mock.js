@@ -3,7 +3,7 @@ import linksMock from '../../components/NavLinks/mock';
 import gridMock from '../../components/GridText/mock';
 import { GridText } from '../../components/GridText';
 
-export const mockBase = {
+const mockBase = {
   children: (
     <>
       <GridText {...gridMock} background />
@@ -21,3 +21,5 @@ export const mockBase = {
   },
   footerHtml: `<p><a href="https://beacons.page/antunesluis">Feito com ❤ por Luis Antunes</a></p>`,
 };
+
+export default mockBase;
