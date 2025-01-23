@@ -1,8 +1,8 @@
+import type { Meta, StoryObj } from '@storybook/react';
 import { Menu } from '.';
-
 import linksMock from '../NavLinks/mock';
 
-export default {
+const meta: Meta<typeof Menu> = {
   title: 'Components/Menu',
   component: Menu,
   args: {
@@ -15,10 +15,14 @@ export default {
   },
 };
 
-export const Template = (args) => {
-  return (
+export default meta;
+
+type Story = StoryObj<typeof Menu>;
+
+export const Template: Story = {
+  render: (args) => (
     <div style={{ height: '300vh' }}>
       <Menu {...args} />
     </div>
-  );
+  ),
 };

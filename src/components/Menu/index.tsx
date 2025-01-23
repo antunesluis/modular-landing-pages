@@ -1,14 +1,17 @@
 'use client';
-import P from 'prop-types';
+import React, { useState } from 'react';
 import * as Styled from './styles';
 import { SectionContainer } from '../SectionContainer';
-import { LogoLink } from '../LogoLink';
-import { NavLinks } from '../NavLinks';
+import { LogoLink, LogoLinkProps } from '../LogoLink';
+import { NavLinks, NavLinksProps } from '../NavLinks';
 import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
 import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
-import { useState } from 'react';
 
-export const Menu = ({ links = [], logoData }) => {
+export type MenuProps = NavLinksProps & {
+  logoData: LogoLinkProps;
+};
+
+export const Menu: React.FC<MenuProps> = ({ links = [], logoData }) => {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -34,9 +37,4 @@ export const Menu = ({ links = [], logoData }) => {
       </Styled.Container>
     </>
   );
-};
-
-Menu.propTypes = {
-  ...NavLinks.propTypes,
-  logoData: P.shape(LogoLink.propTypes).isRequired,
 };

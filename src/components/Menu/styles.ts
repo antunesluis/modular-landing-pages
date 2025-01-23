@@ -13,7 +13,15 @@ const flexCenter = css`
   justify-content: center;
 `;
 
-export const Container = styled.div`
+interface ContainerProps {
+  $visible?: boolean;
+}
+
+interface ButtonProps {
+  $visible?: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   ${({ theme, $visible }) => css`
     position: fixed;
     z-index: 5;
@@ -77,7 +85,7 @@ export const MenuContainer = styled.div`
   `}
 `;
 
-export const Button = styled.button`
+export const Button = styled.button<ButtonProps>`
   ${({ theme, $visible }) => css`
     z-index: 6;
     position: fixed;

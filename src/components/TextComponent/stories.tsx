@@ -1,6 +1,7 @@
+import type { Meta, StoryObj } from '@storybook/react';
 import { TextComponent } from '.';
 
-export default {
+const meta: Meta<typeof TextComponent> = {
   title: 'Components/TextComponent',
   component: TextComponent,
   args: {
@@ -11,14 +12,12 @@ export default {
     corporis, aperiam numquam. Sint consequatur omnis voluptate.`,
   },
   argTypes: {
-    children: { type: 'string' },
+    children: { control: 'text' },
   },
 };
 
-export const Template = (args) => {
-  return (
-    <div>
-      <TextComponent {...args} />
-    </div>
-  );
-};
+export default meta;
+
+type Story = StoryObj<typeof TextComponent>;
+
+export const Template: Story = {};
