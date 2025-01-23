@@ -1,10 +1,13 @@
 'use client';
-import P from 'prop-types';
 import * as Styled from './styles';
 import { TextComponent } from '../TextComponent';
 import { SectionContainer } from '../SectionContainer';
 
-export const Footer = ({ footerHtml }) => {
+export type FooterProps = {
+  footerHtml: string;
+};
+
+export const Footer = ({ footerHtml }: FooterProps) => {
   return (
     <Styled.Container>
       <SectionContainer>
@@ -14,6 +17,8 @@ export const Footer = ({ footerHtml }) => {
   );
 };
 
-Footer.propTypes = {
-  footerHtml: P.string.isRequired,
+// Definindo props padrão
+Footer.defaultProps = {
+  className: '',
+  'data-testid': 'footer',
 };

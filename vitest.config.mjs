@@ -9,7 +9,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['../.test/setup.js'],
+    setupFiles: ['./.test/setup.ts'],
     include: ['**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     exclude: [
       '**/node_modules/**',
@@ -18,7 +18,8 @@ export default defineConfig({
       '**/.git/**',
       '**/.cache/**',
       '**/templates/**',
-      '**/*.stories.{js,jsx,ts,tsx}', // Ignorar arquivos stories
+      '**/*.stories.{js,jsx,ts,tsx}',
+      '**/*stories.{js,jsx,ts,tsx}', // Ignorar arquivos stories
     ],
     coverage: {
       provider: 'v8',
@@ -28,6 +29,7 @@ export default defineConfig({
         '**/node_modules/**', // Ignorar dependências
         '**/public/**', // Ignorar arquivos públicos
         '**/.test/**', // Ignorar arquivos de configuração de teste
+        '**/.spec/**', // Ignorar arquivos de configuração de teste
         '**/*.stories.{js,jsx,ts,tsx}', // Ignorar arquivos stories
         '**/*stories.{js,jsx,ts,tsx}', // Ignorar arquivos stories
         '**/config/**', // Ignorar arquivos de configuração

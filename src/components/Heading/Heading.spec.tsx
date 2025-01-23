@@ -55,12 +55,15 @@ describe('<Heading/>', () => {
     const { container } = renderTheme(<Heading as="h6">texto</Heading>);
     const h6 = container.querySelector('h6');
 
-    expect(h6.tagName.toLowerCase()).toBe('h6');
+    expect(h6).not.toBeNull();
+    if (h6) {
+      expect(h6.tagName.toLowerCase()).toBe('h6');
+    }
   });
 
   it('should render with correct font size for "big"', () => {
-    renderTheme(<Heading size="big">texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
+    renderTheme(<Heading size="big">texto</Heading>);
 
     expect(heading).toHaveStyle({
       'font-size': theme.fonts.sizes.xlarge,

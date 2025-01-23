@@ -2,8 +2,9 @@ import { loadPages } from '@/api/load-pages';
 import Home from '@/templates/Home';
 import { notFound } from 'next/navigation';
 import config from '@/config';
+import { Metadata } from 'next';
 
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   try {
     const data = await loadPages();
     return {
@@ -16,7 +17,7 @@ export async function generateMetadata() {
   }
 }
 
-export default async function Page() {
+export default async function Page(): Promise<JSX.Element> {
   try {
     console.log('defaultSlug:', config.defaultSlug);
     const data = await loadPages(config.defaultSlug);
