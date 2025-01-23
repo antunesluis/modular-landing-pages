@@ -6,7 +6,7 @@ import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
 import * as Styled from './styles';
 
-export type GridItem = {
+export type GridItemImageProps = {
   large?: string;
   medium?: string;
   small?: string;
@@ -20,7 +20,7 @@ export type GridImageProps = {
   background?: boolean;
   title: string;
   description: string;
-  grid: GridItem[];
+  grid: GridItemImageProps[];
   sectionId?: string;
 };
 
@@ -39,7 +39,7 @@ export const GridImage: React.FC<GridImageProps> = ({
         </Heading>
         <TextComponent>{description}</TextComponent>
         <Styled.Grid>
-          {grid.map((el: GridItem) => (
+          {grid.map((el: GridItemImageProps) => (
             <Styled.GridElement
               key={`${el.large || el.medium || el.small}${el.altText}`}
             >

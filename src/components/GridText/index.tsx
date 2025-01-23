@@ -6,7 +6,7 @@ import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-export type GridItem = {
+export type GridItemText = {
   title: string;
   description: string;
 };
@@ -15,7 +15,7 @@ export type GridTextProps = {
   component?: string;
   title: string;
   description: string;
-  grid: GridItem[];
+  grid: GridItemText[];
   background?: boolean;
   sectionId?: string;
 };
@@ -36,7 +36,7 @@ export const GridText: React.FC<GridTextProps> = ({
         <TextComponent>{description}</TextComponent>
 
         <Styled.Grid role="grid">
-          {grid.map((element: GridItem, index: number) => (
+          {grid.map((element: GridItemText, index: number) => (
             <Styled.GridElement key={element.title} role="article">
               <Styled.HeaderContainer>
                 <Styled.CardNumber>{index + 1}</Styled.CardNumber>{' '}

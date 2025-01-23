@@ -7,7 +7,7 @@ export const loadPages = async (slug = '') => {
     const data = await pageService.getPageBySlug(cleanSlug);
 
     if (!data || !data.data || !data.data.length) {
-      console.log('No datafound for slug:', cleanSlug);
+      console.log('No data found for slug:', cleanSlug);
       return [];
     }
 

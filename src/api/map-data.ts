@@ -1,7 +1,8 @@
+import { PageData } from '@/templates/Home';
 import { mapMenu } from './map-menu';
 import { mapSections } from './map-sections';
 
-export const mapData = (pagesData = []) => {
+export const mapData = (pagesData = [] as any): PageData[] => {
   // If no data, return a default structure matching PageData type
   if (!Array.isArray(pagesData) || pagesData.length === 0) {
     return [
@@ -21,7 +22,7 @@ export const mapData = (pagesData = []) => {
     ];
   }
 
-  return pagesData.map((data = {}) => {
+  return pagesData.map((data = {} as any): PageData => {
     const {
       footer_text: footerHtml = '',
       slug = '',
@@ -31,9 +32,9 @@ export const mapData = (pagesData = []) => {
     } = data;
 
     return {
-      footerHtml: String(footerHtml),
-      slug: String(slug).toLowerCase(),
-      title: String(title).trim(),
+      footerHtml,
+      slug,
+      title,
       sections: mapSections(sections),
       menu: mapMenu(menu),
     };

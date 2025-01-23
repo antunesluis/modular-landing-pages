@@ -24,7 +24,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html'], // Formatos de saída do coverage
-      reportsDirectory: './coverage',
+      reportsDirectory: '../.coverage',
       exclude: [
         '**/node_modules/**', // Ignorar dependências
         '**/public/**', // Ignorar arquivos públicos

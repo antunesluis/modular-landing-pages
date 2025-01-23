@@ -1,5 +1,11 @@
-export const mapSections = (sections = []) => {
-  return sections.map((section) => {
+import { GridContentProps } from '@/components/GridContent';
+import { GridImageProps, GridItemImageProps } from '@/components/GridImage';
+import { GridTextProps, GridItemText } from '@/components/GridText';
+import { GridTwoColumnsProps } from '@/components/GridTwoColumns';
+import { SectionProps } from '@/templates/Home';
+
+export const mapSections = (sections = [] as any): SectionProps[] => {
+  return sections.map((section: any): SectionProps => {
     const { __component: component } = section;
 
     if (component === 'section.section-two-columns') {
@@ -26,7 +32,9 @@ export const mapSections = (sections = []) => {
   });
 };
 
-export const mapSectionTwoColumns = (section = {}) => {
+export const mapSectionTwoColumns = (
+  section = {} as any,
+): GridTwoColumnsProps => {
   const {
     __component: component = '',
     title = '',
@@ -45,7 +53,7 @@ export const mapSectionTwoColumns = (section = {}) => {
   };
 };
 
-export const mapSectionContent = (section = {}) => {
+export const mapSectionContent = (section = {} as any): GridContentProps => {
   const {
     __component: component = '',
     title = '',
@@ -62,7 +70,7 @@ export const mapSectionContent = (section = {}) => {
   };
 };
 
-export const mapTextGrid = (section = {}) => {
+export const mapTextGrid = (section = {} as any): GridTextProps => {
   const {
     title = '',
     description = '',
@@ -76,7 +84,7 @@ export const mapTextGrid = (section = {}) => {
     background,
     sectionId,
     description,
-    grid: grid.map((text) => {
+    grid: grid.map((text: any): GridItemText => {
       const { title = '', description = '' } = text;
       return {
         title: title || '',
@@ -86,7 +94,7 @@ export const mapTextGrid = (section = {}) => {
   };
 };
 
-export const mapImageGrid = (section = {}) => {
+export const mapImageGrid = (section = {} as any): GridImageProps => {
   const {
     title = '',
     description = '',
@@ -101,9 +109,9 @@ export const mapImageGrid = (section = {}) => {
     sectionId,
     description,
     grid: grid
-      .map((item) => {
+      .map((item: any): GridItemImageProps[] => {
         const images = item.image || [];
-        return images.map((image) => {
+        return images.map((image: any): GridItemImageProps => {
           const { formats, alternativeText: altText } = image;
 
           return {

@@ -107,4 +107,20 @@ describe('<GridImage />', () => {
     );
     expect(screen.getByText('Test alternative text')).toBeInTheDocument();
   });
+
+  it('should render image with srcImg as source when other options do not exist', () => {
+    const customMock = {
+      ...mock,
+      grid: [
+        {
+          altText: 'Test Source Image',
+          srcImg: 'source.jpg',
+        },
+      ],
+    };
+    renderTheme(<GridImage {...customMock} />);
+    expect(
+      screen.getByRole('img', { name: 'Test Source Image' }),
+    ).toHaveAttribute('src', 'source.jpg');
+  });
 });

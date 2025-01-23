@@ -175,8 +175,8 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
               <strong>
                 customized
               </strong>
-               
-      solutions for companies looking to stand out in the digital market. Our team combines technical 
+              
+      solutions for companies looking to stand out in the digital market. Our team combines technical
       expertise with strategic vision to deliver exceptional results.
     
             </p>
@@ -198,7 +198,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
                 <strong>
                   Proven Experience
                 </strong>
-                 - Over 10 years transforming ideas into 
+                 - Over 10 years transforming ideas into
         successful digital solutions
       
               </li>
@@ -210,7 +210,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
                 <strong>
                   Cutting-edge Technology
                 </strong>
-                 - We use the latest market technologies 
+                 - We use the latest market technologies
         to ensure performance and security
       
               </li>
@@ -222,7 +222,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
                 <strong>
                   Dedicated Support
                 </strong>
-                 - Team always available to assist 
+                 - Team always available to assist
         in all stages of the project
       
               </li>
@@ -234,7 +234,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
     
             <blockquote>
               
-      "The partnership with the company was fundamental to our business's digital growth. 
+      "The partnership with the company was fundamental to our business's digital growth.
       The team is extremely professional and dedicated."
       
               <cite>
@@ -350,7 +350,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
     
             <p>
               
-      We work with the most modern technologies in the market, including 
+      We work with the most modern technologies in the market, including
       
               <code>
                 React
@@ -363,7 +363,7 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
               <code>
                 Python
               </code>
-              . 
+              .
       Our stack is constantly updated to ensure the best solutions.
     
             </p>
@@ -377,14 +377,14 @@ exports[`<GridContent /> > should match snapshot with background 1`] = `
     
             <p>
               
-      Want to know more about how we can help your business? 
+      Want to know more about how we can help your business?
       
               <a
                 href="#contact"
               >
                 Click here
               </a>
-               to speak with one of our consultants or 
+               to speak with one of our consultants or
       send an email to 
               <a
                 href="mailto:contact@company.com"
@@ -574,8 +574,8 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
               <strong>
                 customized
               </strong>
-               
-      solutions for companies looking to stand out in the digital market. Our team combines technical 
+              
+      solutions for companies looking to stand out in the digital market. Our team combines technical
       expertise with strategic vision to deliver exceptional results.
     
             </p>
@@ -597,7 +597,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
                 <strong>
                   Proven Experience
                 </strong>
-                 - Over 10 years transforming ideas into 
+                 - Over 10 years transforming ideas into
         successful digital solutions
       
               </li>
@@ -609,7 +609,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
                 <strong>
                   Cutting-edge Technology
                 </strong>
-                 - We use the latest market technologies 
+                 - We use the latest market technologies
         to ensure performance and security
       
               </li>
@@ -621,7 +621,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
                 <strong>
                   Dedicated Support
                 </strong>
-                 - Team always available to assist 
+                 - Team always available to assist
         in all stages of the project
       
               </li>
@@ -633,7 +633,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
     
             <blockquote>
               
-      "The partnership with the company was fundamental to our business's digital growth. 
+      "The partnership with the company was fundamental to our business's digital growth.
       The team is extremely professional and dedicated."
       
               <cite>
@@ -749,7 +749,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
     
             <p>
               
-      We work with the most modern technologies in the market, including 
+      We work with the most modern technologies in the market, including
       
               <code>
                 React
@@ -762,7 +762,7 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
               <code>
                 Python
               </code>
-              . 
+              .
       Our stack is constantly updated to ensure the best solutions.
     
             </p>
@@ -776,14 +776,14 @@ exports[`<GridContent /> > should match snapshot without background 1`] = `
     
             <p>
               
-      Want to know more about how we can help your business? 
+      Want to know more about how we can help your business?
       
               <a
                 href="#contact"
               >
                 Click here
               </a>
-               to speak with one of our consultants or 
+               to speak with one of our consultants or
       send an email to 
               <a
                 href="mailto:contact@company.com"
@@ -973,8 +973,8 @@ exports[`<GridContent /> > should render grid content 1`] = `
               <strong>
                 customized
               </strong>
-               
-      solutions for companies looking to stand out in the digital market. Our team combines technical 
+              
+      solutions for companies looking to stand out in the digital market. Our team combines technical
       expertise with strategic vision to deliver exceptional results.
     
             </p>
@@ -996,7 +996,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
                 <strong>
                   Proven Experience
                 </strong>
-                 - Over 10 years transforming ideas into 
+                 - Over 10 years transforming ideas into
         successful digital solutions
       
               </li>
@@ -1008,7 +1008,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
                 <strong>
                   Cutting-edge Technology
                 </strong>
-                 - We use the latest market technologies 
+                 - We use the latest market technologies
         to ensure performance and security
       
               </li>
@@ -1020,7 +1020,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
                 <strong>
                   Dedicated Support
                 </strong>
-                 - Team always available to assist 
+                 - Team always available to assist
         in all stages of the project
       
               </li>
@@ -1032,7 +1032,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
     
             <blockquote>
               
-      "The partnership with the company was fundamental to our business's digital growth. 
+      "The partnership with the company was fundamental to our business's digital growth.
       The team is extremely professional and dedicated."
       
               <cite>
@@ -1148,7 +1148,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
     
             <p>
               
-      We work with the most modern technologies in the market, including 
+      We work with the most modern technologies in the market, including
       
               <code>
                 React
@@ -1161,7 +1161,7 @@ exports[`<GridContent /> > should render grid content 1`] = `
               <code>
                 Python
               </code>
-              . 
+              .
       Our stack is constantly updated to ensure the best solutions.
     
             </p>
@@ -1175,14 +1175,14 @@ exports[`<GridContent /> > should render grid content 1`] = `
     
             <p>
               
-      Want to know more about how we can help your business? 
+      Want to know more about how we can help your business?
       
               <a
                 href="#contact"
               >
                 Click here
               </a>
-               to speak with one of our consultants or 
+               to speak with one of our consultants or
       send an email to 
               <a
                 href="mailto:contact@company.com"
@@ -1377,8 +1377,8 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
               <strong>
                 customized
               </strong>
-               
-      solutions for companies looking to stand out in the digital market. Our team combines technical 
+              
+      solutions for companies looking to stand out in the digital market. Our team combines technical
       expertise with strategic vision to deliver exceptional results.
     
             </p>
@@ -1400,7 +1400,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
                 <strong>
                   Proven Experience
                 </strong>
-                 - Over 10 years transforming ideas into 
+                 - Over 10 years transforming ideas into
         successful digital solutions
       
               </li>
@@ -1412,7 +1412,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
                 <strong>
                   Cutting-edge Technology
                 </strong>
-                 - We use the latest market technologies 
+                 - We use the latest market technologies
         to ensure performance and security
       
               </li>
@@ -1424,7 +1424,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
                 <strong>
                   Dedicated Support
                 </strong>
-                 - Team always available to assist 
+                 - Team always available to assist
         in all stages of the project
       
               </li>
@@ -1436,7 +1436,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
     
             <blockquote>
               
-      "The partnership with the company was fundamental to our business's digital growth. 
+      "The partnership with the company was fundamental to our business's digital growth.
       The team is extremely professional and dedicated."
       
               <cite>
@@ -1552,7 +1552,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
     
             <p>
               
-      We work with the most modern technologies in the market, including 
+      We work with the most modern technologies in the market, including
       
               <code>
                 React
@@ -1565,7 +1565,7 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
               <code>
                 Python
               </code>
-              . 
+              .
       Our stack is constantly updated to ensure the best solutions.
     
             </p>
@@ -1579,14 +1579,14 @@ exports[`<GridContent /> > should render grid content with background 1`] = `
     
             <p>
               
-      Want to know more about how we can help your business? 
+      Want to know more about how we can help your business?
       
               <a
                 href="#contact"
               >
                 Click here
               </a>
-               to speak with one of our consultants or 
+               to speak with one of our consultants or
       send an email to 
               <a
                 href="mailto:contact@company.com"

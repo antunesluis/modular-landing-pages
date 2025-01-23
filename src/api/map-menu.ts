@@ -1,4 +1,7 @@
-export const mapMenu = (menu = {}) => {
+import { MenuLinkProps } from '../components/MenuLink';
+import { PageData } from '../templates/Home';
+
+export const mapMenu = (menu = {} as any): PageData['menu'] => {
   const {
     open_in_new_tab: newTab = false,
     logo_text: text = '',
@@ -6,8 +9,7 @@ export const mapMenu = (menu = {}) => {
   } = menu;
 
   const links = menu.links || menu.menu_links || menu.menu || [];
-  // Atualizando para pegar a URL diretamente do objeto logo
-  const srcImg = menu?.logo?.url || '';
+  const srcImg = menu.logo && menu.logo.url ? menu.logo.url : '';
 
   return {
     newTab,
@@ -18,8 +20,8 @@ export const mapMenu = (menu = {}) => {
   };
 };
 
-export const mapMenuLinks = (links = []) => {
-  return links.map((item) => {
+export const mapMenuLinks = (links = [] as any[]): MenuLinkProps[] => {
+  return links.map((item: any): MenuLinkProps => {
     const {
       open_in_new_tab: newTab = false,
       link_text: children = '',

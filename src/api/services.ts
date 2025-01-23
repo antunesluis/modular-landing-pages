@@ -1,5 +1,5 @@
 export const pageService = {
-  getPageBySlug: async (slug) => {
+  getPageBySlug: async (slug?: string) => {
     const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:1337';
     const query = [
       'populate[sections][on][section.section-grid][populate][image_grid][populate]=image',
@@ -10,7 +10,6 @@ export const pageService = {
       'populate[menu][populate]=*',
     ].join('&');
 
-    // Corrigindo a construção da URL
     const url = slug
       ? `${baseUrl}/api/pages?filters[slug][$eq]=${slug}&${query}`
       : `${baseUrl}/api/pages?${query}`;

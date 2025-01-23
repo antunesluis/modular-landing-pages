@@ -4,8 +4,8 @@ import { pageService } from './services';
 const PROD_API_URL = 'https://modular-landing-pages-strapi.onrender.com';
 
 describe('pageService', () => {
-  let mockFetch;
-  let mockJson;
+  let mockFetch: ReturnType<typeof vi.fn>;
+  let mockJson: ReturnType<typeof vi.fn>;
 
   beforeEach(() => {
     mockJson = vi.fn().mockResolvedValue({
@@ -17,7 +17,7 @@ describe('pageService', () => {
       json: mockJson,
     });
 
-    global.fetch = mockFetch;
+    global.fetch = mockFetch as any;
     process.env.NEXT_PUBLIC_API_URL = PROD_API_URL;
     vi.clearAllMocks();
   });
